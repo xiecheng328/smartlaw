@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/lshff/lshff",
     "pages/dflsh/dflsh",
-    "pages/index/index",
+    
     "pages/addCgi/addCgi",
     "pages/htsc/htsc"
     
