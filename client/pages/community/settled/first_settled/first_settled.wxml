@@ -14,11 +14,11 @@
       </view>
       <view class='lesinform'>
         <view class='words'>律师类型:</view>
-        <input type='text' name="certificate_number" class='firstinput'></input>
+        <input type='text' name="certificate_type" class='firstinput'></input>
       </view>
       <view class='lesinform'>
         <view class='words'>执业年数:</view>
-        <input type='number' name="certificate_number" class='firstinput'></input>
+        <input type='number' name="certificate_year" class='firstinput'></input>
       </view>
     </view>
     <view class='rightphoto'>
@@ -27,27 +27,27 @@
     </view>
     <view class='informles'>
       <view class='words'>办公地址:</view>
-      <input type='text' name="certificate_number" class='secondinput'></input>
+      <input type='text' name="certificate_area" class='secondinput'></input>
     </view>
     <view class='informles'>
       <view class='words'>擅长案例:</view>
-      <input type='text' name="certificate_number" class='secondinput'></input>
+      <input type='text' name="certificate_case" class='secondinput'></input>
     </view>
     <view class='informles'>
       <view class='words'>个人简介:</view>
-      <textarea name="certificate_number" class='inputtext'></textarea>
+      <textarea name="certificate_intro" class='inputtext'></textarea>
     </view>
     <view class='informles'>
       <view class='words'>成功案例:</view>
-      <textarea name="certificate_number" class='inputtext'></textarea>
+      <textarea name="certificate_successcase" class='inputtext'></textarea>
     </view>
      <view class='informles'>
       <view class='words'>手机号:</view>
-      <input type='number' name="certificate_number" class='secondinput'></input>
+      <input type='number' name="certificate_phonenumber" class='secondinput'></input>
     </view>
     <view class='informles'>
       <view class='words'>微信号:</view>
-      <input type='text' name="certificate_number" class='secondinput'></input>
+      <input type='text' name="certificate_wechatnumber" class='secondinput'></input>
     </view>
     <navigator url="../second_settled/second_settled" hover-class="navigator-hover" class='subbtnto'>
     下一步
