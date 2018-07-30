@@ -1,0 +1,26 @@
+<!--pages/community/settled/second_settled/second_settled.wxml-->
+<view>
+ <form  bindsubmit="formSubmit" bindreset="formReset">
+  <view class='subword'>请提交中华人民共和国律师执业资格证书</view>
+  <view class='subphoto'>
+    <view class='rightphoto'>
+      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+      <view class='upload'>点击上传</view>
+    </view>
+  </view>
+  <view class='subword'>请提交您本人身份证正反面照片</view>
+  <view class='subphoto botsub'>
+    <view class='rightphoto'>
+      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+      <view class='upload'>点击上传</view>
+    </view>
+  </view>
+  <view class='subphoto botsub'>
+    <view class='rightphoto'>
+      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+      <view class='upload'>点击上传</view>
+    </view>
+  </view>
+  <button form-type='submit' class='subbtn'>提交审核</button>
+  </form>
+</view>

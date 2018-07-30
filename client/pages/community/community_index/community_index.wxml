@@ -1,0 +1,33 @@
+<!--pages/community/community_index/community_index.wxml-->
+<view>
+  <navigator url="" hover-class="navigator-hover" class='term'>
+      <view class='logo logo1'>
+        <image src='../../images/first.png'></image>
+      </view>
+      <view class='text'>咨询律师</view>
+  </navigator>
+  <navigator url="" hover-class="navigator-hover" class='term'>
+      <view class='logo logo3'>
+        <image src='../../images/two.png'></image>
+      </view>
+      <view class='text'>案件问答</view>
+  </navigator>
+  <navigator url="../settled/first_settled/first_settled" hover-class="navigator-hover" class='term'>
+      <view class='logo logo3'>
+        <image src='../../images/three.png'></image>
+      </view>
+      <view class='text'>律师入住</view>
+  </navigator>
+  <navigator url="" hover-class="navigator-hover" class='term'>
+      <view class='logo logo3'>
+        <image src='../../images/four.png'></image>
+      </view>
+      <view class='text'>能力认证</view>
+  </navigator>
+  <navigator url="" hover-class="navigator-hover" class='term'>
+      <view class='logo logo3'>
+        <image src='../../images/five.png'></image>
+      </view>
+      <view class='text'>智能案情难易度分析</view>
+  </navigator>
+</view>

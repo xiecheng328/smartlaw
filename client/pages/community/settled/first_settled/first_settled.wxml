@@ -1,0 +1,57 @@
+<!--pages/community/settled/first_settled/first_settled.wxml-->
+<view>
+  <image src='../../../images/banner.jpg' class='obanner'></image>
+  <view class='title'>请填写基本信息</view>
+  <form  bindsubmit="formSubmit" bindreset="formReset">
+    <view class='inform'>
+      <view class='lesinform'>
+        <view class='words'>姓名:</view>
+        <input type='text' name="username" class='firstinput'></input>
+      </view>
+      <view class='lesinform'>
+        <view class='words'>律师证号:</view>
+        <input type='number' name="certificate_number" class='firstinput'></input>
+      </view>
+      <view class='lesinform'>
+        <view class='words'>律师类型:</view>
+        <input type='text' name="certificate_number" class='firstinput'></input>
+      </view>
+      <view class='lesinform'>
+        <view class='words'>执业年数:</view>
+        <input type='number' name="certificate_number" class='firstinput'></input>
+      </view>
+    </view>
+    <view class='rightphoto'>
+      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+      <view class='upload'>点击上传头像</view>
+    </view>
+    <view class='informles'>
+      <view class='words'>办公地址:</view>
+      <input type='text' name="certificate_number" class='secondinput'></input>
+    </view>
+    <view class='informles'>
+      <view class='words'>擅长案例:</view>
+      <input type='text' name="certificate_number" class='secondinput'></input>
+    </view>
+    <view class='informles'>
+      <view class='words'>个人简介:</view>
+      <textarea name="certificate_number" class='inputtext'></textarea>
+    </view>
+    <view class='informles'>
+      <view class='words'>成功案例:</view>
+      <textarea name="certificate_number" class='inputtext'></textarea>
+    </view>
+     <view class='informles'>
+      <view class='words'>手机号:</view>
+      <input type='number' name="certificate_number" class='secondinput'></input>
+    </view>
+    <view class='informles'>
+      <view class='words'>微信号:</view>
+      <input type='text' name="certificate_number" class='secondinput'></input>
+    </view>
+    <navigator url="../second_settled/second_settled" hover-class="navigator-hover" class='subbtnto'>
+    下一步
+      <!-- <button form-type='submit' class='subbtn'>下一步</button> -->
+    </navigator>
+  </form>
+</view>
