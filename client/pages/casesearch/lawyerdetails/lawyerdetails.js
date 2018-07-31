@@ -4,7 +4,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+      resume:{
+        name:'李XX',
+        rate:'68%',
+        age:'44岁',
+        education:'硕士学历',
+        school:'中国政法大学',
+        time:'20年'
+      }
   },
 
   /**

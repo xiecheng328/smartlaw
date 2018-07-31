@@ -4,7 +4,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+      province:'黑龙江省',
+      hotsearch:{
+        first:'案由一',
+        second:'案由二',
+        third:'案由三',
+        forth:'案由四'
+      },
+      lawyer:{
+        name:'李XX',
+        time:'执业10年',
+        add:'XXX律师事务所',
+        work:'共处理68件官司',
+        rate:'总胜率68%'
+      }
   },
 
   /**

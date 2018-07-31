@@ -1,17 +1,17 @@
 <view class='search-wrapper'>
   <view class='search-wrapper2'>
     <view class='triangle'></view>
-    <view class='word'>黑龙江省</view>
+    <view class='word'>{{province}}</view>
     <view class='input'><input placeholder='请输入案由关键字' placeholder-class='placeholder'></input></view>
     <view class='button'>查询</view>
   </view>
   <view class='search-wrapper3'>
     <view class='hot-search'>热门搜索：</view>
     <view class='case'>
-      <view>案由一</view>
-      <view>案由二</view>
-      <view>案由三</view>
-      <view>案由四</view>
+      <view>{{hotsearch.first}}</view>
+      <view>{{hotsearch.second}}</view>
+      <view>{{hotsearch.third}}</view>
+      <view>{{hotsearch.forth}}</view>
     </view>
   </view>
 </view>
@@ -20,29 +20,29 @@
     根据您所选择的地域和案由为您随机生成3位胜率50%以上优质律师
   </view>
   <view class='content-wrapper2'>
-    <view>李XX</view>
-    <view>执业10年</view>
-    <view>XXX律师事务所</view>
-    <view>共处理68件官司</view>
-    <view>总胜率68%</view>
+    <view>{{lawyer.name}}</view>
+    <view>{{lawyer.time}}</view>
+    <view>{{lawyer.add}}</view>
+    <view>{{lawyer.work}}</view>
+    <view>{{lawyer.rate}}</view>
     <navigator url="../lawyerdetails/lawyerdetails" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
   <view class='content-wrapper3'>
-    <view>李XX</view>
-    <view>执业10年</view>
-    <view>XXX律师事务所</view>
-    <view>共处理68件官司</view>
-    <view>总胜率68%</view>
+    <view>{{lawyer.name}}</view>
+    <view>{{lawyer.time}}</view>
+    <view>{{lawyer.add}}</view>
+    <view>{{lawyer.work}}</view>
+    <view>{{lawyer.rate}}</view>
     <navigator url="../lawyerdetails/lawyerdetails" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
   <view class='content-wrapper4'>
-    <view>李XX</view>
-    <view>执业10年</view>
-    <view>XXX律师事务所</view>
-    <view>共处理68件官司</view>
-    <view>总胜率68%</view>
+    <view>{{lawyer.name}}</view>
+    <view>{{lawyer.time}}</view>
+    <view>{{lawyer.add}}</view>
+    <view>{{lawyer.work}}</view>
+    <view>{{lawyer.rate}}</view>
     <navigator url="../lawyerdetails/lawyerdetails" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
