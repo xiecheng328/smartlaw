@@ -1,1 +1,26 @@
-/* pages/services/first/first.wxss */
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+   height: 100%;
+   width: 100%;
+}
+.nav-first{
+  height: 120rpx;
+  line-height: 120rpx;
+  width: 100%;
+  text-align: center;
+   background: #fff;
+   color: #333;
+   font-size: 30rpx;
+}
+.content{
+  background: #eee;
+  width:100%;
+  height:806rpx;
+}
