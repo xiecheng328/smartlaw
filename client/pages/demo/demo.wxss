@@ -1,0 +1,19 @@
+/* pages/demo/demo.wxss */
+.menu{
+  display: flex;
+  /* background: #ccc; */
+  height: 90rpx;
+}
+
+.nav{
+  flex-grow: 1;
+  text-align: center;
+  line-height: 90rpx;
+  color: #333333;
+  font-size: 30rpx;
+}
+
+.selected{
+  color: #577EFF;
+  border-bottom: 2rpx solid #577EFF;
+}
