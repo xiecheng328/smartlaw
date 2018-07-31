@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/lawyer_assessment/lawyer_assessment",
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/mine/mine",
@@ -9,8 +10,7 @@
     "pages/services/first/first",
     "pages/casesearch/search/search",
     "pages/casesearch/lawyerdetails/lawyerdetails",
-    "pages/demo/demo",
-    "pages/lawyer_assessment/lawyer_assessment"
+    "pages/demo/demo"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -27,7 +27,7 @@
       {
         "selectedIconPath": "pages/images/lvshi2.png",
         "iconPath": "pages/images/lvshi1.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/lawyer_assessment/lawyer_assessment",
         "text": "律师评估"
       },
       {
