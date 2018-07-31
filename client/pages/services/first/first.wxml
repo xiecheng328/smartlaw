@@ -1,2 +1,13 @@
-<!--pages/services/first/first.wxml-->
-<text>pages/services/first/first.wxml</text>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+<view class='nav-first'>
+      —— 服务分类 ——
+</view>
+<view class='content'>
+
+</view>
