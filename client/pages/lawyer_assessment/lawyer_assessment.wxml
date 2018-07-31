@@ -1,5 +1,5 @@
 <view class='content'>
-  <navigator class='search1'>
+  <navigator class='search1' url='casesearch/search/search'>
     <image src='images/1.png' class='img1'></image>
     <view class='search1-1'>案由搜索</view>
   </navigator>

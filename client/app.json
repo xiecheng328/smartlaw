@@ -8,8 +8,8 @@
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
     "pages/services/first/first",
-    "pages/casesearch/search/search",
-    "pages/casesearch/lawyerdetails/lawyerdetails",
+    "pages/lawyer_assessment/casesearch/search/search",
+    "pages/lawyer_assessment/casesearch/lawyerdetails/lawyerdetails",
     "pages/demo/demo"
   ],
   "window": {
