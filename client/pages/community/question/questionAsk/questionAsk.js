@@ -84,7 +84,7 @@ Page({
       show: !this.data.show
     });
   },
-  radioChange: function(){
+  radioChange: function(e){
   },
   show: function () {
     wx.showToast({
@@ -93,4 +93,4 @@ Page({
       duration: 2000
     })
   }
-})
+});

@@ -29,6 +29,6 @@
   </label>
   </radio-group>
 </view>
-<view class='release'>
-  <view class='release-button' bindtap='show'>发布</view>
+<view class='released'>
+  <view class='released-button' bindtap='show'>发布</view>
 </view>

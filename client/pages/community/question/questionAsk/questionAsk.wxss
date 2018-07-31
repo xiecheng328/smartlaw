@@ -70,7 +70,7 @@ page{
   border-top: 0;
   background: #fff;
   transition: height 0.3s;
-  z-index: 1;
+  z-index: 2;
 }
 .option{
   display: block;
@@ -97,7 +97,7 @@ page{
 .money .selected{
   transform:scale(0.65);
 }
-.release-button{
+.released-button{
   width: 710rpx;
   height: 90rpx;
   margin: 80rpx auto;
