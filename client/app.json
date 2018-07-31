@@ -1,12 +1,15 @@
 {
   "pages": [
-    "pages/demo/demo",
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/community/community_index/community_index",
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
-    "pages/services/first/first"
+    "pages/community/question/questionAsk/questionAsk",
+    "pages/community/question/questionIndex/questionIndex",
+    "pages/community/question/questionDetails/questionDetails",
+    "pages/services/first/first",
+    "pages/demo/demo"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -43,12 +46,6 @@
         "iconPath": "pages/images/wode1.png",
         "pagePath": "pages/community/community_index/community_index",
         "text": "我的"
-      },
-      {
-        "selectedIconPath": "pages/images/wode2.png",
-        "iconPath": "pages/images/wode1.png",
-        "pagePath": "pages/demo/demo",
-        "text": "demo"
       }
     ]
   }

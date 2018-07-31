@@ -6,7 +6,7 @@
       </view>
       <view class='text'>咨询律师</view>
   </navigator>
-  <navigator url="" hover-class="navigator-hover" class='term'>
+  <navigator url="../question/questionAsk/questionAsk" hover-class="navigator-hover" class='term'>
       <view class='logo logo3'>
         <image src='../../images/two.png'></image>
       </view>
