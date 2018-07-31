@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/lawyer_assessment/lawyer_assessment",
+    "pages/lawyer_assessment/ofsearch/ofsearch",
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/mine/mine",
