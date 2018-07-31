@@ -1,0 +1,22 @@
+<view class='content'>
+  <navigator class='search1'>
+    <image src='../../images/1.png' class='img1'></image>
+    <view class='search1-1'>案由搜索</view>
+  </navigator>
+  <navigator class='search2' url='lawyer_search/lawyer_search'>
+    <image src='../../images/2.png' class='img2'></image>
+    <view class='search2-1'>律师搜索</view>
+  </navigator>
+  <navigator class='search3'>
+    <image src='../../images/3.png' class='img3'></image>
+    <view class='search3-1'>法院搜索</view>
+  </navigator>
+  <navigator class='search4'>
+    <image src='../../images/4.png' class='img4'></image>
+    <view class='search4-1'>律所搜索</view>
+  </navigator> 
+  <navigator class='search5'>
+    <image src='../../images/5.png' class='img5'></image>
+    <view class='search5-1'>法官搜索</view>
+  </navigator>
+</view>

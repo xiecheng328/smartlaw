@@ -9,7 +9,8 @@
     "pages/services/first/first",
     "pages/casesearch/search/search",
     "pages/casesearch/lawyerdetails/lawyerdetails",
-    "pages/demo/demo"
+    "pages/demo/demo",
+    "pages/lawyer_assessment/lawyer_assessment"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

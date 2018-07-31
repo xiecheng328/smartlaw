@@ -1,0 +1,102 @@
+page{
+  background: #eee;
+}
+.content{
+  position: relative;
+}
+.search1{
+  width:710rpx;
+  height:300rpx;
+  background:rgba(255,255,255,1);
+  margin: 20rpx 20rpx 19rpx 20rpx;
+  position: relative;
+}
+.img1{
+  width:120rpx;
+  height:120rpx;
+  position: absolute;
+  left: 112rpx;
+  top: 90rpx;
+}
+.search1-1{
+  position: absolute;
+  left:252rpx;
+  top:136rpx;
+  width:117px;
+  height:29rpx;
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+}
+.search2{
+  background:rgba(255,255,255,1);
+  margin-left: 20rpx;
+  width: 345rpx;
+  height: 300rpx; 
+  position: relative;
+}
+.img2{
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  left: 113rpx;
+  top: 65rpx;
+}
+.search2-1,.search3-1,.search4-1,.search5-1{
+  position: absolute;
+  top: 207rpx;
+  left:113rpx;
+  width:117px;
+  height:29rpx;
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+  line-height:72rpx;
+}
+.search3{
+  background:rgba(255,255,255,1);
+  margin-right: 20rpx;
+  margin-left: 385rpx;
+  margin-top: -299rpx;
+  width: 345rpx;
+  height: 300rpx; 
+  position: relative;
+}
+.img3{
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  left: 113rpx;
+  top: 65rpx;
+}
+.search4{
+  background:rgba(255,255,255,1);
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  width: 345rpx;
+  height: 300rpx; 
+  position: relative;
+}
+.img4{
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  left: 113rpx;
+  top: 65rpx;
+}
+.search5{
+  background:rgba(255,255,255,1);
+  margin-top: 20rpx;
+  margin-left: 385rpx;  
+  margin-top: -299rpx;  
+  width: 345rpx;
+  height: 300rpx; 
+  position: relative;
+}
+.img5{
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  left: 113rpx;
+  top: 65rpx;
+}
