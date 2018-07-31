@@ -3,6 +3,7 @@
     "pages/demo/demo",
     "pages/index/index",
     "pages/addCgi/addCgi",
+    "pages/mine/mine",
     "pages/community/community_index/community_index",
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
@@ -41,7 +42,7 @@
       {
         "selectedIconPath": "pages/images/wode2.png",
         "iconPath": "pages/images/wode1.png",
-        "pagePath": "pages/community/community_index/community_index",
+        "pagePath": "pages/mine/mine",
         "text": "我的"
       },
       {
