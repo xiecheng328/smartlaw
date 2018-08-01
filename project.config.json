@@ -6,5 +6,31 @@
 	},
 	"appid": "wx72c3dd73cc2b2fd2",
 	"projectname": "smartlaw",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "1",
+					"pathName": "pages/services/first/first"
+				}
+			]
+		}
+	}
 }
