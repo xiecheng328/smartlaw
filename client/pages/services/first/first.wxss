@@ -46,10 +46,11 @@
   color: #577EFF;
   border-bottom: 2rpx solid #577EFF;
 }
- .itemsBox{
-  height: 700rpx;
+  .itemsBox{
+   height: 700rpx; 
   
-} 
+}  
+
 .list-item{
   height:90rpx;
    margin-left:30rpx; 

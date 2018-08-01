@@ -41,7 +41,7 @@ Page({
   },
  
   tapHandler: function (e) {
-    // console.log(e.target.dataset.tapindex);
+
 
     this.setData({
       currentTapIndex: e.target.dataset.tapindex

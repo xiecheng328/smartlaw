@@ -22,7 +22,6 @@
       <view class='list-item'>{{item.name}}
       <navigator class='item-right'>></navigator></view> 
     </view>
-  
   </swiper-item>
   <swiper-item>
     <view wx:for="{{secondList}}" wx:key="{{index}}">
