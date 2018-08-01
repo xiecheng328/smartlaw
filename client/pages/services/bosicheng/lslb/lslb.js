@@ -1,11 +1,37 @@
-// pages/htsc/htsc.js
+// pages/services/bosicheng/lslb/lslb.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    list:[
+      {
+        "lawImg":'../../../images/first.png',
+        "name":"钱悦",
+        "agent":"黑龙江泽顺律师事务所",
+        "id":"执业证123123123123"
+      },
+
+      {
+        "lawImg": '../../../images/first.png',
+        "name": "钱悦",
+        "agent": "黑龙江泽顺律师事务所",
+        "id": "执业证123123123123"
+      },
+      {
+        "lawImg": '../../../images/first.png',
+        "name": "钱悦",
+        "agent": "黑龙江泽顺律师事务所",
+        "id": "执业证123123123123"
+      },
+      {
+        "lawImg": '../../../images/first.png',
+        "name": "钱悦",
+        "agent": "黑龙江泽顺律师事务所",
+        "id": "执业证123123123123"
+      }
+    ]
   },
 
   /**
