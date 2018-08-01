@@ -8,6 +8,7 @@
 <view class='nav-first'>
       —— 服务分类 ——
 </view>
+//选项卡
 <view class='wraper'>
 <view class='content'>
 <view class='menu'>
