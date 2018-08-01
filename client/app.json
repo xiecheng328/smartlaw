@@ -33,7 +33,7 @@
       {
         "selectedIconPath": "pages/images/fuwu2.png",
         "iconPath": "pages/images/fuwu1.png",
-        "pagePath": "pages/community/community_index/community_index",
+        "pagePath": "pages/services/first/first",
         "text": "法律服务"
       },
       {
@@ -47,6 +47,12 @@
         "iconPath": "pages/images/wode1.png",
         "pagePath": "pages/community/community_index/community_index",
         "text": "我的"
+      },
+      {
+        "selectedIconPath": "pages/images/wode2.png",
+        "iconPath": "pages/images/wode1.png",
+        "pagePath": "pages/demo/demo",
+        "text": "demo"
       }
     ]
   }

@@ -1,2 +1,41 @@
-<!--pages/services/first/first.wxml-->
-<text>pages/services/first/first.wxml</text>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+<view class='nav-first'>
+      —— 服务分类 ——
+</view>
+
+<view class='wraper'>
+<view class='content'>
+<view class='menu'>
+<view class="nav {{currentTapIndex==0?'selected': ''}}" bindtap="tapHandler" data-tapindex="0">标准法律服务</view>
+<view class="nav {{currentTapIndex==1?'selected': ''}}" bindtap="tapHandler" data-tapindex="1">企业法律服务</view>
+<view class="nav {{currentTapIndex==2?'selected': ''}}" bindtap="tapHandler" data-tapindex="2">案件委托服务</view>
+</view>
+ <swiper class='itemsBox' current='{{currentTapIndex}}'>
+  <swiper-item>
+    <view wx:for="{{firstList}}" wx:key="{{index}}">
+      <view class='list-item'>{{item.name}}
+      <navigator class='item-right'>></navigator></view> 
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view wx:for="{{secondList}}" wx:key="{{index}}">
+      <view class='list-item'>{{item.name}}
+       <navigator class='item-right'>></navigator>
+      </view>
+      
+    </view>
+  
+  </swiper-item>
+  <swiper-item>
+  <view class='list-item'>案件委托服务
+  <navigator class='item-right'>></navigator></view>
+  </swiper-item>
+</swiper>
+</view>
+</view>

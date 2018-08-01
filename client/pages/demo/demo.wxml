@@ -1,0 +1,25 @@
+<!--pages/demo/demo.wxml-->
+<view class='menu'>
+  <view class="nav {{currentTapIndex==0?'selected': ''}}" bindtap="tapHandler" data-tapindex="0">全部</view>
+  <view class="nav {{currentTapIndex==1?'selected': ''}}"  bindtap="tapHandler" data-tapindex="1">待付款</view>
+  <view class="nav {{currentTapIndex==2?'selected': ''}}"  bindtap="tapHandler" data-tapindex="2">待发货</view>
+  <view class="nav {{currentTapIndex==3?'selected': ''}}"  bindtap="tapHandler" data-tapindex="3">待收货</view>
+</view>
+
+
+<swiper class='content' current='{{currentTapIndex}}'>
+  <swiper-item>
+    <view wx:for="{{list}}" wx:key="{{index}}">
+      <view>{{item.code}}  {{item.status}}</view>
+      <view>{{item.name}}</view>
+    </view>
+  
+  </swiper-item>
+  <swiper-item>
+    <button bindtap='show'>弹出框</button>
+  
+  </swiper-item>
+  <swiper-item>33</swiper-item>
+  <swiper-item>44</swiper-item>
+
+</swiper>
