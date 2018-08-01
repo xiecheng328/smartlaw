@@ -1,0 +1,33 @@
+.lawyerresume{
+  width: 710rpx;
+  height: 380rpx;
+  /* background: red; */
+  margin: 21rpx auto 0;
+  position: relative;
+  font-family: PingFangSC;
+}
+.lawyerresume-wrapper{
+  width: 290rpx;
+  height: 263rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 86rpx;
+  /* background: red; */
+}
+.lawyerresume-wrapper view{
+  color: #666;
+  font-size: 26rpx;
+  /* background: white; */
+  margin-bottom:12rpx; 
+}
+.lawyerresume-wrapper view:nth-child(6){
+  margin: 0
+}
+.lawyerresume2{
+  /* background: red; */
+  position: absolute;
+  font-size: 30rpx;
+  color: #333;
+  left: 29rpx;
+  top: 30rpx;
+}

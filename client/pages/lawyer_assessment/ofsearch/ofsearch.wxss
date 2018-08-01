@@ -1,0 +1,11 @@
+/* pages/ofsearch/ofsearch.wxss */
+input{
+  border:1rpx solid;
+  width:500rpx;
+}
+button{
+  width:150rpx;
+}
+.search{
+  display: flex;
+}
