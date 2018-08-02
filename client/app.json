@@ -1,7 +1,5 @@
 {
-  "pages": [
-    "pages/lawyer_assessment/lawyer_assessment",
-    "pages/lawyer_assessment/ofsearch/ofsearch",
+  "pages": [ 
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/mine/mine",
@@ -12,11 +10,14 @@
     "pages/community/question/questionIndex/questionIndex",
     "pages/community/question/questionDetails/questionDetails",
     "pages/services/first/first",
-    "pages/demo/demo"
-    "pages/services/first/first",
+    "pages/demo/demo",
+    "pages/lawyer_assessment/lawyer_assessment",
+    "pages/lawyer_assessment/ofsearch/ofsearch",
     "pages/lawyer_assessment/casesearch/search/search",
     "pages/lawyer_assessment/casesearch/lawyerdetails/lawyerdetails",
-    "pages/demo/demo"
+    "pages/lshff/lshff",
+    "pages/htsc/htsc",
+    "pages/htsc/dflsh/dflsh"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

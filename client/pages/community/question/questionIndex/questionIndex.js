@@ -5,7 +5,42 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    lawyerIndex:-1,
+    selectData: ['婚姻家庭', '劳动工伤', '刑事辩护', '交通事故', '财产纠纷', '婚姻家庭', '劳动工伤', '刑事辩护', '交通事故', '财产纠纷', '婚姻家庭', '劳动工伤', '刑事辩护', '交通事故', '财产纠纷'],
+    asklist: [
+      {
+        caseText:'案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述',
+        money:5,
+        lawyerName:'王爱国',
+        lawFirm:'爱国律所事务所',
+        img:'../../../images/Avatar.png',
+        peoples:35
+      },
+      {
+        caseText: '案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述',
+        money: 5,
+        lawyerName: '王爱国',
+        lawFirm: '爱国律所事务所',
+        img: '../../../images/Avatar.png',
+        peoples: 35
+      },
+      {
+        caseText: '案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述',
+        money: 5,
+        lawyerName: '王爱国',
+        lawFirm: '爱国律所事务所',
+        img: '../../../images/Avatar.png',
+        peoples: 35
+      },
+      {
+        caseText: '案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述',
+        money: 5,
+        lawyerName: '王爱国',
+        lawFirm: '爱国律所事务所',
+        img: '../../../images/Avatar.png',
+        peoples: 35
+      }
+    ]
   },
 
   /**
@@ -62,5 +97,11 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+  tapHandler: function (e) {
+    console.log(e.target.dataset.tapindex);
+    this.setData({
+      lawyerIndex: e.target.dataset.tapindex
+    });
+  },
 })
