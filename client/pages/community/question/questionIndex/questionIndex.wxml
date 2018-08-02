@@ -3,7 +3,7 @@
 <view class="menu-list">
   <view class="menu">
     <view class="cases {{lawyerIndex==-1?'selected': ''}}" bindtap="tapHandler" data-tapindex="-1">全部</view>
-    <view class="cases {{index==lawyerIndex?'selected': ''}}" bindtap="tapHandler" data-tapindex="{{index}}" wx:for="{{selectData}}" wx:key="{{index}}">{{item}}</view>
+    <view class="cases {{lawyerIndex==index?'selected': ''}}" bindtap="tapHandler" data-tapindex="{{index}}" wx:for="{{selectData}}" wx:key="{{index}}">{{item}}</view>
   </view>
   <view class="boundary-line"></view>
 </view>
