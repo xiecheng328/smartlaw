@@ -1,2 +1,29 @@
 <!--pages/community/settled/second_settled/second_settled.wxml-->
-<text>pages/community/settled/second_settled/second_settled.wxml</text>
+<view>
+ <form  bindsubmit="formSubmit" bindreset="formReset">
+  <view class='subword'>请提交中华人民共和国律师执业资格证书</view>
+  <view class='subphoto' catchtap='chooseimg' data-choosenum='1'>
+    <image src='{{oroute}}' wx-if="{{choose1}}" class="oimg" bindload="imageLoad" style="width:{{imgwidth1}}rpx; height:{{imgheight1}}rpx;" data-imgnum='1'></image>
+    <view wx-if="{{!choose1}}" class="rightphoto">
+      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+      <view class='upload'>点击上传</view>
+    </view>
+  </view>
+  <view class='subword'>请提交您本人身份证正反面照片</view>
+  <view class='subphoto botsub'  catchtap='chooseimg' data-choosenum='2'>
+  <image src='{{oroute2}}' wx-if="{{choose2}}" class="oimg" bindload="imageLoad" style="width:{{imgwidth2}}rpx; height:{{imgheight2}}rpx;"  data-imgnum='2'></image>
+    <view wx-if="{{!choose2}}" class="rightphoto">
+      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+      <view class='upload'>点击上传</view>
+    </view>
+  </view>
+  <view class='subphoto botsub' catchtap='chooseimg' data-choosenum='3'>
+  <image src='{{oroute3}}' wx-if="{{choose3}}" class="oimg" bindload="imageLoad" style="width:{{imgwidth3}}rpx; height:{{imgheight3}}rpx;"  data-imgnum='3'></image>
+    <view wx-if="{{!choose3}}" class="rightphoto">
+      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+      <view class='upload'>点击上传</view>
+    </view>
+  </view>
+  <button form-type='submit' class='subbtn'>提交审核</button>
+  </form>
+</view>

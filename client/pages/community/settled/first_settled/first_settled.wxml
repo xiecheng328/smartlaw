@@ -1,2 +1,56 @@
 <!--pages/community/settled/first_settled/first_settled.wxml-->
-<text>pages/community/settled/first_settled/first_settled.wxml</text>
+<view>
+  <image src='../../../images/banner.jpg' class='obanner'></image>
+  <view class='title'>请填写基本信息</view>
+  <form  bindsubmit="formSubmit" bindreset="formReset">
+    <view class='inform'>
+      <view class='lesinform'>
+        <view class='words'>姓名:</view>
+        <input type='text' name="certificate_name" class='firstinput'></input>
+      </view>
+      <view class='lesinform'>
+        <view class='words'>律师证号:</view>
+        <input type='number' name="certificate_number" class='firstinput'></input>
+      </view>
+      <view class='lesinform'>
+        <view class='words'>律师类型:</view>
+        <input type='text' name="certificate_type" class='firstinput'></input>
+      </view>
+      <view class='lesinform'>
+        <view class='words'>执业年数:</view>
+        <input type='number' name="certificate_year" class='firstinput'></input>
+      </view>
+    </view>
+    <view class='rightphoto' catchtap='chooseimg'>
+      <image src='{{oroute}}' class="{{imgborder?'rightphotoiner ':'addbind'}}"></image>
+      <view class='upload'>点击上传头像</view>
+    </view>
+    <view class='informles'>
+      <view class='words'>办公地址:</view>
+      <input type='text' name="certificate_area" class='secondinput'></input>
+    </view>
+    <view class='informles'>
+      <view class='words'>擅长案例:</view>
+      <input type='text' name="certificate_case" class='secondinput'></input>
+    </view>
+    <view class='informles'>
+      <view class='words'>个人简介:</view>
+      <textarea name="certificate_intro" class='inputtext' auto-focus></textarea>
+    </view>
+    <view class='informles'>
+      <view class='words'>成功案例:</view>
+      <textarea name="certificate_successcase" class='inputtext' auto-focus></textarea>
+    </view>
+     <view class='informles'>
+      <view class='words'>手机号:</view>
+      <input type='number' name="certificate_phonenumber" class='secondinput'></input>
+    </view>
+    <view class='informles'>
+      <view class='words'>微信号:</view>
+      <input type='text' name="certificate_wechatnumber" class='secondinput'></input>
+    </view>
+    <!-- <navigator url="" hover-class="navigator-hover" class='subbtnto'> -->
+      <button form-type='submit' class='subbtn'>下一步</button>
+    <!-- </navigator> -->
+  </form>
+</view>
