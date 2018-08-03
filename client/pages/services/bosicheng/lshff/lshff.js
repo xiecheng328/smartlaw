@@ -5,14 +5,52 @@ Page({
    * 页面的初始数据
    */
   data: {
+    checkTitle:false,
+    checkWX:false,
+    checkYL:false,
+  },
   
+
+  changeClass: function(e){
+
+    this.setData({
+      checkTitle: !this.data.checkTitle
+    })
+    // console.log(this.data.checkTitle);
+    
+  },
+
+  changeWX: function (e) {
+
+    this.setData({
+      checkWX: !this.data.checkWX,
+      checkYL: false
+    })
+    // console.log(this.data.checkTitle);
+
+  },
+
+  changeYL: function (e) {
+
+    this.setData({
+      checkYL: !this.data.checkYL,
+      checkWX: false
+    })
+    // console.log(this.data.checkTitle);
+
+  },
+
+  accountMsg:function(){
+    wx.navigateTo({
+      url: '../zhtx/zhtx',
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-  
+  onLoad: function () {
+    
   },
 
   /**
@@ -62,5 +100,6 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+  
 })

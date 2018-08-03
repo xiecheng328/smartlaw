@@ -1,5 +1,6 @@
 {
-  "pages": [ 
+  "pages": [
+    "pages/demo/demo",
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/mine/mine",
@@ -18,6 +19,7 @@
     "pages/lshff/lshff",
     "pages/htsc/htsc",
     "pages/htsc/dflsh/dflsh"
+    "pages/services/first/first"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

@@ -48,3 +48,12 @@
   line-height: 90rpx;
   font-size: 30rpx;
 }
+.addbind{
+  width: 132rpx;
+  height: 146rpx;
+  display: block;
+}
+.oimg{
+  display: block;
+  margin: auto;
+}

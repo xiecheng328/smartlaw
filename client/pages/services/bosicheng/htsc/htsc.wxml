@@ -1,0 +1,23 @@
+<view class="title">请填写一下必要信息</view>
+<view class="container">
+  <view id="client">
+    <view id="cname">委托人姓名：
+      <input type="text" class='input'></input>
+    </view>
+    <view id='ctel'>委托人电话号码： 
+      <input type="text" class='input'></input>
+    </view>
+  </view>
+
+  
+
+  <view id='case-description'>合同简要描述：
+    <input class='input' id='detail-case'></input>
+  </view>
+  
+  <view id='bottom'>
+  <navigator url="../lshff/lshff" class='navigate'>
+  <label>下一步</label>
+  </navigator>
+  </view>
+</view>

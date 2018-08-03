@@ -1,0 +1,86 @@
+<view id="title">
+  填写预约信息
+</view>
+
+<view class="name">
+    <view class="wordName">委托人姓名:</view> 
+    <input class="inputName"></input>
+</view>
+<view class="name">
+    <view class="wordName">委托人电话号码:</view> 
+    <input class="inputName"></input>
+</view>
+<view class="name">
+    <view class="wordName">收件人地址:</view> 
+    <input class="inputName"></input>
+</view>
+<view class="name">
+    <view class="wordName">详细地址:</view> 
+    <input class="inputName"></input>
+</view>
+
+<view class="bar"></view>
+
+
+<view class="lower">
+  <view id="title2">案情描述:</view>
+
+  <view id="caseInput"></view>
+
+  <view id="regTime">预约时间:</view>
+
+
+</view>
+
+
+
+
+<view style="text-align:center;color:#45BCE8" bindtap='showScreen'>{{year}}-{{month}}-{{day}} {{hour}}:{{minute}}</view>
+
+<view class="time_screens" wx-if="{{screen}}"  animation='{{animationData}}'>
+      
+      <view id="noMask" >
+        <view style="display:flex;flex-direction:row-reverse">
+        <label style="margin-right:10rpx;" bindtap='closeScreen'>确定</label>
+      </view>
+  
+      <view style="border-top:1px solid #45BCE8;height:25px;font-size:14px;">
+        <view class="time-title">年</view>
+        <view class="time-title">月</view>
+        <view class="time-title">日</view>
+        <view class="time-title">时</view>
+        <view class="time-title">分</view>
+      </view>
+      <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+            <picker-view-column class="picker-text">
+              <view wx:for="{{years}}" style="line-height: 50px">{{item}}</view>
+            </picker-view-column>
+            <picker-view-column class="picker-text">
+              <view wx:for="{{months}}" style="line-height: 50px">{{item}}</view>
+            </picker-view-column>
+            <picker-view-column class="picker-text">
+              <view wx:for="{{days}}" style="line-height: 50px">{{item}}</view>
+            </picker-view-column>
+            <picker-view-column class="picker-text">
+              <view wx:for="{{hours}}" style="line-height: 50px">{{item}}</view>
+            </picker-view-column>
+            <picker-view-column class="picker-text">
+              <view wx:for="{{minutes}}" style="line-height: 50px">{{item}}</view>
+            </picker-view-column>
+      </picker-view>
+      </view>      
+</view>
+
+<view class="name">
+    <view class="wordName">法院名称:</view> 
+    <input class="inputName"></input>
+</view>
+
+<view class="name">
+    <view class="wordName">法官姓名:</view> 
+    <input class="inputName"></input>
+</view>
+
+<view id="butNext" bindtap='success'>下一步</view>
+
+

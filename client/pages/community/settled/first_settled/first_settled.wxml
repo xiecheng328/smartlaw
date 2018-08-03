@@ -6,7 +6,7 @@
     <view class='inform'>
       <view class='lesinform'>
         <view class='words'>姓名:</view>
-        <input type='text' name="username" class='firstinput'></input>
+        <input type='text' name="certificate_name" class='firstinput'></input>
       </view>
       <view class='lesinform'>
         <view class='words'>律师证号:</view>
@@ -21,8 +21,8 @@
         <input type='number' name="certificate_year" class='firstinput'></input>
       </view>
     </view>
-    <view class='rightphoto'>
-      <image src='../../../images/upload2.png' class="rightphotoiner"></image>
+    <view class='rightphoto' catchtap='chooseimg'>
+      <image src='{{oroute}}' class="{{imgborder?'rightphotoiner ':'addbind'}}"></image>
       <view class='upload'>点击上传头像</view>
     </view>
     <view class='informles'>
@@ -35,11 +35,11 @@
     </view>
     <view class='informles'>
       <view class='words'>个人简介:</view>
-      <textarea name="certificate_intro" class='inputtext'></textarea>
+      <textarea name="certificate_intro" class='inputtext' auto-focus></textarea>
     </view>
     <view class='informles'>
       <view class='words'>成功案例:</view>
-      <textarea name="certificate_successcase" class='inputtext'></textarea>
+      <textarea name="certificate_successcase" class='inputtext' auto-focus></textarea>
     </view>
      <view class='informles'>
       <view class='words'>手机号:</view>
@@ -49,9 +49,8 @@
       <view class='words'>微信号:</view>
       <input type='text' name="certificate_wechatnumber" class='secondinput'></input>
     </view>
-    <navigator url="../second_settled/second_settled" hover-class="navigator-hover" class='subbtnto'>
-    下一步
-      <!-- <button form-type='submit' class='subbtn'>下一步</button> -->
-    </navigator>
+    <!-- <navigator url="" hover-class="navigator-hover" class='subbtnto'> -->
+      <button form-type='submit' class='subbtn'>下一步</button>
+    <!-- </navigator> -->
   </form>
 </view>
