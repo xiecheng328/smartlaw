@@ -119,6 +119,3 @@
   position: absolute;
   top: 317rpx;
 }
-swiper{
-  height:auto;
-}

@@ -7,7 +7,7 @@
   </view>
   <view class="boundary-line"></view>
 </view>
-<!-- 提问按钮 -->
+<!-- 提问悬浮按钮 -->
 <view class="round-click">
    <navigator url="../questionAsk/questionAsk" >发布问题</navigator >
 </view>
