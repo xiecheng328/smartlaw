@@ -18,7 +18,9 @@
     "pages/commission/advancePayment/waitting/not/not",
     "pages/commission/advancePayment/waitting/yes/yes",
     "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
-    "pages/commission/advancePayment/waitting/yes/pay/pay"
+    "pages/commission/advancePayment/waitting/yes/pay/pay",
+    "pages/mine/mine",
+    "pages/mine/payList/payList"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
