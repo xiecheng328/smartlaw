@@ -18,7 +18,6 @@
     "pages/services/bosicheng/lshff/lshff",
     "pages/services/bosicheng/htsc/htsc",
     "pages/services/bosicheng/dflsh/dflsh",
-    "pages/services/bosicheng/htsc/dflsh/dflsh",
     "pages/services/bosicheng/lslb/lslb",
     "pages/services/bosicheng/yyxx/yyxx",
     "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators",
@@ -45,7 +44,7 @@
       {
         "selectedIconPath": "pages/images/fuwu2.png",
         "iconPath": "pages/images/fuwu1.png",
-        "pagePath": "pages/community/community_index/community_index",
+        "pagePath": "pages/services/first/first",
         "text": "法律服务"
       },
       {
