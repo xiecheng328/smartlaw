@@ -15,11 +15,13 @@
     "pages/lawyer_assessment/casesearch/search/search",
     "pages/lawyer_assessment/casesearch/reservationpage/reservationpage",
     "pages/lawyer_assessment/casesearch/lawyerdetails/lawyerdetails",
-
+    "pages/services/bosicheng/lshff/lshff",
+    "pages/services/bosicheng/htsc/htsc",
+    "pages/services/bosicheng/dflsh/dflsh",
+    "pages/services/bosicheng/htsc/dflsh/dflsh",
+    "pages/services/bosicheng/lslb/lslb",
+    "pages/services/bosicheng/yyxx/yyxx",
     "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators",
-    "pages/lshff/lshff",
-    "pages/htsc/htsc",
-    "pages/htsc/dflsh/dflsh",
     "pages/services/first/first"
   ],
   "window": {
@@ -55,7 +57,7 @@
       {
         "selectedIconPath": "pages/images/wode2.png",
         "iconPath": "pages/images/wode1.png",
-        "pagePath": "pages/community/community_index/community_index",
+        "pagePath": "pages/mine/mine",
         "text": "我的"
       },
       {
