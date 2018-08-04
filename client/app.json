@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/commission/commission",
     "pages/services/bosicheng/dflsh/dflsh",
     "pages/services/bosicheng/htsc/htsc",
     "pages/services/bosicheng/yyxx/yyxx",
@@ -12,8 +13,12 @@
     "pages/community/settled/second_settled/second_settled",
     "pages/services/first/first",
     "pages/demo/demo",
-    "pages/commission/commission",
-    "pages/commission/advancePayment/advancePayment"
+    "pages/commission/advancePayment/advancePayment",
+    "pages/commission/advancePayment/waitting/waitting",
+    "pages/commission/advancePayment/waitting/not/not",
+    "pages/commission/advancePayment/waitting/yes/yes",
+    "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
+    "pages/commission/advancePayment/waitting/yes/pay/pay"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

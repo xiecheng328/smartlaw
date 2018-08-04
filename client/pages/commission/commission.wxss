@@ -23,12 +23,9 @@
   line-height: 90rpx;
   padding:0 62rpx;
   margin-bottom: 10rpx;
-  width: 100%;
   position: relative;
 }
 
-.meet{
-}
 .radio-group{
 display: flex;
 float: right;
@@ -40,29 +37,19 @@ margin-right: 62rpx;
 }
 .radio radio{
 float: left;
+transform:scale(.8);
 }
-#meet-day{
 
-}
 #meet-time{
 display: flex;
 }
+
 .picker{
   position: absolute;
   right: 180rpx;
   top:0; 
 }
-#sever-time{
 
-}
-
-#meet-space{
-
-}
-
-#number{
-
-}
 input{
   position: absolute;
   right: 170rpx;
@@ -74,12 +61,12 @@ input{
 
 #detail{
   padding: 30rpx;
-  /* height: 300rpx; */
+  height: 200rpx;
   /* text-align: left; */
 }
 .bottom{
-  /* height: 200rpx; */
-  /* padding-top: 70rpx; */
+  height: 200rpx;
+  padding-bottom: 20rpx;
 }
 #commit{
     width: 280rpx;

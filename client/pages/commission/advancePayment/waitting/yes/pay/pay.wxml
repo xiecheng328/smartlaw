@@ -1,6 +1,6 @@
 <view class='container'>
   <view class="title">
-    <text>预付款</text>
+    <text>支付款</text>
   </view>
   <view class='pay'>
     <view id='price'>
@@ -18,6 +18,6 @@
     </view>
   </view>
   <view class='bottom'>
-      <button id='commit' form-type="submit" bindtap='onConfirmPaymentTap'>确认支付</button>
+      <button id='commit' form-type="submit" bindtap='onPaymentTap'>确认支付</button>
     </view>
 </view>

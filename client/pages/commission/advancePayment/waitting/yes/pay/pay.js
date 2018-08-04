@@ -13,9 +13,9 @@ Page({
   radioChange: function (e) {
     console.log('radio发生change事件，携带value值为：', e.detail.value)
   },
-   onConfirmPaymentTap: function (event) {
+   onPaymentTap: function (event) {
     wx.navigateTo({
-      url: 'waitting/waitting',
+      url: '../../yes_not_money/yes_not_money',
     })
   },
   /**

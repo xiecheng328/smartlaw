@@ -16,49 +16,30 @@
   background: white;
 }
 
-.pay {
-  margin-top: 150rpx;
-  background: white;
+.result {
+  text-align: center;
   font-size: 32rpx;
-  height: 181rpx;
+  background: #f2f2f2;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: red;
 }
 
-#price, #method {
-  display: flex;
+.deal{
+  background: white;
+  height: 181rpx;
+  font-size: 32rpx;
+  text-align: center;
+
+}
+.yes,.add{
   height: 90rpx;
   line-height: 90rpx;
-  padding: 0 62rpx;
-  position: relative;
 }
-
-#price .money {
-  position: absolute;
-  right: 142rpx;
-  top: 0rpx;
-}
-
-#method {
+.add{
+  font-weight: normal;
   border-top: 1rpx solid #f2f2f2;
 }
-
-.radio-group {
-  display: flex;
-  float: right;
-  position: absolute;
-  top: 0rpx;
-  right: 100rpx;
-  transform: scale(0.8);
-}
-
-.radio {
-  width: 150rpx;
-}
-
-.radio radio {
-  float: left;
-  transform: scale(0.8);
-}
-
 #commit {
   width: 280rpx;
   height: 90rpx;
@@ -68,5 +49,5 @@
   border-radius: 10rpx;
   color: white;
   font-size: 32rpx;
-  margin-top: 50rpx;
+  margin-top: 250rpx;
 }

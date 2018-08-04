@@ -65,7 +65,7 @@
       </view>
     </view>
     <view class='bottom'>
-      <button id='commit' form-type="submit">提交</button>
+      <button id='commit' form-type="submit" bindtap='onCommitTap'>提交</button>
     </view>
   </form>
 </view>

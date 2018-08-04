@@ -23,7 +23,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 19,
 			"list": [
 				{
 					"id": -1,
@@ -82,7 +82,67 @@
 				{
 					"id": -1,
 					"name": "5",
-					"pathName": "pages/commission/commmission"
+					"pathName": "pages/commission/commmission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/commmission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/advancePayment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/waitting/not/not",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/waitting/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/waitting/yes/pay/pay",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/commission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/waitting/not/not",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/waitting/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "0",
+					"pathName": "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money"
 				}
 			]
 		}
