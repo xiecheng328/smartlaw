@@ -1,0 +1,58 @@
+<!-- 750 410 -->
+<view class='wrapper1'>
+  <view class='message'>填写预约信息</view>
+  <view class='name'>
+    <view>委托人姓名：</view>
+    <input></input>
+  </view>
+  <view class='call'>
+    <view>委托人电话号码：</view>
+    <input></input>
+  </view>
+  <view class='sadd'>
+    <view>收件人地址：</view>
+    <input></input>
+  </view>
+  <view class='dadd'>
+    <view>详细地址：</view>
+    <input></input>
+  </view>
+</view>
+
+<view class='foo'></view>
+
+<view class='wrapper2'>
+  <view class='detail'>案情描述：</view>
+  <textarea></textarea>
+  <view class='time'>预约时间：</view>
+  <!-- 时间选择器 -->
+  <view class='box'>
+  <view class="riqi">  
+  <picker mode="date" value="{{date}}" start="1978-01-01" end="2058-01-01" bindchange="bindDateChange">  
+    <view class="picker">  
+      选择日期: {{dates}}  
+    </view>  
+  </picker>  
+</view>  
+ <view class="shijian">  
+  <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">  
+    <view class="picker">  
+     选择时间 : {{times}}
+    </view>  
+  </picker>  
+</view>  
+</view>
+
+
+  <view>
+    <view class='yname'>法院名称：</view>
+    <input class='input1'></input>
+  </view>
+  <view>
+    <view class='gname'>法官姓名</view>
+    <input class='input2'></input>
+  </view>
+  <navigator url='../selectioncommentators/selectioncommentators'>
+    下一步
+  </navigator>
+</view>

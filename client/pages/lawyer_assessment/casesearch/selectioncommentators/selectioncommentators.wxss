@@ -1,0 +1,123 @@
+/* pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators.wxss */
+.container{
+  width: 690rpx;
+  height: 1206rpx;
+  /* background:#ccc; */
+  margin: 0 auto;
+  position: relative;
+  /* display: flex; */
+}
+.one{
+  height: 29rpx;
+  line-height: 29rpx;
+  font-size: 30rpx;
+  color: #000;
+  position: absolute;
+  left: 105rpx;
+  top: 61rpx;
+  font-weight: bold;
+}
+.wrapper1,.wrapper2,.wrapper3{
+  width: 180rpx;
+  /* background: blue; */
+  position: absolute;
+  top: 149rpx;
+}
+.wrapper2{
+  left: 261rpx;
+}
+.wrapper3{
+  left: 511rpx;
+}
+.word1,.word2,.word3{
+  font-size: 28rpx;
+  height: 27rpx;
+  line-height: 27rpx;
+  text-align: center;
+}
+.section1,.section2,.section3{
+  width: 180rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  /* background: red;  */
+  border: 1rpx solid #ddd;
+  font-size: 24rpx;
+  text-align: center;
+  margin-top: 24rpx;
+}
+.image1,.image2,.image3{
+  width: 180rpx;
+  height: 180rpx;
+  background: red;
+  margin-top: 20rpx;
+}
+.radio-group{
+  position: relative;
+  top: 480rpx;
+  
+  /* left: 256rpx; */
+  
+}
+label{
+  position: absolute;
+}
+label:nth-child(1){
+  left: 65rpx;
+}
+label:nth-child(2){
+  left: 326rpx;
+}
+label:nth-child(3){
+  left: 576rpx;
+}
+.detail{
+  width: 690rpx;
+  height: 300rpx;
+  position: relative;
+  top: 590rpx;
+  border: 1rpx solid #ddd;
+  font-size: 23rpx;
+  color: #666;
+  /* background: blue; */
+}
+.detail .judge,.lnquisitor,.lawyer{
+  position: absolute;
+  /* background: red; */
+  left: 21rpx;
+  top: 20rpx;
+}
+.word4{
+  font-size: 30rpx;
+  color: #333;
+  position: absolute;
+  top: 541rpx;
+  font-weight: bold;
+}
+
+.money view{
+  position: absolute;
+  font-size: 30rpx;
+  color: #333;
+  height: 29rpx;
+  line-height: 29rpx;
+  top: 0;
+  margin-top: 920rpx;
+  left: 50%;
+  /* width: 200rpx; */
+  transform: translate(-50%,0);
+}
+navigator{
+  width: 200rpx;
+  height: 90rpx;
+  background: #577eff;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  line-height: 90rpx;
+  text-align: center;
+  border-radius: 5rpx;
+  font-size: 26rpx;
+  margin-top: 980rpx;
+  left: 50%;
+  transform: translate(-50%,0)
+}
