@@ -23,12 +23,66 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
 					"name": "1",
-					"pathName": "pages/services/first/first"
+					"pathName": "pages/services/first/first",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "1",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "2",
+					"pathName": "pages/services/bosicheng/dflsh/dflsh",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "2",
+					"pathName": "pages/commission/commmission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "2",
+					"pathName": "pages/demo/demo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "6",
+					"pathName": "pages/commission/advance_payment/advance_payment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "6",
+					"pathName": "pages/commission/commmission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "6",
+					"pathName": "pages/commission/commmission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "5",
+					"pathName": "pages/commission/commmission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "5",
+					"pathName": "pages/commission/commmission"
 				}
 			]
 		}

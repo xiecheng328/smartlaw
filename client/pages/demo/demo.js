@@ -5,30 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    currentTapIndex: 0,
-    list: [
-        {
-        code: '171003111222',
-        status: '已完成',
-        img: 'xx.jpg',
-        name: '律师报告列表'
-      }, {
-        code: '171003111222',
-        status: '已完成',
-        img: 'xx.jpg',
-        name: '律师报告列表'
-      }, {
-        code: '171003111222',
-        status: '已完成',
-        img: 'xx.jpg',
-        name: '律师报告列表'
-      }, {
-        code: '171003111222',
-        status: '已完成',
-        img: 'xx.jpg',
-        name: '律师报告列表'
-      }
-    ]
+  
   },
 
   /**
@@ -85,20 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  tapHandler: function(e){
-    // console.log(e.target.dataset.tapindex);
-
-    this.setData({
-      currentTapIndex: e.target.dataset.tapindex
-    });
-  },
-  show: function(){
-    wx.showToast({
-      title: '成功',
-      icon: 'success',
-      duration: 2000
-    })
   }
 })
