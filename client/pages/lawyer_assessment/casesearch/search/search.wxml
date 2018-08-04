@@ -25,7 +25,7 @@
     <view>{{lawyer.add}}</view>
     <view>{{lawyer.work}}</view>
     <view>{{lawyer.rate}}</view>
-    <navigator url="../lawyerdetails/lawyerdetails" hover-class="navigator-hover" class='details'>查看详情>
+    <navigator url="../reservationpage/reservationpage" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
   <view class='content-wrapper3'>
@@ -34,7 +34,7 @@
     <view>{{lawyer.add}}</view>
     <view>{{lawyer.work}}</view>
     <view>{{lawyer.rate}}</view>
-    <navigator url="../lawyerdetails/lawyerdetails" hover-class="navigator-hover" class='details'>查看详情>
+    <navigator url="../reservationpage/reservationpage" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
   <view class='content-wrapper4'>
@@ -43,7 +43,7 @@
     <view>{{lawyer.add}}</view>
     <view>{{lawyer.work}}</view>
     <view>{{lawyer.rate}}</view>
-    <navigator url="../lawyerdetails/lawyerdetails" hover-class="navigator-hover" class='details'>查看详情>
+    <navigator url="../reservationpage/reservationpage" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
 

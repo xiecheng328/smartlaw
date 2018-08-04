@@ -8,5 +8,4 @@
     <view>毕业院校：{{resume.school}}</view>
     <view>工作年限：{{resume.time}}</view>
   </view>
-  
 </view>

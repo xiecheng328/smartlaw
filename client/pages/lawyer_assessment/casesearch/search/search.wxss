@@ -146,6 +146,7 @@
   top: 66rpx;
   height: 28rpx;
   line-height: 28rpx;
+  font-weight: bold;
 }
 .content-wrapper2 view:nth-child(2){
   font-size: 24rpx;
@@ -183,6 +184,7 @@
   /* width: 69rpx; */
   height: 28rpx;
   line-height: 28rpx;
+  font-weight: bold;
 }
 .content-wrapper3 view:nth-child(2){
   font-size: 24rpx;
@@ -220,6 +222,7 @@
   /* width: 69rpx; */
   height: 28rpx;
   line-height: 28rpx;
+  font-weight: bold;
 }
 .content-wrapper4 view:nth-child(2){
   font-size: 24rpx;

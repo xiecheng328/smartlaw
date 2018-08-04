@@ -5,13 +5,15 @@
   margin: 21rpx auto 0;
   position: relative;
   font-family: PingFangSC;
+  border-radius:5rpx; 
+  box-shadow: 2rpx 2rpx 10rpx 0 rgba(153, 153, 153, 0.158);
 }
 .lawyerresume-wrapper{
   width: 290rpx;
   height: 263rpx;
   position: absolute;
   left: 30rpx;
-  top: 86rpx;
+  top: 86rpx; 
   /* background: red; */
 }
 .lawyerresume-wrapper view{
@@ -25,6 +27,7 @@
 }
 .lawyerresume2{
   /* background: red; */
+  font-weight: bold;
   position: absolute;
   font-size: 30rpx;
   color: #333;

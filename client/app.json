@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/demo/demo",
+    "pages/lawyer_assessment/lawyer_assessment",
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/mine/mine",
@@ -10,15 +10,16 @@
     "pages/community/question/questionIndex/questionIndex",
     "pages/community/question/questionAsk/questionAsk",
     "pages/community/question/questionDetails/questionDetails",
-    "pages/services/first/first",
     "pages/demo/demo",
-    "pages/lawyer_assessment/lawyer_assessment",
     "pages/lawyer_assessment/ofsearch/ofsearch",
     "pages/lawyer_assessment/casesearch/search/search",
+    "pages/lawyer_assessment/casesearch/reservationpage/reservationpage",
     "pages/lawyer_assessment/casesearch/lawyerdetails/lawyerdetails",
+
+    "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators",
     "pages/lshff/lshff",
     "pages/htsc/htsc",
-    "pages/htsc/dflsh/dflsh"
+    "pages/htsc/dflsh/dflsh",
     "pages/services/first/first"
   ],
   "window": {
@@ -36,7 +37,7 @@
       {
         "selectedIconPath": "pages/images/lvshi2.png",
         "iconPath": "pages/images/lvshi1.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/lawyer_assessment/lawyer_assessment",
         "text": "律师评估"
       },
       {
