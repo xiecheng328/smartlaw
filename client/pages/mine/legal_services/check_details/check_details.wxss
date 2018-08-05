@@ -1,0 +1,41 @@
+/* pages/mine/legal_services/check_details/check_details.wxss */
+
+.container {
+  padding: 30rpx 20rpx 0 20rpx;
+  font-size: 24rpx;
+  color: #333;
+}
+
+/* 委托人部分 */
+
+.header {
+  border-bottom: 1px solid #ddd;
+}
+
+.legal_type {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.legal_common {
+  padding-bottom: 21rpx;
+}
+
+/* 服务律师部分 */
+
+.lawyer_content {
+  padding: 32rpx 0 31rpx 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 订单状态部分 */
+.order_status{
+  padding: 33rpx 0;
+  border-bottom: 1px solid #ddd;  
+}
+.strong{
+  font-weight: bold;
+}
+.footer{
+  padding-top: 33rpx;
+}

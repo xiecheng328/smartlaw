@@ -1,0 +1,121 @@
+<!--pages/mine/paylist/payList.wxml-->
+<scroll-view scroll-x="true" bindscroll="scroll" class="scroll-view_H list-liu">
+  <view class="scroll-view-item_H swiper-tab-list {{currentTab==0?'on':''}}" data-current="0" bindtap="swichNav" hover-class="eee">全部</view>
+  <view class="scroll-view-item_H swiper-tab-list {{currentTab==1?'on':''}}" data-current="1" bindtap="swichNav" hover-class="eee">待付款</view>
+  <view class="scroll-view-item_H swiper-tab-list {{currentTab==2?'on':''}}" data-current="2" bindtap="swichNav" hover-class="eee">待发货</view>
+  <view class="scroll-view-item_H swiper-tab-list {{currentTab==3?'on':''}}" data-current="3" bindtap="swichNav" hover-class="eee">待收货</view>
+</scroll-view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange" style="height:{{clientHeight?clientHeight+'px':'auto'}}">
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+      <view class="kong"></view>
+      <!--写入显示内容  -->
+      <view class="list" wx:for="{{list}}" wx:key="{{index}}">
+        <view class='list-top'>
+          <view class='list-code'>
+            <view>订单号</view>
+            <view>{{item.code}}</view>
+          </view>
+          <view style="color:#577eff" wx:if="{{item.status==='已完成'}}">{{item.status}}</view>
+          <view style="color:#ff5757" wx:if="{{item.status!=='已完成'}}">{{item.status}}</view>
+        </view>
+        <view class='list-middle'>
+          <image src='{{item.img}}'></image>
+          <view>{{item.name}}</view>
+        </view>
+        <view class='list-bottom'>
+          <view>一个包裹共{{item.amount}}件商品</view>
+          <view wx:if="{{item.isPay}}" style="color: #577eff">实付 ￥{{item.price}}</view>
+          <view wx:if="{{!item.isPay}}" style="color: #ff5757">应付 ￥{{item.price}}</view>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+      <view class="kong"></view>
+      <view class="list" wx:for="{{list}}" wx:key="{{index}}" wx:if="{{!item.isPay}}">
+        <view class='list-top'>
+          <view class='list-code'>
+            <view>订单号</view>
+            <view>{{item.code}}</view>
+          </view>
+          <view style="color:#577eff" wx:if="{{item.status==='已完成'}}">{{item.status}}</view>
+          <view style="color:#ff5757" wx:if="{{item.status!=='已完成'}}">{{item.status}}</view>
+        </view>
+        <view class='list-middle'>
+          <image src='{{item.img}}'></image>
+          <view>{{item.name}}</view>
+        </view>
+        <view class='list-bottom'>
+          <view>一个包裹共{{item.amount}}件商品</view>
+          <view wx:if="{{item.isPay}}" style="color: #577eff">实付 ￥{{item.price}}</view>
+          <view wx:if="{{!item.isPay}}" style="color: #ff5757">应付 ￥{{item.price}}</view>
+        </view>
+      </view>
+      <button class='btn-pay'>确认支付</button>
+    </scroll-view>
+
+
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+      <view class="kong"></view>
+      <!--写入显示内容  -->
+      <view class="list" wx:for="{{list}}" wx:key="{{index}}" wx:if="{{item.status=='待发货'}}">
+        <view class='list-top'>
+          <view class='list-code'>
+            <view>订单号</view>
+            <view>{{item.code}}</view>
+          </view>
+          <view style="color:#577eff" wx:if="{{item.status==='已完成'}}">{{item.status}}</view>
+          <view style="color:#ff5757" wx:if="{{item.status!=='已完成'}}">{{item.status}}</view>
+        </view>
+        <view class='list-middle'>
+          <image src='{{item.img}}'></image>
+          <view>{{item.name}}</view>
+        </view>
+        <view class='list-bottom'>
+          <view>一个包裹共{{item.amount}}件商品</view>
+          <view wx:if="{{item.isPay}}" style="color: #577eff">实付 ￥{{item.price}}</view>
+          <view wx:if="{{!item.isPay}}" style="color: #ff5757">应付 ￥{{item.price}}</view>
+        </view>
+      </view>
+      <view class='logistics'>
+        <view class='logistics-top'>物流信息</view>
+        <view wx:for="{{logistics1}}" wx:key="{{index}}" class='logistics-list'>{{item.data}} {{item.time}} {{item.msg}}</view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+      <view class="kong"></view>
+      <view class="list" wx:for="{{list}}" wx:key="{{index}}" wx:if="{{item.status=='待收货'}}">
+        <view class='list-top'>
+          <view class='list-code'>
+            <view>订单号</view>
+            <view>{{item.code}}</view>
+          </view>
+          <view style="color:#577eff" wx:if="{{item.status==='已完成'}}">{{item.status}}</view>
+          <view style="color:#ff5757" wx:if="{{item.status!=='已完成'}}">{{item.status}}</view>
+        </view>
+        <view class='list-middle'>
+          <image src='{{item.img}}'></image>
+          <view>{{item.name}}</view>
+        </view>
+        <view class='list-bottom'>
+          <view>一个包裹共{{item.amount}}件商品</view>
+          <view wx:if="{{item.isPay}}" style="color: #577eff">实付 ￥{{item.price}}</view>
+          <view wx:if="{{!item.isPay}}" style="color: #ff5757">应付 ￥{{item.price}}</view>
+        </view>
+      </view>
+      <view class='logistics'>
+        <view class='logistics-top'>物流信息</view>
+        <view wx:for="{{logistics2}}" wx:key="{{index}}" class='logistics-list'>{{item.data}} {{item.time}} {{item.msg}}</view>
+      </view>
+      <button class='btn-pay' bindtap="confirm" data-status="已完成">确认收货</button>
+    </scroll-view>
+  </swiper-item>
+
+</swiper>

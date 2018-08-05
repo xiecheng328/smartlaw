@@ -1,6 +1,6 @@
 <!--pages/community/community_index/community_index.wxml-->
 <view>
-  <navigator url="" hover-class="navigator-hover" class='term'>
+  <navigator url="../community_consult/community_consult" hover-class="navigator-hover" class='term'>
       <view class='logo logo1'>
         <image src='../../images/first.png'></image>
       </view>
