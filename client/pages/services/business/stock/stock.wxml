@@ -1,2 +1,37 @@
-<!--pages/services/business/stock/stock.wxml-->
-<text>pages/services/business/stock/stock.wxml</text>
+<view class='relation-title'>
+	请填写一下必要信息
+</view>
+<view class='relation-form'>
+	<view class="section">
+  		<view class="section__title">
+		  	请选择相关类型:
+		</view>
+		 <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
+   			 <view class="picker">
+    			  当前选择：{{array1[index1]}}
+   			 </view>
+ 		 </picker>
+  		
+		 <view class="section__title">
+		  	请选择所在地区:
+		</view>
+		 <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array2}}">
+   		 	<view class="picker">
+    		  当前选择：{{array2[index2]}}
+  		 	 </view>
+ 		 </picker>
+  		
+	</view>
+	<view>
+		<view>
+			案件描述：
+		</view>
+		<view>
+			<textarea class='text-box' placeholder="请描述您的问题，以便律师更精确的回复您" auto-focus />
+		</view>
+	</view>
+
+	<view class='btn'>
+	<button bindtap="aa" bindtap='gotoPayPage'>下一步</button>
+	</view>
+</view>

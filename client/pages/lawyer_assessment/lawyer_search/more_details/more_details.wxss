@@ -1,5 +1,4 @@
 /* pages/lawyer_assessment/lawyer_search/more_details/more_details.wxss */
-/* pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxss */
 .canvas {
     width: 320px;
     height: 284px;

@@ -11,7 +11,7 @@
     <scroll-view scroll-y="{{true}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
       <view class="kong"></view>
       <!--写入显示内容  -->
-      <view class="list" wx:for="{{list}}" wx:key="{{index}}">
+      <view class="list" wx:for="{{list}}" wx:key="{{index}}" bindtap="moreDetails">
         <view class='list-top'>
           <view class='list-code'>
             <view>订单号</view>

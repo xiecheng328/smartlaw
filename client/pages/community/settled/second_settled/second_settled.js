@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    prompt:false,
     oroute: '../../../images/upload2.png',
     oroute2: '../../../images/upload2.png',
     oroute3: '../../../images/upload2.png',
@@ -127,18 +128,22 @@ Page({
           'Content-Type': 'application/json'
         },
         success: function (res) {
-          console.log('success');
-          wx.showToast({
-            title: '提交成功',
-            icon: 'succes',
-            duration: 1000,
-            mask: true
+          that.setData({
+            prompt: true
           })
           // wx.clearStorageSync();
           // wx.removeStorageSync('key');
         }
       })
     }
+  },
+  close_prompt:function(){
+    this.setData({
+      prompt: false
+    });
+    wx.navigateBack({
+      delta: 2
+    });
   },
   /**
    * 生命周期函数--监听页面加载
@@ -172,7 +177,6 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log(getCurrentPages());
     wx.navigateBack({
       delta: 1
     })

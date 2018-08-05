@@ -1,0 +1,65 @@
+.nav-tit{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100rpx;
+    background: white;
+    z-index: 2;
+}
+.nav-item{
+    flex: 1;
+    text-align: center;
+    line-height: 100rpx;
+}
+.selected{
+    border-bottom: 1px solid #577EFF
+}
+.nav-list{
+    width:700rpx;
+    margin: 120rpx auto 0;
+}
+.nav-lawyerInfo{
+    display: flex;
+    margin-bottom: 40rpx;
+    height: 120rpx;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.nav-navigator{
+    display: flex;
+}
+.nav-img{
+    position: relative;
+    height: 120rpx;
+    width:120rpx;
+}
+.nav-img image{
+    width:80rpx;
+    height: 80rpx;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40rpx;
+    margin-top: -40rpx;
+    vertical-align: middle;
+}
+.nav-message{
+    margin-left: 50rpx;
+}
+.nav-message>text{
+    display: block;
+    font-size: 28rpx;
+}
+.nav-message>text:nth-child(1){
+    font-size: 32rpx;
+    font-weight: bold;
+}
+.nav-contact{
+    margin-left: 20rpx;
+}
+.nav-contact image{
+    width:50rpx;
+    height: 50rpx;
+}
