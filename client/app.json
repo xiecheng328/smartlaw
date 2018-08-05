@@ -1,11 +1,34 @@
 {
     "pages": [
+        "pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details",         
+        "pages/lawyer_assessment/lawyer_search/more_details/more_details",              
+        "pages/lawyer_assessment/lawyer_assessment",      
+        "pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result",
+        "pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead",
+        "pages/lawyer_assessment/judgeSearch/personal-information/personal-information",
+        "pages/lawyer_assessment/lawyer_search/more_details/more_details",        
+        "pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details",        
+        "pages/lawyer_assessment/lawyer_search/personal_message/personal_message",
+        "pages/lawyer_assessment/lawyer_search/lawyer_search",
+        "pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction",
+        "pages/lawyer_assessment/lawyer_search/payment/payment",
+        "pages/lawyer_assessment/ofsearch/information/information",     
+        "pages/lawyer_assessment/ofsearch/skill/skill",
+        "pages/lawyer_assessment/ofsearch/ofsearch",    
+        "pages/lawyer_assessment/ofsearch/answer/answer",    
+        "pages/lawyer_assessment/ofsearch/cause/cause",
+        "pages/lawyer_assessment/ofsearch/pay1/pay1",    
+        "pages/lawyer_assessment/ofsearch/ranking/ranking",    
+        "pages/lawyer_assessment/ofsearch/self/self",      
+        "pages/lawyer_assessment/ofsearch/lawlist/lawlist",  
         "pages/commission/commission",
         "pages/services/bosicheng/dflsh/dflsh",
         "pages/services/bosicheng/htsc/htsc",
         "pages/services/bosicheng/yyxx/yyxx",
         "pages/services/bosicheng/lslb/lslb",
         "pages/services/bosicheng/lshff/lshff",
+        "pages/services/one-to-one/one-to-one1/one-to-one1",
+        "pages/services/one-to-one/one-to-one2/one-to-one2",
         "pages/index/index",
         "pages/addCgi/addCgi",
         "pages/community/community_index/community_index",
@@ -21,6 +44,10 @@
         "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
         "pages/commission/advancePayment/waitting/yes/pay/pay",
         "pages/mine/mine",
+        "pages/mine/legal_services/legal_services",
+        "pages/mine/legal_services/check_details/check_details",
+        "pages/mine/legal_services/change_info/change_info",
+        "pages/mine/legal_services/change_info/go_pay/go_pay",
         "pages/mine/paylist/payList",
         "pages/services/business/stock/stock",
         "pages/services/business/knowledge/knowledge",
@@ -45,7 +72,11 @@
         "pages/services/business/lawsuit/pay/pay",
         "pages/services/business/relation/recommend/recommend",
         "pages/services/business/relation/dialog/dialog",
-        "pages/services/business/relation/pay/pay"
+        "pages/services/business/relation/pay/pay",
+        "pages/lawyer_assessment/casesearch/searchbefore/searchbefore",
+        "pages/lawyer_assessment/casesearch/search/search",
+        "pages/lawyer_assessment/casesearch/reservationpage/reservationpage",
+        "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
@@ -62,7 +93,7 @@
             {
                 "selectedIconPath": "pages/images/lvshi2.png",
                 "iconPath": "pages/images/lvshi1.png",
-                "pagePath": "pages/index/index",
+                "pagePath":"pages/lawyer_assessment/lawyer_assessment",
                 "text": "律师评估"
             },
             {
@@ -80,7 +111,7 @@
             {
                 "selectedIconPath": "pages/images/wode2.png",
                 "iconPath": "pages/images/wode1.png",
-                "pagePath": "pages/community/community_index/community_index",
+                "pagePath": "pages/mine/mine",
                 "text": "我的"
             },
             {

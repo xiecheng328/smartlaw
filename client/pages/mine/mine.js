@@ -8,15 +8,18 @@ Page({
       minelist:[
         {
           img: "images/clock.png",
-          title:"我的预约"
+          title:"我的预约",
+          url:'aa'
         },
         {
           img: "images/payList.png",
-          title: "付费报告列表"
+          title: "付费报告列表",
+          url: "paylist/payList"
         },
         {
           img: "images/serverList.png",
-          title: "法律服务列表"
+          title: "法律服务列表",
+          url:'legal_services/legal_services'
         },
         {
           img: "images/answer.png",
@@ -28,7 +31,7 @@ Page({
         },
         {
           img: "images/favorite.png",
-          title: "我的收藏"
+          title: "我的收藏",
         },
         {
           img: "images/enter.png",

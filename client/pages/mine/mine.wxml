@@ -8,7 +8,7 @@
   </view>
   <view class="content">
 
-    <navigator class="mine-list" url='aa' wx:for="{{minelist}}" wx:key="{{index}}">
+    <navigator class="mine-list" url='{{item.url}}' wx:for="{{minelist}}" wx:key="{{index}}">
       <image src="{{item.img}}" class="mine-img"></image>
       <view class="mine-text">{{item.title}}</view>
       <view class="arrow">{{gt}}</view>

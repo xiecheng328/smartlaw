@@ -1,5 +1,5 @@
 <view class='content'>
-  <navigator class='search1' url='casesearch/search/search'>
+  <navigator class='search1' url='casesearch/searchbefore/searchbefore'>
     <image src='images/1.png' class='img1'></image>
     <view class='search1-1'>案由搜索</view>
   </navigator>
@@ -15,7 +15,7 @@
     <image src='images/4.png' class='img4'></image>
     <view class='search4-1'>律所搜索</view>
   </navigator> 
-  <navigator class='search5'>
+  <navigator class='search5' url="judgeSearch/judgeSearchHead/judgeSearchHead">
     <image src='images/5.png' class='img5'></image>
     <view class='search5-1'>法官搜索</view>
   </navigator>

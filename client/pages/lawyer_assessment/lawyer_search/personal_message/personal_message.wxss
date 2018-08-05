@@ -1,0 +1,63 @@
+/* pages/lawyer_assessment/lawyer_search/personal_message/personal_message.wxss */
+page{
+  background: #f0f2f5
+}
+.name-input,.phone-input,.name1-input,.phone1-input,.address-input,.address1-input{
+  width:520rpx;
+  height:60rpx;
+  background:rgba(255,255,255,1);
+  border: 1px solid #ddd;
+}
+.name-input,.address-input,.name1-input{
+  margin-left: 63rpx;
+}
+.phone-input,.phone1-input{
+  margin-left: 15rpx;
+}
+.address1-input{
+  margin-left: 87rpx;
+}
+.name,.phone,.name1,.phone1,.address,.address1{
+  display: flex;
+  height:60rpx;  
+}
+.name,.phone,.phone1,.address,.address1{
+  margin-top: 20rpx;  
+}
+.name1{
+  margin-top: 20rpx;
+}
+.name view,.phone view,.name1 view,.phone1 view,.address view,.address1 view{
+  color: #333;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  margin-left: 20rpx;
+}
+.text{
+  width:750rpx;
+  height:20rpx;
+  background:#eee;
+  margin-top: 20rpx;
+}
+.casedes{
+  margin-top: 23rpx;
+  color: #333;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}
+.textdes{
+  width:710rpx;
+  height:300rpx;
+  background:rgba(255,255,255,1);
+  margin: 24rpx auto;
+}
+.btn{
+  margin: 20rpx auto;
+  width:200rpx;
+  height:90rpx;
+  background:rgba(87,126,255,1);
+  border-radius:5px;
+  text-align: center;
+  line-height: 90rpx;
+  color: #fff;
+}

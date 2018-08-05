@@ -1,0 +1,104 @@
+/* pages/mine/legal_services/change_info/change_info.wxss */
+.wrapper1{
+  width: 750rpx;
+  height: 410rpx;
+  position: relative;
+}
+.message{
+  width: 180rpx;
+  height: 29rpx;
+  /* background: red; */
+  color: #333;
+  font-weight: bold;
+  font-size: 30rpx;
+  line-height: 29rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 20rpx;
+}
+.name{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 108rpx;
+}
+.call{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 188rpx;
+}
+.sadd{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 268rpx;
+}
+.dadd{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 349rpx;
+  /* display: flex; */
+}
+.wrapper1 input{
+  width: 520rpx;
+  height: 60rpx;
+  /* background: red; */
+  margin-top: -42rpx;
+  margin-left: 190rpx;
+  position: absolute;
+  border: 1rpx solid #ddd; 
+}
+.foo{
+  width: 750rpx;
+  height: 20rpx;
+  background: #eee;
+}
+.wrapper2{
+  /* background: red; */
+  position: relative;
+  overflow: hidden;
+}
+.wrapper2 .detail{
+  height: 23rpx;
+  color: #333;
+  line-height: 23rpx;
+  font-size: 24rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 23rpx;
+}
+.wrapper2 textarea{
+  width: 710rpx;
+  height: 310rpx;
+  border: 1rpx solid #ddd;
+  margin: 70rpx auto 0;
+}
+
+/* 按钮 */
+.change_btn{
+  width:200rpx;
+  height: 90rpx;
+  margin-top: 20rpx;
+  background: #577EFF;
+  font-size: 30rpx;
+  color: #fff;
+  line-height: 90rpx;
+}

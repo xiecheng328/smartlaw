@@ -1,0 +1,118 @@
+.title{
+  height: 118rpx;
+  border-bottom:1rpx solid grey;
+  text-align: center;
+  line-height:118rpx;
+}
+.container{
+  font-size:32rpx;
+}
+#client{
+  margin:30rpx 40rpx;
+  height: 500rpx;
+}
+.input{
+  border:3rpx solid  rgba(0, 0, 0, 0.2)
+
+}
+#cname{
+  display: flex;
+  flex-direction: row;
+
+}
+#ctel{
+  display: flex;
+  margin-top: 52rpx;
+  margin-bottom: 28rpx;
+}
+.picker{
+    background-color: #FFFFFF;
+    margin: 50rpx 0 40rpx 0;
+}
+.receiver{
+  width: 100%;
+  height: 500rpx;
+  border-top:3rpx solid  rgba(0, 0, 0, 0.2);
+
+}
+
+#detail{
+  margin:10rpx 45rpx 5rpx 0 ;
+  height: 120rpx;
+}
+
+#case-description{
+  margin:45rpx 45rpx 20rpx 45rpx;
+
+}
+#detail-case{
+  height: 180rpx;
+  margin-top: 10rpx;
+}
+
+#bottom{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.navigate{
+  margin-right:60rpx;
+  margin-top:20rpx;
+  height: 50rpx;
+}
+.phone_personal{
+width: 100%;
+color:#000;
+height:60rpx;
+line-height:60rpx;
+border:3rpx solid  rgba(0, 0, 0, 0.2);
+margin: 10rpx 10rpx; 
+float: left;
+}
+.refer{
+  margin: 10rpx 40rpx 0  40rpx; 
+  float: left;
+
+}
+.phone_one{
+display: flex;
+position: relative;
+justify-content: space-between;
+width:90%;
+height:60rpx;
+margin:0 auto;
+border-radius: 10rpx;
+border-bottom:2rpx solid rgb(255, 255, 255);
+}
+.person_box{
+position: relative;
+}
+.phone_select{
+margin-top:-32rpx;
+z-index: 100;
+position: absolute;
+}
+.select_one{
+background-color:#eee;
+width:657rpx;
+height:60rpx;
+line-height:60rpx;
+margin:0 5%;
+border-bottom:2rpx solid rgba(0, 0, 0, 0.2);
+margin-left: 47rpx;
+}
+.personal_image{
+z-index: 100;
+position: absolute;
+right:2.5%;
+width: 34rpx;
+height: 34rpx;
+margin:20rpx 20rpx 40rpx 0;
+transition: All 0.4s ease;
+-webkit-transition: All 0.4s ease;
+
+}
+
+.rotateRight{
+transform: rotate(180deg);
+}
+

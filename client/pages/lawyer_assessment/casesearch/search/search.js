@@ -11,12 +11,26 @@ Page({
         third:'案由三',
         forth:'案由四'
       },
-      lawyer:{
+      lawyer1:{
         name:'李XX',
         time:'执业10年',
         add:'XXX律师事务所',
         work:'共处理68件官司',
         rate:'总胜率68%'
+      },
+      lawyer2: {
+        name: '王XX',
+        time: '执业10年',
+        add: 'XXX律师事务所',
+        work: '共处理68件官司',
+        rate: '总胜率68%'
+      },
+      lawyer3: {
+        name: '张XX',
+        time: '执业10年',
+        add: 'XXX律师事务所',
+        work: '共处理68件官司',
+        rate: '总胜率68%'
       }
   },
 

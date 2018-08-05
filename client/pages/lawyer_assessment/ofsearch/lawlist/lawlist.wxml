@@ -1,0 +1,18 @@
+ <view class='title'>
+ {{msg}}
+ </view>
+ <view class='content-wrapper1'>
+    当前律所下所有律师:
+  </view>
+<view class='content-wrapper2' wx:for='{{lawyer}}' >
+    <view>
+    <image src="{{item.img}}"></image>
+    </view>
+    <view>{{item.time}}</view>
+    <view>{{item.add}}</view>
+    <view>{{item.work}}</view>
+    <view>{{item.rate}}</view>
+    <navigator url="../skill/skill" hover-class="navigator-hover" class='details'>查看详情>
+  </navigator>
+  </view>
+
