@@ -1,1 +1,50 @@
 /* pages/lawyer_assessment/lawyer_search/payment/payment.wxss */
+
+.header{
+  margin:30rpx 481rpx 31rpx 20rpx;
+  font-size:30rpx;
+  color:#333;
+  font-weight: 700;
+  /* font-style: */
+}
+.content1{
+  width:710rpx;
+  height: 90rpx;
+  font-size:26rpx;
+  margin:0 auto;
+  position: relative;
+  line-height: 90rpx;
+  border:1rpx solid #DDDDDD;
+  border-radius: 5rpx;
+}
+.content1 view{
+  margin-left: 19rpx;
+}
+.radio{
+  position:absolute;
+  right:19rpx;
+}
+.content2 image{
+  width:50rpx;
+  height: 44rpx;
+  margin:23rpx 19rpx 23rpx 20rpx;
+}
+.content2{
+  width:710rpx;
+  height: 90rpx;
+  font-size:26rpx;
+  margin:0 auto;
+  position: relative;  
+  line-height: 90rpx;
+  border:1rpx solid #DDDDDD;
+  border-radius: 5rpx;
+  margin-bottom:20rpx;
+  display: flex;
+}
+button{
+  width:710rpx;
+  height: 90rpx;
+  background: #577EFF;
+  color:#FFFFFF;
+  margin-top:100rpx;
+}
