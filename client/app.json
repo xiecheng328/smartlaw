@@ -1,5 +1,6 @@
 {
     "pages": [
+<<<<<<< HEAD
         "pages/lawyer_assessment/lawyer_assessment",        
         "pages/lawyer_assessment/lawyer_search/more_details/more_details",        
         "pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details",        
@@ -7,6 +8,18 @@
         "pages/lawyer_assessment/lawyer_search/lawyer_search",
         "pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction",
         "pages/lawyer_assessment/lawyer_search/payment/payment",
+=======
+        "pages/lawyer_assessment/lawyer_assessment",
+        "pages/lawyer_assessment/ofsearch/information/information",     
+        "pages/lawyer_assessment/ofsearch/skill/skill",
+        "pages/lawyer_assessment/ofsearch/ofsearch",    
+        "pages/lawyer_assessment/ofsearch/answer/answer",    
+        "pages/lawyer_assessment/ofsearch/cause/cause",
+        "pages/lawyer_assessment/ofsearch/pay1/pay1",    
+        "pages/lawyer_assessment/ofsearch/ranking/ranking",    
+        "pages/lawyer_assessment/ofsearch/self/self",      
+        "pages/lawyer_assessment/ofsearch/lawlist/lawlist",  
+>>>>>>> 91d80982252e2935cdc8b6f8408a1f908d5a7654
         "pages/commission/commission",
         "pages/services/bosicheng/dflsh/dflsh",
         "pages/services/bosicheng/htsc/htsc",
