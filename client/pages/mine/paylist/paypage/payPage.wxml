@@ -1,31 +1,15 @@
-<!--pages/mine/paylist/paypage/payPage.wxml-->
-<view class='content'>
-  <view>
-    <view class='text'>确认您选择的订单:</view>
-    <view wx:for="{{orders}}" wx:key="{{index}}" class='list order'>
-      <view>{{item.name}}</view>
-      <view>
-        <icon wx:if="{{selected}}" type="success_circle" size="20" class="l-mycheck" />
-        <icon wx:else type="circle" size="20" class="l-mycheck" />
-      </view>
-
-    </view>
+<view class='header'>确认您选择的包裹:</view>
+<view class='content1'>
+  <view>律师报告列表
+    <radio class='radio' checked='true'></radio>
   </view>
-  <view>
-    <view class='text'>支付方式:</view>
-    <view wx:for="{{payMethods}}" wx:key="{{index}}" class='list pay-methods'>
-      <view>
-        <image src="{{item.img}}" class='pay-icon'></image>
-        <view>
-          {{item.payMode}}
-        </view>
-      </view>
-
-      <view>
-        <icon wx:if="{{selected}}" type="success_circle" size="20" class="l-mycheck" />
-        <icon wx:else type="circle" size="20" class="l-mycheck" />
-      </view>
-    </view>
-  </view>
-  <button></button>
 </view>
+<view class='header'>支付方式:</view>
+<radio-group>
+  <view class='content2' wx:for='{{items}}' wx:key="{{index}}">
+    <image src="{{item.img}}"></image>
+    <view class='payname'>{{item.logo}}{{index}}</view>
+    <radio class='radio' checked='{{item.checked}}'></radio>
+  </view>
+</radio-group>
+<button bindtap='app'>支付</button>
