@@ -16,26 +16,53 @@
 <view class="nav {{currentTapIndex==1?'selected': ''}}" bindtap="tapHandler" data-tapindex="1">企业法律服务</view>
 <view class="nav {{currentTapIndex==2?'selected': ''}}" bindtap="tapHandler" data-tapindex="2">案件委托服务</view>
 </view>
+
+
  <swiper class='itemsBox' current='{{currentTapIndex}}'>
   <swiper-item>
     <view wx:for="{{firstList}}" wx:key="{{index}}">
-      <view class='list-item'>{{item.name}}
-      <navigator class='item-right'>></navigator></view> 
-    </view>
+
+        <navigator wx:if="{{index==0}}" url="../one-to-one/one-to-one"       hover-class="navigator-hover">
+        <view class='list-item'>{{item.name}}
+        <navigator class='item-right'>></navigator></view> 
+    </navigator>
+        <navigator wx:if="{{index==1}}" url="../one-to-one/one-to-one1"       hover-class="navigator-hover">
+        <view class='list-item'>{{item.name}}
+        <navigator class='item-right'>></navigator></view> 
+    </navigator>
+        <navigator wx:if="{{index==2}}" url="../one-to-one/one-to-one1"       hover-class="navigator-hover">
+        <view class='list-item'>{{item.name}}
+        <navigator class='item-right'>></navigator></view> 
+    </navigator>
+        <navigator wx:if="{{index==3}}" url="../one-to-one/one-to-one1"       hover-class="navigator-hover">
+        <view class='list-item'>{{item.name}}
+        <navigator class='item-right'>></navigator></view> 
+    </navigator>
+    <navigator wx:if="{{index==4}}" url="../one-to-one/one-to-one1/one-to-one1"       hover-class="navigator-hover">
+        <view class='list-item'>{{item.name}}
+        <navigator class='item-right'>></navigator></view> 
+    </navigator>
+
+     </view>
+
   </swiper-item>
+
+
   <swiper-item>
     <view wx:for="{{secondList}}" wx:key="{{index}}">
-      <view class='list-item'>{{item.name}}
-       <navigator class='item-right'>></navigator>
-      </view>
-      
+        <view class='list-item'>{{item.name}}
+        <navigator class='item-right'>></navigator>
+      </view>  
     </view>
   
   </swiper-item>
+
   <swiper-item>
   <view class='list-item'>案件委托服务
   <navigator class='item-right'>></navigator></view>
   </swiper-item>
+
+
 </swiper>
 </view>
 </view>

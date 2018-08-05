@@ -1,0 +1,46 @@
+<view class="title">请填写一下必要信息</view>
+<view class="container">
+    <view id="client">
+      <view id="cname">委托人姓名：
+        <input type="text" class='input'></input>
+      </view>
+      <view id='ctel'>委托人电话号码： 
+        <input type="text" class='input'></input>
+      </view>
+      <view class="section">
+          <picker mode="region" bindchange="bindRegionChange" value="{{region}}"   custom-item="{{customItem}}">
+            <view class="picker">
+            委托人约谈地址：{{region[0]}}-{{region[1]}}-{{region[2]}}
+            </view>
+          </picker>
+      </view>
+      <view class='detail-area'>
+            <label class='label'>地址详情：</label>
+            <input type="text" class='input' id='detail'></input>
+      </view>
+    </view>
+    <view class='receiver'>
+      <view  class="refer">涉及分类：</view>
+        <view class="phone_one" bindtap="clickPerson">
+           <view class="phone_personal">{{firstPerson}}</view>
+         <image src="../../../images/gobottom.png" class="personal_image {{selectArea ? 'rotateRight' :''}}"></image>
+        </view>
+        <view class="person_box">
+          <view class="phone_select" hidden="{{selectPerson}}">
+            <view class="select_one" bindtap="mySelect" data-me="工商赔偿">工商赔偿</view>
+            <view class="select_one" bindtap="mySelect" data-me="财产继承">财产继承</view>
+            <view class="select_one" bindtap="mySelect" data-me="婚姻纠纷">婚姻纠纷</view>
+          </view>
+        
+ 
+        <view id='case-description'>咨询内容简要描述：
+        <input class='input' id='detail-case'></input>
+        </view>
+             </view>
+        <view id='bottom'>
+          <navigator url="../one-to-one2/one-to-one2" class='navigate'>
+          <label>下一步</label>
+          </navigator>
+        </view>
+    </view> 
+</view>

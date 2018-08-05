@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/services/one-to-one/one-to-one1/one-to-one1",
     "pages/lawyer_assessment/lawyer_assessment",
     "pages/index/index",
     "pages/addCgi/addCgi",
@@ -21,7 +22,8 @@
     "pages/services/bosicheng/lslb/lslb",
     "pages/services/bosicheng/yyxx/yyxx",
     "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators",
-    "pages/services/first/first"
+    "pages/services/first/first",
+    "pages/services/one-to-one/one-to-one2/one-to-one2"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
