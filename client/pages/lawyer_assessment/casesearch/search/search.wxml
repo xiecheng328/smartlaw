@@ -20,29 +20,29 @@
     根据您所选择的地域和案由为您随机生成3位胜率50%以上优质律师
   </view>
   <view class='content-wrapper2'>
-    <view>{{lawyer.name}}</view>
-    <view>{{lawyer.time}}</view>
-    <view>{{lawyer.add}}</view>
-    <view>{{lawyer.work}}</view>
-    <view>{{lawyer.rate}}</view>
+    <view>{{lawyer1.name}}</view>
+    <view>{{lawyer1.time}}</view>
+    <view>{{lawyer1.add}}</view>
+    <view>{{lawyer1.work}}</view>
+    <view>{{lawyer1.rate}}</view>
     <navigator url="../reservationpage/reservationpage" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
   <view class='content-wrapper3'>
-    <view>{{lawyer.name}}</view>
-    <view>{{lawyer.time}}</view>
-    <view>{{lawyer.add}}</view>
-    <view>{{lawyer.work}}</view>
-    <view>{{lawyer.rate}}</view>
+    <view>{{lawyer2.name}}</view>
+    <view>{{lawyer2.time}}</view>
+    <view>{{lawyer2.add}}</view>
+    <view>{{lawyer2.work}}</view>
+    <view>{{lawyer2.rate}}</view>
     <navigator url="../reservationpage/reservationpage" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
   <view class='content-wrapper4'>
-    <view>{{lawyer.name}}</view>
-    <view>{{lawyer.time}}</view>
-    <view>{{lawyer.add}}</view>
-    <view>{{lawyer.work}}</view>
-    <view>{{lawyer.rate}}</view>
+    <view>{{lawyer3.name}}</view>
+    <view>{{lawyer3.time}}</view>
+    <view>{{lawyer3.add}}</view>
+    <view>{{lawyer3.work}}</view>
+    <view>{{lawyer3.rate}}</view>
     <navigator url="../reservationpage/reservationpage" hover-class="navigator-hover" class='details'>查看详情>
   </navigator>
   </view>
