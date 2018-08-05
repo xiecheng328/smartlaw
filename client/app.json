@@ -1,6 +1,12 @@
 {
     "pages": [
-        "pages/lawyer_assessment/lawyer_assessment",
+        "pages/lawyer_assessment/lawyer_assessment",        
+        "pages/lawyer_assessment/lawyer_search/more_details/more_details",        
+        "pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details",        
+        "pages/lawyer_assessment/lawyer_search/personal_message/personal_message",
+        "pages/lawyer_assessment/lawyer_search/lawyer_search",
+        "pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction",
+        "pages/lawyer_assessment/lawyer_search/payment/payment",
         "pages/commission/commission",
         "pages/services/bosicheng/dflsh/dflsh",
         "pages/services/bosicheng/htsc/htsc",
