@@ -23,18 +23,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 19,
+			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "1",
-					"pathName": "pages/services/first/first",
+					"pathName": "pages/services/business/stock/recommend/recommend",
 					"query": ""
 				},
 				{
-					"id": -1,
+					"id": 1,
 					"name": "1",
-					"pathName": "pages/index/index",
+					"pathName": "pages/services/first/first",
 					"query": ""
 				},
 				{
@@ -142,7 +142,8 @@
 				{
 					"id": -1,
 					"name": "0",
-					"pathName": "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money"
+					"pathName": "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
+					"query": ""
 				}
 			]
 		}

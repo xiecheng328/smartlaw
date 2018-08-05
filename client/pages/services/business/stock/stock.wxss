@@ -1,1 +1,42 @@
-/* pages/services/business/stock/stock.wxss */
+.relation-title{
+	line-height: 130rpx;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	font-size: 36rpx;
+}
+.relation-form{
+	width:630rpx;
+	margin: 30rpx auto 0 auto;
+}
+.picker{
+	line-height: 50rpx;
+	width: 450rpx;
+	font-size: 30rpx;
+	/* border:1px solid black; */
+	margin-top:40rpx;
+	margin-bottom:40rpx; 
+	position: relative;
+}
+.right{
+	width:0;
+height:0;
+border: 10rpx solid transparent;
+border-top-color: black;
+position:absolute;
+content:'';
+right:0rpx;
+top:15rpx;
+}
+.text-box{
+	margin-top: 30rpx;
+	height: 200rpx;
+	background: #ccc;
+}
+.btn{
+	margin-top: 100rpx;
+	
+}
+.btn button{
+background:rgba(87,126,255,1);
+color:white;
+}

@@ -1,0 +1,56 @@
+<view class='nav-tit'>
+    <view data-tapindex="0" class="nav-item {{currentTapIndex==0?'selected': ''}}"  bindtap='indexChange'>
+        胜率最高推荐
+    </view>
+     <view data-tapindex="1" class="nav-item {{currentTapIndex==1?'selected':''}}" bindtap='indexChange'>
+        性价比最高推荐
+    </view>
+</view>
+ <view class='nav-list'>
+    <swiper class='nav-list-swiper' current='{{currentTapIndex}}' style='height:1000rpx;'>
+        <swiper-item>
+            <view   class='nav-lawyerInfo'  wx:for="{{list1}}" wx:key="{{index}}" >
+                <navigator class='nav-navigator' url='{{item.url}}'>
+                    <view class='nav-img'>
+                        <image src="{{item.img}}"></image>
+                     </view>
+                    <view class='nav-message'>
+                        <text>{{item.name}}</text>
+                        <text>{{item.position}}</text>
+                        <text>{{item.address}}</text>
+                    </view>
+                </navigator>
+                <view class='nav-contact'>
+                    <view bindtap='gotoDialog'>
+                        <image src='../../../../images/duanxin.png'></image>
+                    </view>
+                     <view>
+                        <image src='../../../../images/phone.png' bindtap='call'></image>    
+                    </view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item >
+             <view   class='nav-lawyerInfo'  wx:for="{{list2}}" wx:key="{{index}}" url='{{item.url}}'>
+                <navigator class='nav-navigator'>
+                    <view class='nav-img'>
+                        <image src="{{item.img}}"></image>
+                     </view>
+                    <view class='nav-message'>
+                        <text>{{item.name}}</text>
+                        <text>{{item.position}}</text>
+                        <text>{{item.address}}</text>
+                    </view>
+                </navigator>
+                <view class='nav-contact'>
+                    <view>
+                        <image src='../../../../images/duanxin.png'  bindtap='gotoDialog'></image>
+                    </view>
+                     <view bindtap='call'>
+                        <image src='../../../../images/phone.png'></image>    
+                    </view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>
