@@ -63,7 +63,7 @@
             {
                 "selectedIconPath": "pages/images/wode2.png",
                 "iconPath": "pages/images/wode1.png",
-                "pagePath": "pages/community/community_index/community_index",
+                "pagePath": "pages/mine/mine",
                 "text": "我的"
             },
             {
