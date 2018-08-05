@@ -8,6 +8,13 @@ Page({
       selectPerson: true,
       firstPerson: '房屋买卖',
       selectArea: false,
+      bind: true,
+      inform:{
+        '委托人姓名': 'clientName',
+        '委托人电话': 'clientTelNumber',
+        '地址详情': 'AddressDetails',
+        '咨询内容': 'counsellingContent'
+      }
   },
 
   bindRegionChange: function (e) {
@@ -38,7 +45,40 @@ Page({
       selectArea: false,
     })
   },
-
+  //下一步保存表单数据
+  formSubmit: function (e){
+    let that = this;
+    that.setData({
+      bind: true
+    })
+    // for (let key in e.detail.value) {
+    //   if (!e.detail.value[key]) {
+    //     that.setData({
+    //       bind: false
+    //     })
+    //     for (let sign in that.data.inform) {
+    //       if (that.data.inform[sign] === key) {
+    //         wx.showModal({
+    //           title: '提示',
+    //           showCancel: false,
+    //           content: sign + '不能为空',
+    //         })
+    //       } 
+    //     }
+    //   }
+    // }
+    if (this.data.bind) {
+    //   wx.setStorageSync('clientName', e.detail.value.clientName);
+    //   wx.setStorageSync('clientTelNumber', e.detail.value.clientTelNumber);
+    //   wx.setStorageSync('AddressDetails', e.detail.value.AddressDetails);
+    //   wx.setStorageSync('counsellingContent', e.detail.value.counsellingContent);
+    //   wx.setStorageSync('firstPerson', that.data.firstPerson);
+    //   wx.setStorageSync('region', that.data.region);
+      wx.navigateTo({
+        url: '../one-to-one2/one-to-one2',
+      })
+    }
+  },
   /**
    * 页面的初始数据
    */

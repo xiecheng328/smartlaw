@@ -90,6 +90,7 @@ view {
   justify-content: space-between;
 }
 
+
 .btn-pay{
   position: absolute;
   margin: 0 20rpx;

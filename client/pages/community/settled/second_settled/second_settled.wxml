@@ -26,4 +26,11 @@
   </view>
   <button form-type='submit' class='subbtn'>提交审核</button>
   </form>
+  <view class='shade' wx-if="{{prompt}}"></view>
+  <view class='prompt' wx-if="{{prompt}}">
+    <view class='protitle'>信息已提交</view>
+    <view class='proinner'>我们会审核您的信息，审核结果会在一周内以短信的方式告知，请保持手机畅通。
+如有疑问，请拨打400-12345</view>
+    <button class='close' catchtap='close_prompt'>关闭</button>
+  </view>
 </view>
