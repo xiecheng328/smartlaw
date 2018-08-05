@@ -92,7 +92,8 @@ view {
 
 .btn-pay{
   position: absolute;
-  bottom: 0;
+  margin: 0 20rpx;
+  bottom: 20rpx;
   width: 710rpx;
   height: 90rpx;
   background: rgba(87, 126, 255, 1);

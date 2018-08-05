@@ -1,0 +1,22 @@
+/* pages/mine/paylist/paypage/payPage.wxss */
+.content{
+  margin: 0 20rpx;  
+}
+.text{
+  margin: 30rpx 0;
+  color: #333;
+  font-size: 30rpx;
+}
+.list{
+  box-sizing: border-box;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding: 0 19rpx;
+  display: flex;
+  justify-content: space-between;
+  border: 1rpx solid #ddd;
+}
+.pay-icon{
+  width: 50rpx;
+  height: 44rpx;
+}

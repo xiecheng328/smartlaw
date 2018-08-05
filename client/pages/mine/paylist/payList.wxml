@@ -54,7 +54,10 @@
           <view wx:if="{{!item.isPay}}" style="color: #ff5757">应付 ￥{{item.price}}</view>
         </view>
       </view>
+      <navigator  url="paypage/payPage">
       <button class='btn-pay'>确认支付</button>
+        
+      </navigator>
     </scroll-view>
 
 
