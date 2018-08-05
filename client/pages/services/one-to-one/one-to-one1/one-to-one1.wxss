@@ -115,4 +115,7 @@ transition: All 0.4s ease;
 .rotateRight{
 transform: rotate(180deg);
 }
-
+.subbtn{
+  margin-right: 40rpx;
+  float: right;
+}

@@ -1,11 +1,12 @@
 <view class="title">请填写一下必要信息</view>
+<form  bindsubmit="formSubmit" bindreset="formReset">
 <view class="container">
     <view id="client">
       <view id="cname">委托人姓名：
-        <input type="text" class='input'></input>
+        <input type="text" class='input' name="clientName"></input>
       </view>
       <view id='ctel'>委托人电话号码： 
-        <input type="text" class='input'></input>
+        <input type="number" class='input' name="clientTelNumber"></input>
       </view>
       <view class="section">
           <picker mode="region" bindchange="bindRegionChange" value="{{region}}"   custom-item="{{customItem}}">
@@ -16,7 +17,7 @@
       </view>
       <view class='detail-area'>
             <label class='label'>地址详情：</label>
-            <input type="text" class='input' id='detail'></input>
+            <input type="text" class='input' id='detail' name="AddressDetails"></input>
       </view>
     </view>
     <view class='receiver'>
@@ -34,13 +35,14 @@
         
  
         <view id='case-description'>咨询内容简要描述：
-        <input class='input' id='detail-case'></input>
+        <input class='input' id='detail-case' name="counsellingContent"></input>
         </view>
              </view>
         <view id='bottom'>
-          <navigator url="../one-to-one2/one-to-one2" class='navigate'>
-          <label>下一步</label>
-          </navigator>
+          <!-- <navigator url="../one-to-one2/one-to-one2" class='navigate'> -->
+          <button form-type='submit' class='subbtn'>下一步</button>
+          <!-- </navigator> -->
         </view>
     </view> 
 </view>
+</form>

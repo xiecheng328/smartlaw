@@ -35,11 +35,11 @@
     </view>
     <view class='informles'>
       <view class='words'>个人简介:</view>
-      <textarea name="certificate_intro" class='inputtext' auto-focus></textarea>
+      <textarea name="certificate_intro" class='inputtext' auto-focus maxlength='500'></textarea>
     </view>
     <view class='informles'>
       <view class='words'>成功案例:</view>
-      <textarea name="certificate_successcase" class='inputtext' auto-focus></textarea>
+      <textarea name="certificate_successcase" class='inputtext' auto-focus maxlength='500'></textarea>
     </view>
      <view class='informles'>
       <view class='words'>手机号:</view>

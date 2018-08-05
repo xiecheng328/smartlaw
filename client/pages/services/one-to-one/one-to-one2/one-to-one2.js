@@ -8,9 +8,37 @@ Page({
     checkTitle: false,
     checkWX: false,
     checkYL: false,
+    UnionPaybox:false,
+    paynext:false,
+    items: [
+      { name: 'WeChat', value: '微信支付', checked: 'true'},
+      { name: 'UnionPay', value: '银联支付'}
+    ],
   },
-
-
+  radioChange: function (e) {
+    let that=this;
+    console.log('radio发生change事件，携带value值为：', e.detail.value);
+    if (e.detail.value =='UnionPay'){
+      that.setData({
+        UnionPaybox:true
+      })
+    }
+    else{
+      that.setData({
+        UnionPaybox: false
+      })
+    }
+  },
+  paynextpage:function(){
+    this.setData({
+      paynext: true
+    })
+  },
+  closeprompt:function(){
+    this.setData({
+      paynext: false
+    })
+  },
   changeClass: function (e) {
 
     this.setData({
