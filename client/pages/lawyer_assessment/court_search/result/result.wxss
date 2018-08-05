@@ -1,4 +1,4 @@
-/* pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxss */
+/* pages/lawyer_assessment/court_search/result/result.wxss */
 .canvas {
     width: 320px;
     height: 284px;
@@ -62,8 +62,7 @@
 }
 .btn{
   margin: 35rpx auto;
-  width:200rpx;
-  height:90rpx;
+  width:500rpx;
   background:rgba(87,126,255,1);
   border-radius:5px;
   text-align: center;

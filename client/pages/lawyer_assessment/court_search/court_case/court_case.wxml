@@ -1,0 +1,25 @@
+<!--pages/lawyer_assessment/court_search/court_case/court_case.wxml-->
+<view class='analyse-tit'>
+我们将对您的案由进行针对性分析
+</view>
+
+<view >
+<textarea class='analyse-content'></textarea>
+</view>
+<view class='belong-to'>
+案件所在地：
+</view>
+<view class="section">
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}"      custom-item="{{customItem}}">
+    <view class="picker">
+    <text class='picker-val'>{{region[0]}}</text>
+    <text class='picker-val'>{{region[1]}}</text>
+    <text class='picker-val'>{{region[2]}}</text>
+    </view>
+  </picker>
+</view>
+<navigator url='../person_details/person_details'>
+  <view class="next-btn">
+    <button class='btn'>下一步</button>
+  </view>
+</navigator>

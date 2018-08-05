@@ -7,7 +7,7 @@
     <image src='images/2.png' class='img2'></image>
     <view class='search2-1'>律师搜索</view>
   </navigator>
-  <navigator class='search3'>
+  <navigator class='search3' url='court_search/court_search'>
     <image src='images/3.png' class='img3'></image>
     <view class='search3-1'>法院搜索</view>
   </navigator>

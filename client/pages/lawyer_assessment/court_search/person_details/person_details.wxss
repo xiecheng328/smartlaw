@@ -1,4 +1,4 @@
-/* pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxss */
+/* pages/lawyer_assessment/court_search/person_details/person_details.wxss */
 .canvas {
     width: 320px;
     height: 284px;
@@ -31,8 +31,6 @@
   margin-bottom:18rpx;
 }
 .wrapper{
-  /* width:626rpx;
-  height:29rpx; */
   font-size:30rpx;
   font-family:PingFangSC-Regular;
   color:rgba(51,51,51,1);
@@ -43,8 +41,6 @@
 .lawyer-key-msg,.area-msg,.trial-court-msg,.program-msg,.doc-msg,.case-type-msg,.case-msg,.court-msg{
   margin-left: 30rpx;
   margin-top: 30rpx;
-  /* width:238rpx;
-  height:29rpx; */
   font-size:30rpx;
   font-family:PingFangSC-Semibold;
   color:rgba(51,51,51,1);
