@@ -18,7 +18,7 @@ Page({
   },
   clickPerson: function () {
     var selectPerson = this.data.selectPerson;
-    if (selectPerson == true) {
+    if (selectPerson ==true) {
       this.setData({
         selectArea: true,
         selectPerson: false,

@@ -22,7 +22,7 @@
     <view class='receiver'>
       <view  class="refer">涉及分类：</view>
         <view class="phone_one" bindtap="clickPerson">
-           <view class="phone_personal">{{firstPerson}}</view>
+           <view class="phone_personal">{{firstPerson }}</view>
          <image src="../../../images/gobottom.png" class="personal_image {{selectArea ? 'rotateRight' :''}}"></image>
         </view>
         <view class="person_box">
