@@ -15,7 +15,7 @@
     <image src='images/4.png' class='img4'></image>
     <view class='search4-1'>律所搜索</view>
   </navigator> 
-  <navigator class='search5'>
+  <navigator class='search5' url="judgeSearch/judgeSearchHead/judgeSearchHead">
     <image src='images/5.png' class='img5'></image>
     <view class='search5-1'>法官搜索</view>
   </navigator>
