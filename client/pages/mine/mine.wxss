@@ -7,6 +7,7 @@ page{
   height: 300rpx;
   background: #577eff;
 }
+
 .head-portrait{
   width: 148rpx;
   height: 148rpx;
@@ -14,6 +15,11 @@ page{
   border-radius: 50%;
   margin: 0 auto;
   background-repeat:round; 
+  overflow: hidden;
+}
+.mine-photo{
+  width: 100%;
+  height: 100%;
 }
 .username{
   text-align: center;

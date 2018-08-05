@@ -1,6 +1,7 @@
 <view class="full-page">
   <view class="header">
-    <view class="head-portrait" style="background-image: url('images/photo.png')">
+    <view class="head-portrait">
+      <image src='images/photo.png' class="mine-photo"></image>
     </view>
     <view class="username">
       用户名
@@ -8,12 +9,14 @@
   </view>
   <view class="content">
 
-    <navigator class="mine-list" url='aa' wx:for="{{minelist}}" wx:key="{{index}}">
+    <view  wx:for="{{minelist}}" wx:key="{{index}}">
+    <navigator class="mine-list" url='{{item.url}}' >
       <image src="{{item.img}}" class="mine-img"></image>
       <view class="mine-text">{{item.title}}</view>
       <view class="arrow">{{gt}}</view>
-    </navigator>
-
+      </navigator>
+    </view>
+  
    <navigator class="mine-list clear-border" url=''>
       <image src="images/vip.png" class="mine-img"></image>
       <view class="mine-text">获取VIP权限</view>

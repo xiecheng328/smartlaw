@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/commission/commission",
+    "pages/demo/demo",
     "pages/services/bosicheng/dflsh/dflsh",
     "pages/services/bosicheng/htsc/htsc",
     "pages/services/bosicheng/yyxx/yyxx",
@@ -8,19 +8,12 @@
     "pages/services/bosicheng/lshff/lshff",    
     "pages/index/index",    
     "pages/addCgi/addCgi",
+    "pages/mine/mine",
+    "pages/mine/legal_services/legal_services",
     "pages/community/community_index/community_index",
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
-    "pages/services/first/first",
-    "pages/demo/demo",
-    "pages/commission/advancePayment/advancePayment",
-    "pages/commission/advancePayment/waitting/waitting",
-    "pages/commission/advancePayment/waitting/not/not",
-    "pages/commission/advancePayment/waitting/yes/yes",
-    "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
-    "pages/commission/advancePayment/waitting/yes/pay/pay",
-    "pages/mine/mine",
-    "pages/mine/payList/payList"
+    "pages/services/first/first"    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -55,7 +48,7 @@
       {
         "selectedIconPath": "pages/images/wode2.png",
         "iconPath": "pages/images/wode1.png",
-        "pagePath": "pages/community/community_index/community_index",
+        "pagePath": "pages/mine/mine",
         "text": "我的"
       },
       {
