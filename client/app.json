@@ -9,6 +9,7 @@
     "pages/index/index",    
     "pages/addCgi/addCgi",
     "pages/community/community_index/community_index",
+    "pages/community/community_consult/community_consult",
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
     "pages/services/first/first",
