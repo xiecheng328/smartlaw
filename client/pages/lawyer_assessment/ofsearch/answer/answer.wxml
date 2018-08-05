@@ -1,0 +1,15 @@
+<view class='result--top-img'><image src='{{imgs.src}}'></image></view>
+<view class="judge-place">
+  <view class='judge-name'>{{judgeName}}</view>
+  <view class='place1'>{{place}}</view>
+</view>
+<navigator url='../lawlist/lawlist'>
+  <view class="judge-list-box">
+    <button class="judge-list">查看当前律所下律师列表</button>
+  </view>
+</navigator>
+<navigator url='../ranking/ranking'>
+  <view class="judge-list-box">
+  <button class='judge-list'>查看当前律所下律师胜率排名</button>
+  </view>
+</navigator>
