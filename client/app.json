@@ -1,8 +1,13 @@
 {
     "pages": [
-      "pages/lawyer_assessment/lawyer_assessment",
         "pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details",         
         "pages/lawyer_assessment/lawyer_search/more_details/more_details",              
+        "pages/lawyer_assessment/lawyer_assessment",      
+        "pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result",
+        "pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead",
+        "pages/lawyer_assessment/judgeSearch/personal-information/personal-information",
+        "pages/lawyer_assessment/lawyer_search/more_details/more_details",        
+        "pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details",        
         "pages/lawyer_assessment/lawyer_search/personal_message/personal_message",
         "pages/lawyer_assessment/lawyer_search/lawyer_search",
         "pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction",
