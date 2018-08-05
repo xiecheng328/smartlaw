@@ -46,6 +46,7 @@
         "pages/mine/legal_services/change_info/change_info",
         "pages/mine/legal_services/change_info/go_pay/go_pay",
         "pages/mine/paylist/payList",
+        "pages/mine/paylist/paypage/payPage",
         "pages/services/business/stock/stock",
         "pages/services/business/knowledge/knowledge",
         "pages/services/business/relation/relation",
