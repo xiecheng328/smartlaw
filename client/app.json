@@ -1,6 +1,9 @@
 {
     "pages": [
         "pages/lawyer_assessment/lawyer_assessment",
+        "pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result",
+        "pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead",
+        "pages/lawyer_assessment/judgeSearch/personal-information/personal-information",
         "pages/lawyer_assessment/ofsearch/information/information",     
         "pages/lawyer_assessment/ofsearch/skill/skill",
         "pages/lawyer_assessment/ofsearch/ofsearch",    
