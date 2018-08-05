@@ -1,62 +1,77 @@
 {
-  "pages": [
-    "pages/demo/demo",
-    "pages/services/bosicheng/dflsh/dflsh",
-    "pages/services/bosicheng/htsc/htsc",
-    "pages/services/bosicheng/yyxx/yyxx",
-    "pages/services/bosicheng/lslb/lslb",    
-    "pages/services/bosicheng/lshff/lshff",    
-    "pages/index/index",    
-    "pages/addCgi/addCgi",
-    "pages/mine/mine",
-    "pages/mine/legal_services/legal_services",
-    "pages/community/community_index/community_index",
-    "pages/community/settled/first_settled/first_settled",
-    "pages/community/settled/second_settled/second_settled",
-    "pages/services/first/first"    
-  ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#577eff",
-    "navigationBarTitleText": "Wafer Quick Start",
-    "navigationBarTextStyle": "white"
-  },
-  "tabBar": {
-    "color": "#9bb2ff",
-    "selectedColor": "#577eff",
-    "borderStyle": "white",
-    "list": [
-      {
-        "selectedIconPath": "pages/images/lvshi2.png",
-        "iconPath": "pages/images/lvshi1.png",
-        "pagePath": "pages/index/index",
-        "text": "律师评估"
-      },
-      {
-        "selectedIconPath": "pages/images/fuwu2.png",
-        "iconPath": "pages/images/fuwu1.png",
-        "pagePath": "pages/services/first/first",
-        "text": "法律服务"
-      },
-      {
-        "selectedIconPath": "pages/images/shequ2.png",
-        "iconPath": "pages/images/shequ1.png",
-        "pagePath": "pages/community/community_index/community_index",
-        "text": "法律社区"
-      },
-      {
-        "selectedIconPath": "pages/images/wode2.png",
-        "iconPath": "pages/images/wode1.png",
-        "pagePath": "pages/mine/mine",
-        "text": "我的"
-      },
-      {
-        "selectedIconPath": "pages/images/wode2.png",
-        "iconPath": "pages/images/wode1.png",
-        "pagePath": "pages/demo/demo",
-        "text": "demo"
-      }
-    ]
-  }
+    "pages": [
+        "pages/lawyer_assessment/lawyer_assessment",
+        "pages/commission/commission",
+        "pages/services/bosicheng/dflsh/dflsh",
+        "pages/services/bosicheng/htsc/htsc",
+        "pages/services/bosicheng/yyxx/yyxx",
+        "pages/services/bosicheng/lslb/lslb",
+        "pages/services/bosicheng/lshff/lshff",
+        "pages/index/index",
+        "pages/addCgi/addCgi",
+        "pages/community/community_index/community_index",
+        "pages/community/community_consult/community_consult",
+        "pages/community/settled/first_settled/first_settled",
+        "pages/community/settled/second_settled/second_settled",
+        "pages/services/first/first",
+        "pages/demo/demo",
+        "pages/commission/advancePayment/advancePayment",
+        "pages/commission/advancePayment/waitting/waitting",
+        "pages/commission/advancePayment/waitting/not/not",
+        "pages/commission/advancePayment/waitting/yes/yes",
+        "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
+        "pages/commission/advancePayment/waitting/yes/pay/pay",
+        "pages/mine/mine",
+        "pages/mine/paylist/payList",
+        "pages/services/business/stock/stock",
+        "pages/services/business/knowledge/knowledge",
+        "pages/lawyer_assessment/casesearch/searchbefore/searchbefore",
+        "pages/lawyer_assessment/casesearch/search/search",
+        "pages/lawyer_assessment/casesearch/reservationpage/reservationpage",
+        "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#577eff",
+        "navigationBarTitleText": "Wafer Quick Start",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#9bb2ff",
+        "selectedColor": "#577eff",
+        "borderStyle": "white",
+        "list": [
+            {
+                "selectedIconPath": "pages/images/lvshi2.png",
+                "iconPath": "pages/images/lvshi1.png",
+                "pagePath":"pages/lawyer_assessment/lawyer_assessment",
+                "text": "律师评估"
+            },
+            {
+                "selectedIconPath": "pages/images/fuwu2.png",
+                "iconPath": "pages/images/fuwu1.png",
+                "pagePath": "pages/services/first/first",
+                "text": "法律服务"
+            },
+            {
+                "selectedIconPath": "pages/images/shequ2.png",
+                "iconPath": "pages/images/shequ1.png",
+                "pagePath": "pages/community/community_index/community_index",
+                "text": "法律社区"
+            },
+            {
+                "selectedIconPath": "pages/images/wode2.png",
+                "iconPath": "pages/images/wode1.png",
+                "pagePath": "pages/mine/mine",
+                "text": "我的"
+            },
+            {
+                "selectedIconPath": "pages/images/wode2.png",
+                "iconPath": "pages/images/wode1.png",
+                "pagePath": "pages/demo/demo",
+                "text": "demo"
+            }
+        ]
+    }
 }

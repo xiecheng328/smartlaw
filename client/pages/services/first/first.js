@@ -29,9 +29,11 @@ Page({
       }, {
         name: '合同服务'
       }, {
-        name: '股权事宜'
+        name: '股权事宜',
+        url:"../business/stock/stock",
       }, {
-        name: '知识产权'
+        name: '知识产权',
+        url: "../business/knowledge/knowledge"
       }, {
         name: '债务催收'
       },{

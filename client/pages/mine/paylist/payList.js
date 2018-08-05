@@ -87,6 +87,14 @@ Page({
       currentTab: e.detail.current
     });
   },
+  confirm: function(e){
+    var that = this;
+    var strStatus = 'list[1].status';
+    that.setData({
+      [strStatus]: e.target.dataset.status,
+      currentTab: 0
+    });
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -153,12 +161,6 @@ Page({
    */
   onShareAppMessage: function() {
 
-  },
-  tapHandler: function(e) {
-    // console.log(e.target.dataset.tapindex);
-
-    this.setData({
-      currentTab: e.target.dataset.tapindex
-    });
-  },
+  }
+  
 })

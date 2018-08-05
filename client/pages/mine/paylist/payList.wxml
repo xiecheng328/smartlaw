@@ -84,7 +84,7 @@
       </view>
       <view class='logistics'>
         <view class='logistics-top'>物流信息</view>
-        <view wx:for="{{logistics1}}" key="{{index}}" class='logistics-list'>{{item.data}} {{item.time}} {{item.msg}}</view>
+        <view wx:for="{{logistics1}}" wx:key="{{index}}" class='logistics-list'>{{item.data}} {{item.time}} {{item.msg}}</view>
       </view>
     </scroll-view>
   </swiper-item>
@@ -112,9 +112,9 @@
       </view>
       <view class='logistics'>
         <view class='logistics-top'>物流信息</view>
-        <view wx:for="{{logistics2}}" key="{{index}}" class='logistics-list'>{{item.data}} {{item.time}} {{item.msg}}</view>
+        <view wx:for="{{logistics2}}" wx:key="{{index}}" class='logistics-list'>{{item.data}} {{item.time}} {{item.msg}}</view>
       </view>
-      <button class='btn-pay'>确认支付</button>
+      <button class='btn-pay' bindtap="confirm" data-status="已完成">确认收货</button>
     </scroll-view>
   </swiper-item>
 

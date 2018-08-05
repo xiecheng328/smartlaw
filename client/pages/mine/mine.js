@@ -13,7 +13,8 @@ Page({
         },
         {
           img: "images/payList.png",
-          title: "付费报告列表"
+          title: "付费报告列表",
+          url: "paylist/payList"
         },
         {
           img: "images/serverList.png",
