@@ -1,0 +1,16 @@
+<!--pages/mine/my-data/my-address/my-address.wxml-->
+<navigator url="../change-address/change-address" class="address" wx:for="{{defaultAddress}}" wx:key="{{index}}">
+  <view class="address_top">
+    <view class="address_name">{{item.name}}</view>
+    <view class="address_phone">{{item.phoneNum}}</view>
+  </view>
+  <view class="address_address"><text>{{item.default}}</text>{{item.address}}</view>
+</navigator>
+<navigator url="../change-address/change-address" class="address" wx:for="{{addressList}}" wx:key="{{index}}">
+  <view class="address_top">
+    <view class="address_name">{{item.name}}</view>
+    <view class="address_phone">{{item.phoneNum}}</view>
+  </view>
+  <view class="address_address">{{item.address}}</view>
+</navigator>
+<navigator url="../add-address/add-address"><button>添加新地址</button></navigator>

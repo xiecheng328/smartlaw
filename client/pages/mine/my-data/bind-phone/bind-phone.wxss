@@ -1,0 +1,71 @@
+/* pages/mine/my-data/bind-phonNum/bind-phone.wxss */
+
+.bind_phone {
+  width: 710rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin: 20rpx;
+  font-size: 30rpx;
+}
+
+button {
+  width: 710rpx;
+  height: 90rpx;
+  margin: 20rpx;
+  background: #577eff;
+  color: #fff;
+}
+
+.rule-content {
+  width: 600rpx;
+  height: 300rpx;
+  background: #ddd;
+  margin: 200rpx auto;
+  border-radius: 10rpx;
+  border: 1px solid #ddd;
+  font-size: 30rpx;
+  text-align: center;
+  padding: 50rpx 0;
+  z-index: 0;
+}
+
+.cover_input {
+  background: #fff;
+  width: 200rpx;
+}
+
+.cover_num {
+  margin: 40rpx auto;
+  width: 440rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 300rpx;
+  margin: 40rpx auto;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.new_num {
+  margin-bottom: 20rpx;
+  /* background: pink */
+}
+
+.new_num input {
+  text-align: left;
+  padding: 0 10rpx;
+  width: 250rpx;
+}
+
+.new_num .cover_text {
+  width: 150rpx;
+  text-align: left;
+}

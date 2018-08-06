@@ -1,0 +1,36 @@
+<!--pages/mine/my-data/my-data/my-data.wxml-->
+<view class="container">
+
+  <view class="box" wx:for="{{myDataList}}" wx:key="index" bindtap='chooseimage'>
+    <view>头像</view>
+    <view class="box-right">
+      <image class="head-pic" src="{{item.img}}"></image>
+      <text>></text>
+    </view>
+  </view>
+
+  <navigator url="../designation/designation" class="box" wx:for="{{myDataList}}" wx:key="index">
+    <view>名称</view>
+    <view class="box-right">
+      <view class="name">{{item.name}}</view>
+      <text>></text>
+    </view>
+  </navigator>
+
+
+  <navigator url="../bind-phone/bind-phone" class="box" wx:for="{{myDataList}}" wx:key="index">
+    <view>绑定电话</view>
+    <view class="box-right">
+      <view class="phoneNumber">{{item.phoneNumber}}</view>
+      <text>></text>
+    </view>
+  </navigator>
+
+  <navigator url="../my-address/my-address" class="box" wx:for="{{myDataList}}" wx:key="index">
+    <view>地址</view>
+    <view class="box-right">
+      <view class="address">{{item.address}}</view>
+      <text>></text>
+    </view>
+  </navigator>
+</view>
