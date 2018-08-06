@@ -1,0 +1,47 @@
+<view id="title">
+  确认您选择的服务:
+</view>
+
+<view class="button" bindtap='changeClass'>
+  <label id="law-rep"> 代写文书律师推荐</label> 
+  <view class="icon-box">
+          <icon wx-if="{{checkTitle}}" type='success' color="blue" 
+              size="18"  class="icon"></icon>  
+          <view wx-if="{{!checkTitle}}" class="emptyCir" ></view>
+  </view> 
+</view>
+
+<view id='waytoPay'>支付方式:</view>
+
+<view class="button" bindtap='changeWX'>
+  
+    <view id="wx-rep">
+    <image src="../image/wx.png" class="img-wx"></image>
+    <label id="wxPay">微信支付</label>
+    </view> 
+  <view class="icon-box">
+          <icon wx-if="{{checkWX}}" type='success' color="blue" 
+              size="18"  class="icon"></icon>  
+          <view wx-if="{{!checkWX}}" class="emptyCir" ></view>
+  </view> 
+</view>
+
+<view class="button" bindtap='changeYL'>
+  <view id="wx-rep">
+    <image src="../image/yl.png" class="img-wx"></image>
+    <label id="wxPay">银联支付</label>
+    </view> 
+  <view class="icon-box">
+          <icon wx-if="{{checkYL}}" type='success' color="blue" 
+              size="18"  class="icon"></icon>  
+          <view wx-if="{{!checkYL}}" class="emptyCir" ></view>
+  </view> 
+</view>
+
+
+
+<view class="finalPay" bindtap='handleTap'>
+<navigator url="../Counsel/Counsel">
+  支付
+  </navigator>  
+</view>
