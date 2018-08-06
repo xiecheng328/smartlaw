@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="我的">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/change_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/change_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/go_pay/go_pay.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/go_pay/go_pay.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/check_details/check_details.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/check_details/check_details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/legal_services.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/legal_services.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/mine.js" afterDir="false" />
+=======
     <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="">
 <<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -8,6 +18,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.config.json" afterPath="$PROJECT_DIR$/project.config.json" />
 >>>>>>> Stashed changes
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,6 +41,10 @@
       <file leaf-file-name="first.wxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="407">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+=======
 <<<<<<< Updated upstream
             <state relative-caret-position="407">
               <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
@@ -101,6 +116,7 @@
               <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
 >>>>>>> Stashed changes
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
             </state>
           </provider>
         </entry>
@@ -145,6 +161,11 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="704" />
+=======
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1370" />
@@ -156,6 +177,7 @@
     <option name="width" value="1378" />
     <option name="height" value="780" />
 >>>>>>> Stashed changes
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -169,30 +191,32 @@
           <expand>
             <path>
               <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lawyer_assessment" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="mine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
 =======
           <PATH>
@@ -241,15 +265,387 @@
       </pane>
       <pane id="Scratches" />
 >>>>>>> Stashed changes
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+=======
 <<<<<<< Updated upstream
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/app.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/first_settled/first_settled.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/second_settled/second_settled.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/second_settled/second_settled.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/second_settled/second_settled.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_assessment.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_assessment.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ofsearch.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ofsearch.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/first/first.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/project.config.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/banner2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/duanxin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/phone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/upload2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/img1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/img2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/utils/wxcharts.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -350,6 +746,13 @@
 <<<<<<< Updated upstream
       <workItem from="1533398323746" duration="55000" />
       <workItem from="1533430512673" duration="880000" />
+<<<<<<< HEAD
+      <workItem from="1533439535740" duration="583000" />
+      <workItem from="1533469715103" duration="176000" />
+      <workItem from="1533473879932" duration="20000" />
+      <workItem from="1533474633167" duration="22000" />
+      <workItem from="1533488954388" duration="318000" />
+=======
       <workItem from="1533439535740" duration="635000" />
       <workItem from="1533453711664" duration="21000" />
       <workItem from="1533515281013" duration="609000" />
@@ -362,6 +765,7 @@
       <workItem from="1533431523115" duration="22000" />
       <workItem from="1533565788944" duration="12000" />
 >>>>>>> Stashed changes
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
     </task>
     <task id="LOCAL-00001" summary="法律服务index">
       <created>1533086980208</created>
@@ -426,6 +830,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533439599661</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00010" summary="mine">
+      <created>1533469844275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533469844275</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15364000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="23" width="1280" height="704" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25258142" />
+=======
     <task id="LOCAL-00010" summary="法律服务">
       <created>1533440131532</created>
       <option name="number" value="00010" />
@@ -472,11 +895,10 @@
 >>>>>>> Stashed changes
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1313673" />
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -487,26 +909,28 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -522,7 +946,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="法律服务index" />
     <MESSAGE value="法律服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="法律服务" />
+    <MESSAGE value="mine" />
+    <option name="LAST_COMMIT_MESSAGE" value="mine" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxml">
@@ -795,6 +1220,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
@@ -961,6 +1477,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="407">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+=======
 <<<<<<< Updated upstream
         <state relative-caret-position="407">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
@@ -969,6 +1489,7 @@
           <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
 >>>>>>> Stashed changes
+>>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
         </state>
       </provider>
     </entry>

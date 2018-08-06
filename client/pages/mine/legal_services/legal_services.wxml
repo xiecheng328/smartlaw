@@ -15,7 +15,7 @@
       </view>
       <view class="legal-event">
         <navigator url='change_info/change_info' class="legal-change">修改资料</navigator>
-        <navigator url='bb' class="legal-pay">去付款</navigator>
+        <navigator url='change_info/go_pay/go_pay' class="legal-pay">去付款</navigator>
       </view>
     </view>
   </swiper-item>

@@ -29,7 +29,7 @@ page {
 
 .selected{
   color: #577eff;
-  border-bottom: 2px solid #577eff; 
+  border-bottom: 2rpx solid #577eff; 
 }
 
 /* 信息框 */
@@ -38,7 +38,7 @@ page {
   margin: 30rpx 20rpx;
 }
 .legal-header{
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1rpx solid #ddd;
 }
 .legal-margin{
   padding-bottom: 180rpx;

@@ -9,7 +9,7 @@ Page({
         {
           img: "images/clock.png",
           title:"我的预约",
-          url:'aa'
+          url:'my_bookings/my_bookings'
         },
         {
           img: "images/payList.png",
@@ -20,6 +20,11 @@ Page({
           img: "images/serverList.png",
           title: "法律服务列表",
           url:'legal_services/legal_services'
+        },
+        {
+          img: "images/consult.png",
+          title: "我的咨询",
+          url:'my_consult/my_consult'
         },
         {
           img: "images/answer.png",
