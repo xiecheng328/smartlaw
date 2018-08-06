@@ -43,7 +43,7 @@
 
 
 <radio-group class="radio-group" bindchange="radioChange">
-  <label class="radio" wx:for="{{items}}">
+  <label class="radio" wx:for="{{items}}" wx:key="index">
     <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
   </label>
 </radio-group>
