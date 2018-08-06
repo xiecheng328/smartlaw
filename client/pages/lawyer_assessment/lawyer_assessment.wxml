@@ -3,7 +3,7 @@
     <image src='images/1.png' class='img1'></image>
     <view class='search1-1'>案由搜索</view>
   </navigator>
-  <navigator class='search2' url='lawyer_search/lawyer_search'>
+  <navigator class='search2' url='lawyer_search/first_search/first_search'>
     <image src='images/2.png' class='img2'></image>
     <view class='search2-1'>律师搜索</view>
   </navigator>

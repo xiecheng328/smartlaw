@@ -1,0 +1,22 @@
+<!--pages/mine/my-data/add-address/add-address.wxml-->
+<view class="style person">
+  <input placeholder-class="phcolor" placeholder='收货人'></input>
+</view>
+<view class="style phone_num">
+  <input placeholder-class="phcolor" placeholder='手机号'></input>
+</view>
+<view class="style place">
+  <input placeholder-class="phcolor" placeholder='所在地区'></input>
+</view>
+<view class="style more_address">
+  <input placeholder-class="phcolor" placeholder='详细地址：如门牌号、小区等'></input>
+</view>
+<view class="space"></view>
+<view class="default_address">
+  <view>设为默认地址</view>
+  <view class="body-view">
+    <switch checked bindchange="switch1Change"/>
+  </view>
+</view>
+<view class="space"></view>
+<navigator url="../my-address/my-address"><button>保存</button></navigator>

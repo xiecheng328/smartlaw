@@ -6,7 +6,7 @@
 </view>
 <view class='header'>支付方式:</view>
 <radio-group>
-  <view class='content2' wx:for='{{items}}' wx:key='name' bindtap="radioChange">
+  <view class='content2' wx:for='{{items}}' wx:key='name'>
     <image src="{{item.img}}"></image>
     <view class='payname'>{{item.logo}}</view>
     <radio class='radio' checked='{{item.checked}}'></radio>
