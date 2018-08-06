@@ -37,6 +37,7 @@ Page({
         {
           img: "images/favorite.png",
           title: "我的收藏",
+          url:'collect/collect/collect'
         },
         {
           img: "images/enter.png",
@@ -44,7 +45,8 @@ Page({
         },
         {
           img: "images/information.png",
-          title: "我的资料"
+          title: "我的资料",
+          url:'my-data/my-data/my-data'
         },
         {
           img: "images/setting.png",
