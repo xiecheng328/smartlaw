@@ -1,1 +1,86 @@
-/* pages/lawyer_assessment/ofsearch/information/information.wxss */
+/* pages/lawyer_assessment/lawyer_search/more_details/more_details.wxss */
+/* pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxss */
+.header image{
+  width:150rpx;
+  height: 150rpx;
+}
+.header{
+  display: flex;
+  padding:30rpx;
+  border-bottom:1rpx solid #eee;
+}
+.header view{
+  line-height: 150rpx;
+  margin-left:100rpx;
+}
+.canvas {
+    width: 320px;
+    height: 284px;
+    /* transform: scale(0.5); */
+    margin: 0 auto;
+}
+.content{
+  width:710rpx;
+ 
+  background:rgba(255,255,255,1);
+  border-radius:5rpx;
+  box-shadow:2rpx 0rpx 10rpx rgba(0,0,0,0.1);
+  margin: 20rpx auto;
+}
+.message,.title{
+  margin-left: 30rpx;
+}
+.title{
+  font-size:30rpx;
+  font-family:PingFangSC-Medium;
+  color:rgba(51,51,51,1);
+  line-height:72rpx;
+}
+.message{
+  font-size:24rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(102,102,102,1);
+  display: flex;
+  border-bottom:1rpx solid #eee;
+}
+.message view{
+  margin-bottom:18rpx;
+  margin-right: 200rpx;
+}
+.wrapper{
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+  line-height:24rpx;
+  margin-left: 31rpx;
+  margin-top: 32rpx;
+  margin-bottom:50rpx;
+}
+.lawyer-key-msg,.area-msg,.trial-court-msg,.program-msg,.doc-msg,.case-type-msg,.case-msg,.court-msg{
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  font-size:30rpx;
+  font-family:PingFangSC-Semibold;
+  color:rgba(51,51,51,1);
+  line-height:24rpx;
+}
+.lawyer-key-key,.area-key,.trial-court-key,.program-key,.doc-key,.case-type-key,.case-key,.court-key{
+  text-align: center;
+  font-size:24rpx;
+  font-family:PingFangSC-Semibold;  
+  color:rgba(51,51,51,1);  
+}
+
+.footer{
+  margin: 38rpx 30rpx 35rpx 30rpx;
+}
+button{
+  margin: 35rpx auto;
+  width:600rpx;
+  height:90rpx;
+  background:rgba(87,126,255,1);
+  border-radius:50rpx;
+  text-align: center;
+  line-height: 90rpx;
+  color: #fff;
+}

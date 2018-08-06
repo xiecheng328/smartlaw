@@ -27,6 +27,8 @@
         "pages/lawyer_assessment/ofsearch/self/self",      
         "pages/lawyer_assessment/ofsearch/lawlist/lawlist",  
         "pages/commission/commission",
+        "pages/lawyer_assessment/ofsearch/information/information",
+        "pages/lawyer_assessment/ofsearch/skill/skill",
         "pages/services/bosicheng/dflsh/dflsh",
         "pages/services/bosicheng/htsc/htsc",
         "pages/services/bosicheng/yyxx/yyxx",
@@ -83,7 +85,13 @@
         "pages/lawyer_assessment/casesearch/searchbefore/searchbefore",
         "pages/lawyer_assessment/casesearch/search/search",
         "pages/lawyer_assessment/casesearch/reservationpage/reservationpage",
-        "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators"
+        "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators",
+        "pages/lawyer_assessment/casesearch/payment/payment",
+        "pages/lawyer_assessment/casesearch/more_details/more_details",
+        "pages/lawyer_assessment/casesearch/lawyerdetails/lawyerdetails",
+        "pages/lawyer_assessment/casesearch/pay_introduction/pay_introduction",
+        "pages/lawyer_assessment/casesearch/payment2/payment2",
+        "pages/lawyer_assessment/casesearch/finish/finish"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",

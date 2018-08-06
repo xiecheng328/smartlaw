@@ -1,3 +1,4 @@
+<!--pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxml-->
 <view class='content'>
   <view class='title'>{{resume}}</view>
   <view class='message'>
@@ -45,6 +46,8 @@
 <view class='court-key'>{{court.key}}</view>
 <canvas canvas-id="canvas5" class='canvas'></canvas>
 
-<view class='footer'>{{footer}}</view>
-<navigator class='btn' url='../pay_introduction/pay_introduction'>付费查看</navigator>
+<canvas canvas-id="canvas9" class='canvas'></canvas>
+
+<navigator class='btn' url='../reservationpage/reservationpage'>我要预约 </navigator>
+
 

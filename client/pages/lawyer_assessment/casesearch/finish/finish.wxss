@@ -1,0 +1,24 @@
+/* pages/lawyer_assessment/casesearch/finish/finish.wxss */
+view{
+  width: 660rpx;
+  height: 64rpx;
+  line-height: 32rpx;
+  font-size: 30rpx;
+  color: #000;
+  position: relative;
+  /* background: red; */
+  margin: 60rpx auto 0;
+}
+navigator{
+  width: 200rpx;
+  height: 90rpx;
+  background: #ccc;
+  color: #333;
+  font-size: 30rpx;
+  line-height: 90rpx;
+  text-align: center;
+  position: relative;
+  top: 130rpx;
+  left: 275rpx;
+  border-radius: 5rpx;
+}

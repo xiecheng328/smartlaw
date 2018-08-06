@@ -5,7 +5,6 @@ Page({
    */
   data: {
     resume: '律师履历',
-    footer: '如需查看大数据分析报告及律师姓名等全部信息请付费查看',
     messages: {
       name: '李xx',
       win: '68%',
@@ -212,6 +211,26 @@ Page({
       height: 284,
       dataLabel: true,
     });
+
+    //裁判年份
+    new Charts({
+      canvasId: 'canvas9',
+      dataPointShape: "circle",
+      type: 'line',
+      categories: ['2014', '2015', '2016', '2017'],
+      series: [{
+        name: '裁判年份',
+        data: [17, 3, 7, 10],//设置某一个值为null会出现断层
+      }],
+      yAxis: {
+        min: 0,
+        fontColor: "#000",
+        gridColor: "#000"
+      },
+      width: 320,
+      height: 284,
+      dataLabel: true
+    });
   },
 
   /**
@@ -247,6 +266,23 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  showtip: function () {
+    wx.showModal({
+      content: '该分析报告在“我的”中可多次查看',
+      showCancel: false,
+      success: function (res) {
+        if (res.confirm) {
+          console.log('用户点击确定')
+          wx.switchTab({
+            url: '../../lawyer_assessment'
+          })
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
+      }
+    })
   }
 })
 

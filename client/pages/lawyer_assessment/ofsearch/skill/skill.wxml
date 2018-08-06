@@ -1,4 +1,54 @@
-技能分析
-<navigator url="../self/self">
-<button>填写个人信息获得完整数据</button>
-</navigator> 
+<view class='content'>
+  <view class='title'>{{resume}}</view>
+  <view class='message'>   
+    <view>总胜率：{{messages.win}}</view>
+    <view>{{messages.num}}</view>  
+  </view>
+</view>
+<view class='wrapper'>
+  {{wrapper}}
+</view>
+
+<view class='lawyer-key-msg'>{{lawyerKey.msg}}</view>
+<view class='lawyer-key-key'>{{lawyerKey.key}}</view>
+<canvas canvas-id="canvas3" class='canvas'></canvas>  
+
+<view class='area-msg'>{{area.msg}}</view>
+<view class='area-key'>{{area.key}}</view>
+<canvas canvas-id="canvas7" class='canvas'></canvas> 
+
+<view class='trial-court-msg'>{{trialCourt.msg}}</view>
+<view class='trial-court-key'>{{trialCourt.key}}</view>
+<canvas canvas-id="canvas8" class='canvas'></canvas>  
+
+<view class='program-msg'>{{program.msg}}</view>
+<view class='program-key'>{{program.key}}</view>
+<canvas canvas-id="canvas1" class='canvas'></canvas>
+
+<view class='doc-msg'>{{doc.msg}}</view>
+<view class='doc-key'>{{doc.key}}</view>
+<canvas canvas-id="canvas2" class='canvas'></canvas>
+
+<view class='case-type-msg'>{{caseType.msg}}</view>
+<view class='case-type-key'>{{caseType.key}}</view>
+<canvas canvas-id="canvas4" class='canvas'></canvas>
+
+<view class='case-msg'>{{case.msg}}</view>
+<view class='case-key'>{{case.key}}</view>
+<canvas canvas-id="canvas6" class='canvas'></canvas>
+
+<view class='court-msg'>{{court.msg}}</view>
+<view class='court-key'>{{court.key}}</view>
+<canvas canvas-id="canvas5" class='canvas'></canvas>
+
+<view class='footer'>{{footer}}</view>
+.
+<canvas canvas-id="canvas5" class='canvas'></canvas>
+
+<view class='footer'>{{footer}}</view>
+<navigator url='../self/self'>
+<button>填写个人信息获取完整数据</button>
+
+</navigator>
+
+

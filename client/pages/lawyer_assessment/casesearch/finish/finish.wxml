@@ -1,0 +1,8 @@
+<view>
+  请您耐心等待，报告将在两日内发出请保持电话畅
+通........
+</view>
+
+<navigator bindtap='goback'>
+    <button>返回</button>
+</navigator>
