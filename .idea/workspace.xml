@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/more_details/more_details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/more_details/more_details.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/more_details/more_details.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/more_details/more_details.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/pay_introduction/pay_introduction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/pay_introduction/pay_introduction.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/pay_introduction/pay_introduction.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/pay_introduction/pay_introduction.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -297,7 +284,7 @@
       <workItem from="1533453711664" duration="21000" />
       <workItem from="1533515281013" duration="609000" />
       <workItem from="1533517767874" duration="27000" />
-      <workItem from="1533517950520" duration="858000" />
+      <workItem from="1533517950520" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="法律服务index">
       <created>1533086980208</created>
@@ -369,11 +356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533440131532</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="法律服务">
+      <created>1533518832682</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533518832682</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16391000" />
+    <option name="totallyTimeSpent" value="16448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
