@@ -7,18 +7,20 @@ Page({
   data: {
     currentTapIndex: 0,
     flag: false,
-    bookremind:'预约提醒',
     bookList: [{
         start: '2018-10-09 14:30',
         end: '2018-10-09 14:30',
         lawyer: '王1律师',
-        lawtype: '合同买卖'
+        lawtype: '合同买卖',
+        bookremind: '预约提醒',        
       },
       {
         start: '2018-10-09 14:30',
         end: '2018-10-09 14:30',
         lawyer: '王2律师',
-        lawtype: '合同买卖'
+        lawtype: '合同买卖',
+        bookremind: '预约提醒',
+        
       }
     ],
     outdateList:[
@@ -44,11 +46,13 @@ Page({
       url: 'edit_bookings/edit_bookings',
     })
   },
-  bookremind:function(){
+  bookremind:function(e){
+    var idx = e.currentTarget.dataset.index;
+    var str = `bookList[${idx}].bookremind`;
     wx.showActionSheet({
       itemList: ['提醒我'],
       success: res=> {
-        this.setData({ bookremind: '已提醒' })
+        this.setData({ [str]: '已提醒' })
       },
       fail: function (res) {
         console.log(res.errMsg)

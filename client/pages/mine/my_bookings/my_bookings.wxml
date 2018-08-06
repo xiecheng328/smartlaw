@@ -9,13 +9,13 @@
 
 
 
-<view wx:for="{{bookList}}" wx:key="{{index}}" class="book_details" hidden='{{currentTapIndex!=0}}' data-index="{{index}}">
+<view wx:for="{{bookList}}" wx:key="{{index}}" class="book_details" hidden='{{currentTapIndex!=0}}'>
   <view class="book_spcl book_common">预约详情</view>
   <view class="book_common">时间：{{item.start}}至{{item.end}}</view>
   <view class="book_common">律师：{{item.lawyer}}</view>
   <view class="book_common">案件类型：{{item.lawtype}}</view>
   <view class="book_btn">
-    <view class="book_event" bindtap="bookremind" >{{bookremind}}</view>
+    <view class="book_event" bindtap="bookremind" data-index="{{index}}">{{item.bookremind}}</view>
     <view class="book_event" bindtap='editbook'>编辑预约</view>
     <view class="book_event" bindtap='bookDelete'data-index="{{index}}">删除预约</view>
   </view>
