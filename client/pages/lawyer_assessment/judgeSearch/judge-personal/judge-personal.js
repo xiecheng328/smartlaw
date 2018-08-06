@@ -1,11 +1,14 @@
-// pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.js
+// pages/lawyer_assessment/judgeSearch/judge-personal/judge-personal.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    date: '2016-09-01',
+    time: '12:01',
+    region: ['广东省', '广州市', '海珠区'],
+    customItem: '全部'
   },
 
   /**

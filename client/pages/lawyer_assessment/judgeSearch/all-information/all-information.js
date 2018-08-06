@@ -1,4 +1,4 @@
-// pages/lawyer_assessment/judge-search-result/judge-search-result.js
+// pages/lawyer_assessment/judgeSearch/all-information/all-information.js
 Page({
 
   /**
