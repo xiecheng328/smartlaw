@@ -1,6 +1,7 @@
 {
     "pages": [
-        "pages/lawyer_assessment/lawyer_assessment",      
+        "pages/lawyer_assessment/lawyer_assessment", 
+        "pages/lawyer_assessment/lawyer_search/first_search/first_search",        
         "pages/lawyer_assessment/court_search/personal/personal", 
         "pages/lawyer_assessment/court_search/person_details/person_details",        
         "pages/lawyer_assessment/court_search/court_case/court_case",        

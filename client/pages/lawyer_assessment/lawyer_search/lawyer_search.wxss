@@ -35,9 +35,6 @@
   font-size: 26rpx;
   margin-left: -1rpx;
   margin-top: 37rpx
-  /* position: absolute;
-  left: 59rpx;
-  top: 37rpx */
 }
 .search-wrapper .input{
   width: 400rpx;
@@ -45,16 +42,13 @@
   border: 1rpx solid #ddd;
   margin-left: 19rpx;
   margin-top: 20rpx;
-  /* position: absolute;
-  left: 180rpx;
-  top: 20rpx; */
 }
 .search-wrapper .placeholder{
   font-size: 26rpx;
   color: #999;
   margin-left: 19rpx;
-  height: 100%;
-  line-height: normal;
+  vertical-align: center;
+  margin-top: 5rpx;
 }
 .search-wrapper .button{
   width: 120rpx;
