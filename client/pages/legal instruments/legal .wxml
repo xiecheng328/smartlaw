@@ -1,0 +1,27 @@
+<!--pages/legal instruments/legal .wxml-->
+<!-- <text>pages/legal instruments/legal .wxml</text> -->
+<view id="header">请填写一下必要信息</view>
+<view class="input-box">
+   <view class='name'>委托人姓名</view>
+   <input class='input' placeholder='请输入姓名'></input>
+</view>
+<view class="number-box">
+   <view class='name'>委托人电话号码</view>
+   <input class='input' placeholder='请输入电话号'></input>
+</view>
+
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+     <view class='name'>涉及分类</view>   
+     <view class="choose">{{array[index]}}<view id="arrow"></view ></view> 
+    </view>
+  </picker>
+</view>
+
+<view>
+  <view class='name'>文书用途</view>
+  <input class='writing'></input>
+</view>
+<navigator url='../legalpay/pay' class='next' >下一步</navigator>
+   

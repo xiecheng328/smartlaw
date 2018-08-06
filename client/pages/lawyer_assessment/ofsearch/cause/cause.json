@@ -1,7 +1,4 @@
 {
-  "backgroundColor": "#F6F6F6",
-  "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#577eff",
-  "navigationBarTitleText": "请输入您的案由",
-  "navigationBarTextStyle": "white"
+    "navigationBarTitleText": "请输入您的案由"
+    
 }

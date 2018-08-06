@@ -1,0 +1,34 @@
+<!--pages/mine/my-data/change-address/change-address.wxml-->
+<form bindsubmit="formSubmit">
+
+  <view class="style person">
+    <input name="changename" placeholder-class="phcolor" placeholder='用户名'></input>
+  </view>
+  <view class="style phone_num">
+    <input name="changephone" placeholder-class="phcolor" placeholder='15200000000'></input>
+  </view>
+  <view class="style place">
+    <input name="changeprovince" placeholder-class="phcolor" placeholder='黑龙江'></input>
+  </view>
+  <view class="style more_address">
+    <input name="changeaddress" placeholder-class="phcolor" placeholder='学府书城'></input>
+  </view>
+</form>
+<view class="space"></view>
+<view class="default_address">
+  <view>设为默认地址</view>
+  <view class="body-view">
+    <switch checked bindchange="switch1Change" />
+  </view>
+</view>
+<view class="space"></view>
+
+<navigator url="../my-address/my-address">
+  <view class="delete_address" bindtap='deleteAddress'>删除地址</view>
+</navigator>
+
+<view class="space"></view>
+
+<navigator url="../my-address/my-address">
+  <button>保存</button>
+</navigator>

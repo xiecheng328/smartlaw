@@ -1,7 +1,4 @@
 {
-  "backgroundColor": "#F6F6F6",
-  "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#577eff",
-  "navigationBarTitleText": "律所搜索",
-  "navigationBarTextStyle": "white"
+    "navigationBarTitleText": "律所搜索"
+    
 }

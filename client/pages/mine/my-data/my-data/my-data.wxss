@@ -1,0 +1,75 @@
+/* pages/mine/my-data/my-data/my-data.wxss */
+
+.container {
+  font-family: PingFangSC-Regular;
+  height: 100%;
+  color: #333;
+  font-size: 30rpx;
+}
+
+.head-pic {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  width: 710rpx;
+  margin: 0 auto;
+  height: 90rpx;
+}
+
+.box-right {
+  display: flex;
+  align-items: center;
+}
+
+.head-pic, .name, .phoneNumber, .address {
+  margin-right: 16rpx;
+  color: #666;
+}
+
+text {
+  color: #999;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.15);
+  /* display: none; */
+}
+
+.alert_box {
+  width: 600rpx;
+  margin: 180rpx auto;
+}
+
+.change_box {
+  border-radius: 15rpx;
+  height: 80rpx;
+  background: #fff;
+  border-top: 1rpx solid #ccc;
+  border-left: 1rpx solid #ccc;
+  border-right: 1rpx solid #ccc;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: rgb(68, 59, 59);
+  /* border:1px solid #ccc; */
+}
+
+.change_pic {
+  margin-left: 20rpx;
+  margin-right: 15rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
