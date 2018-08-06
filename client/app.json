@@ -83,10 +83,10 @@
     "pages/lawyer_assessment/casesearch/search/search",
     "pages/lawyer_assessment/casesearch/reservationpage/reservationpage",
     "pages/lawyer_assessment/casesearch/selectioncommentators/selectioncommentators",
-    "pages/lawyer_assessment/casesearch/pay_introduction/pay_introduction",
     "pages/lawyer_assessment/casesearch/payment/payment",
     "pages/lawyer_assessment/casesearch/more_details/more_details",
-    "pages/lawyer_assessment/casesearch/lawyerdetails/lawyerdetails"
+    "pages/lawyer_assessment/casesearch/lawyerdetails/lawyerdetails",
+    "pages/lawyer_assessment/casesearch/pay_introduction/pay_introduction"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
