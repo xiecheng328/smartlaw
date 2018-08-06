@@ -17,8 +17,6 @@
         "pages/lawyer_assessment/lawyer_search/lawyer_search",
         "pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction",
         "pages/lawyer_assessment/lawyer_search/payment/payment",
-        "pages/lawyer_assessment/ofsearch/information/information",     
-        "pages/lawyer_assessment/ofsearch/skill/skill",
         "pages/lawyer_assessment/ofsearch/ofsearch",    
         "pages/lawyer_assessment/ofsearch/answer/answer",    
         "pages/lawyer_assessment/ofsearch/cause/cause",
