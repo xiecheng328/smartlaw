@@ -1,5 +1,7 @@
 {
   "pages": [
+    
+    
     "pages/lawyer_assessment/lawyer_assessment",
     "pages/lawyer_assessment/court_search/personal/personal",
     "pages/lawyer_assessment/court_search/person_details/person_details",
@@ -48,6 +50,10 @@
     "pages/commission/advancePayment/waitting/yes_not_money/yes_not_money",
     "pages/commission/advancePayment/waitting/yes/pay/pay",
     "pages/mine/mine",
+    "pages/mine/my_bookings/my_bookings",
+    "pages/mine/my_bookings/edit_bookings/edit_bookings",    
+    "pages/mine/my_consult/my_consult",
+    "pages/mine/my_consult/consult_interface/consult_interface",
     "pages/mine/legal_services/legal_services",
     "pages/mine/legal_services/check_details/check_details",
     "pages/mine/legal_services/change_info/change_info",

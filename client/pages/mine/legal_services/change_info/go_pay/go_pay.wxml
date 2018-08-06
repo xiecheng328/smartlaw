@@ -1,2 +1,41 @@
 <!--pages/mine/legal_services/change_info/go_pay/go_pay.wxml-->
-去付款
+<view class='pay_container'>
+  <view class="pay_header" style="background-image:url('../../../images/go_pay/bgimg.png')  ">
+    <text>代发律师函</text>
+  </view>
+  <view class="pay_content">
+    <view class="pay_server">
+      <label wx:for="{{items}}" wx:key="{{index}}">
+        <text>{{item.value}}</text>
+        <radio color='#577EFF' checked="{{flag}}"></radio>
+      </label>
+    </view>
+    <view class="pay_method">
+      <view class="pay_method_title">支付方式</view>
+        <radio-group>
+          <view class="pay_common">
+            <label>
+              <image src='../../../images/go_pay/of2.png'></image>
+              <text>微信支付</text>
+              <radio color='#577EFF' checked></radio>
+            </label>
+          </view>
+          <view class="pay_common">
+            <label>
+              <image src='../../../images/go_pay/of3.png'></image>
+              <text>银联支付</text>
+              <radio color='#577EFF'></radio>
+            </label>
+          </view>
+        </radio-group>
+    </view>
+    <view class="pay_way pay_farm">农业银行</view>
+    <view class="pay_way pay_ind">中国工商银行</view>
+    <view class="pay_way pay_cons">中国建设银行</view>
+    <view class="pay_way pay_postal">中国邮政储蓄银行</view>
+    
+  </view>
+  <button class="pay_btn" bindtap='paynext'>下一步</button>
+
+
+</view>

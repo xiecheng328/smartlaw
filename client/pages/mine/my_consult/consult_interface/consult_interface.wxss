@@ -1,0 +1,12 @@
+/* pages/mine/my_consult/consult_interface/consult_interface.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+.consult_container{
+  height: 100%;
+}
+.consult_container image{
+  width: 100%;
+  height: 99%;
+}

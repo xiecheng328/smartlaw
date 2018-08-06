@@ -1,1 +1,91 @@
 /* pages/mine/legal_services/change_info/go_pay/go_pay.wxss */
+.pay_header{
+  height: 400rpx;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  background-position: center center;  
+  text-align: center;
+  line-height: 400rpx;
+  color: #fff;
+  font-size: 60rpx;
+}
+.pay_content{
+  padding: 20rpx 20rpx 0 20rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+radio{
+  transform:scale(0.7);
+  
+}
+.pay_server{
+  height: 90rpx;
+  line-height: 90rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 5rpx;
+  text-align: center;
+}
+.pay_content image{
+  width: 50rpx;
+  height: 44rpx;
+}
+.pay_server text{
+  float: left;
+  margin-left: 20rpx;
+}
+.pay_server radio{
+  float: right;
+}
+.pay_method_title{
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  margin: 30rpx 0; 
+}
+.pay_common{
+  height: 90rpx;
+  line-height: 90rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 5rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.pay_common image,.pay_common text{
+  float: left;
+}
+.pay_common image{
+  margin: 23rpx 19rpx 23rpx 20rpx;
+}
+.pay_common radio{
+  float: right
+}
+.pay_way{
+  width: 345rpx;
+  height: 90rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 5rpx;
+  text-align: center;
+  line-height: 90rpx;
+  float: left;
+  margin-bottom: 20rpx;
+}
+.pay_farm{
+  margin-right: 5rpx;
+}
+.pay_ind{
+  margin-left: 7rpx;
+}
+.pay_cons{
+  margin-right: 5rpx;
+}
+.pay_postal{
+  margin-left: 7rpx;
+}
+
+.pay_btn{
+  width: 200rpx;
+  height: 90rpx;
+  margin-top: 40rpx;
+  background: #577EFF;
+  color: #fff;
+}

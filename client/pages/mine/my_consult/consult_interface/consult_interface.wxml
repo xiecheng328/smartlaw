@@ -1,0 +1,4 @@
+<!--pages/mine/my_consult/consult_interface/consult_interface.wxml-->
+<view class="consult_container">
+  <image src='../../images/my_consult/consult_interface.png'></image>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/mine/my_consult/my_consult.wxml-->
+<view class="consult_container">
+  <view class="consult_content" wx:for="{{chatList}}" wx:key="{{index}}" bindtap='next'>
+    <view class="chat_info">
+      <view class="photo">
+        <image src='{{item.src}}'></image>
+      </view>
+      <view class="consult_info">
+        <view class="consult_spcl">{{item.name}}</view>
+        <view class="consult_company">{{item.company}}</view>
+      </view>
+      <view class="consult_date">
+        <view>{{item.date}}</view>
+        <view>{{item.lawtype}}</view>
+      </view>
+    </view>
+  </view>
+
+</view>
