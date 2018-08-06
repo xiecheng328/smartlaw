@@ -12,4 +12,4 @@
     <radio class='radio' checked='{{item.checked}}'></radio>
   </view>
 </radio-group>
-<button bindtap='app'>支付</button>
+<button bindtap='showtip'>支付</button>
