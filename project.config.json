@@ -23,7 +23,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 15,
 			"list": [
 				{
 					"id": -1,
@@ -82,7 +82,43 @@
 				{
 					"id": -1,
 					"name": "5",
-					"pathName": "pages/commission/commmission"
+					"pathName": "pages/commission/commmission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "appointment",
+					"pathName": "pages/community//appointment/appointmen",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "appointment",
+					"pathName": "pages/community//appointment/appointmen",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "appointment",
+					"pathName": "pages/community//appointment/appointment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "appointment",
+					"pathName": "pages/community//appointment/appointment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "details",
+					"pathName": "pages/community/details/details",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "appointment",
+					"pathName": "pages/community/appointment/appointment"
 				}
 			]
 		}

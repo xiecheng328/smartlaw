@@ -9,9 +9,44 @@
     </view>
   </view>
 
+
+  <view class='receiver'>
+  <view id='receiver-content'>
+    <view id="rname">收件人姓名：
+      <input type="text" class='input'></input>
+     </view>
+     <view id='rtel'>收件人电话号码：
+      <input type='text' class='input'></input>
+     </view>
+     <view id='raddress'>收件人地址：
+      <view class='area'>
+          <view bindtap='chooseAddress' style='margin:20rpx auto;width:100%;text-align:center;'>
+          <text>{{province == ''?'点我选择地区':province + '-' + city + '-' + area}}</text>
+          </view>
+          <nyz_area_picker show="{{show}}" bind:sureSelectArea="sureSelectAreaListener">
+          </nyz_area_picker>
+      </view>
+      
+
+
+      </view>
+  
+    </view>
+    <view class='detail-area'>
+          <label class='label'>详细地址：</label>
+          <input type="text" class='input' id='detail'>
+
+          </input>
+      </view>
+  </view>
+
+
+  <view id='case-description'>案件描述
+
   
 
   <view id='case-description'>合同简要描述：
+
     <input class='input' id='detail-case'></input>
   </view>
   

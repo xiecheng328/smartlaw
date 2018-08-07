@@ -1,5 +1,6 @@
 {
     "pages": [
+      
         "pages/lawyer_assessment/lawyer_assessment",
         "pages/lawyer_assessment/lawyer_search/first_search/first_search",
         "pages/lawyer_assessment/court_search/personal/personal",
@@ -49,6 +50,8 @@
         "pages/community/community_consult/community_consult",
         "pages/community/settled/first_settled/first_settled",
         "pages/community/settled/second_settled/second_settled",
+        "pages/community/appointment/appointment",
+        "pages/community/details/details",
         "pages/services/first/first",
         "pages/demo/demo",
         "pages/commission/advancePayment/advancePayment",
@@ -76,6 +79,7 @@
         "pages/mine/setting/setting",
         "pages/mine/setting/aboutUs/aboutUs",
         "pages/mine/interlocution/interlocutionDetails/interlocutionDetails",
+        
         "pages/services/business/stock/stock",
         "pages/services/business/knowledge/knowledge",
         "pages/services/business/relation/relation",
