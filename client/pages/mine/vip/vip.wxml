@@ -1,0 +1,20 @@
+<!--pages/mine/vip/vip.wxml-->
+<view class='container'>
+  <image src='{{vipList[0].img}}'></image>
+  <view class='open-price'>
+    <view><text>开通vip服务</text><text class='price'>{{vipList[0].price}}</text></view>
+  </view>
+  <view class='detail'>
+    <text>所有付费项目享受9折优惠</text>
+    <text class='detail-center'>有效期为1个月</text>
+    <text>优先享受律师服务</text>
+  </view>
+  <view class='number'>
+    <image src='{{vipList[0].ico}}'></image>
+    <input placeholder='请输入11位有效手机号码'></input>
+  </view>
+  <view class='btn'>
+    <button class='btn-open' bindtap='openshow'>立即开通</button>
+    <button class='btn-server' bindtap='servershow'>服务热线</button>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+<!--pages/mine/interlocution/interlocution.wxml-->
+<view>
+  <view class='title'>
+    <view class="title-question {{currentTapIndex==0?'selected': ''}}" bindtap="tapHandler" data-tapindex="0">我的提问</view>
+    <view class="title-answer {{currentTapIndex==1?'selected': ''}}" bindtap="tapHandler" data-tapindex="1">我的回答</view>
+  </view>
+</view>
+<swiper  current='{{currentTapIndex}}'>
+  <swiper-item >
+    <view class='container'>
+    <view class='container-child' wx:for="{{caseList}}" wx:key="{{index}}">
+      <view class='container-content'>
+        <form>
+          <label>
+            <textarea placeholder='大概内容' placeholder-class="holder-style"></textarea>
+          </label>
+        </form>
+        <view class='container-content-textlist'>
+          <view >{{item.caseType}}</view>
+          <view >{{item.questioner}}</view>
+        </view>
+      </view>
+      <view class='container-child-textlist'>
+        <view>{{item.questionDate}}</view>
+        <navigator url='interlocutionDetails/interlocutionDetails'>{{item.checkDetails}}</navigator>
+      </view>
+    </view>
+    
+    
+  
+</view>
+  </swiper-item>
+  <swiper-item>
+      <view class='container'>
+        <view class='container-child' wx:for="{{caseList}}" wx:key="{{index}}">
+          <view class='container-content'>
+            <form>
+              <label>
+                <textarea  class='textarea2' placeholder='大概内容' placeholder-class="holder-style"></textarea>
+              </label>
+            </form>
+            <view class='container-content-textlist'>
+              <view >{{item.caseType}}</view>
+              <view >{{item.questioner}}</view>
+              <navigator url='interlocutionDetails/interlocutionDetails'>{{item.checkDetails}}</navigator>
+            </view>
+          </view>
+        </view>
+        
+      
+      </view>
+  </swiper-item>
+</swiper>
+
+

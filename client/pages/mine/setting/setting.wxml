@@ -1,0 +1,8 @@
+<!--pages/mine/setting/setting.wxml-->
+<view>
+  <navigator url='aboutUs/aboutUs'><text>关于我们</text>
+    <image src='image/next.png'></image>
+  </navigator>
+  <navigator url='feedBack/feedBack'><text>意见反馈</text><image src='image/next.png'></image></navigator>
+  <view class='contact' bindtap='show'><text>联系我们</text><image src='image/next.png'></image></view>
+</view>

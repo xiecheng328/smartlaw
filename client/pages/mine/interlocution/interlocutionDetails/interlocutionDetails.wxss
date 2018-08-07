@@ -1,0 +1,76 @@
+/* pages/mine/interlocution/interlocutionDetails/interlocutionDetails.wxss */
+/* .container{
+  color: #333;
+  font-size: 30rpx;
+} */
+/* user与lawyer的通用样式开始 */
+text{
+  font-size: 30rpx;
+}
+image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+textarea{
+  height: 298rpx;
+  width: 708rpx;
+  border: 1px solid #DDDDDD;
+}
+.lawyer,.user{
+  padding: 20rpx;
+}
+.holder-style{
+  color: #333;
+  font-size: 30rpx;
+  text-indent: 20;
+}
+.date{
+  position: absolute;
+  bottom: 39rpx;
+  right: 40rpx;
+  font-size: 30rpx;
+}
+/* user与lawyer的通用样式结束 */
+/* user开始 */
+.user{
+  position: relative;
+  border-bottom: 1rpx solid #DDDDDD;
+}
+.username{
+  margin:0 0 47rpx 19rpx;
+}
+/* .user text{
+  margin:45rpx 0 47rpx 19rpx;
+  display: inline-block;
+} */
+.user-title{
+  display: flex;
+  align-items: flex-end;
+  font-size: 30rpx;
+}
+/* user结束 */
+/* lawyer开始 */
+  .lawyer{
+    position: relative;
+  }
+.lawyername{
+  /* margin:0 0 47rpx 19rpx; */
+}
+.lawyer-title{
+  display: flex;
+  align-items: flex-end;
+}
+.lawyer-title view{
+  margin-bottom: 25rpx;
+  margin-left: 19rpx;
+}
+.lawyer-title view text{
+  display: block;
+}
+.lawyer-id{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+/* lawyer结束 */
