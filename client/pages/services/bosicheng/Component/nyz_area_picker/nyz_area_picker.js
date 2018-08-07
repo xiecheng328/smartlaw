@@ -1,5 +1,5 @@
 // common/nyz_area_picker/nyz_area_picker.js
-var areaTool = require('../../utils/area.js');
+var areaTool = require('../../../../../utils/area.js');
 var index = [0,0,0]
 var provinces = areaTool.getProvinces();
 var citys = areaTool.getCitys(index[0]);

@@ -1,7 +1,0 @@
-<view id='title-img'>
-  <label>代发律师函</label>
-</view>
-
-<view class='check'>
-  <checkbox>代发律师函律师推荐（一次5元）</checkbox>
-</view>

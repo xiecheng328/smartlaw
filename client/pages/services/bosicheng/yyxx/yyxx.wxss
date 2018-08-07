@@ -1,0 +1,135 @@
+#title{
+  /* width:178rpx; */
+  /* height:29rpx; */
+  font-size:30rpx;
+  font-family:PingFangSC-Medium;
+  color:rgba(51,51,51,1);
+  margin-top:30rpx;
+  margin-left: 20rpx;
+  /* font-weight: bold; */
+
+}
+
+.name{
+  display: flex;
+  margin:0 20rpx 0 20rpx;
+  justify-content: space-between;
+  
+}
+.wordName{
+  /* width:127rpx; */
+  /* height:23rpx; */
+  font-size:24rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+  margin-top:49rpx;
+  
+  
+
+}
+.inputName{
+  width:520rpx;
+  height:60rpx;
+  /* background:rgba(255,255,255,1); */
+  border:1rpx solid #ccc;
+  margin-top:31rpx;
+}
+.bar{
+  height:20px;
+  background:rgba(238,238,238,1);
+  width: 100%;
+  margin-top:20rpx;
+}
+.lower{
+  margin-left: 20rpx;
+}
+#title2{
+  font-size:24rpx;
+  font-family:PingFangSC-Medium;
+  color:rgba(51,51,51,1);
+  margin-top:23rpx;
+
+}
+#caseInput{
+  width:710rpx;
+  height:300rpx;
+  background:rgba(255,255,255,1);
+  margin-top: 24rpx;
+
+  border:1rpx solid #ccc;
+}
+
+#regTime{
+  font-size:24rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+  margin-top: 25rpx;
+}
+
+
+
+
+
+
+.time-title{
+  float:left;width:20%;text-align:center;color:#45BCE8
+}
+.picker-text{
+  text-align:center;
+}
+/*mask*/
+.time_screens {
+    background: rgba;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* z-index: 1000; */
+    height:100%;
+    /* opacity: 0.5; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+#mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.8);
+    position: fixed;
+    top: 0rpx;
+    left: 0rpx;
+    z-index: 1001;
+}
+#noMask{
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  left: 0px;
+  background-color: #fff;
+  z-index: 1002;
+
+}
+
+#courtName{
+  font-size:24rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+  margin-top: 43rpx;
+}
+
+#butNext{
+  width:200rpx;
+  height:90rpx;
+  background:rgba(87,126,255,1);
+  border-radius:5px;
+
+  margin-top: 30rpx;
+  margin-left: 275rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(255,255,255,1);
+
+}
