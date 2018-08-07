@@ -1,0 +1,15 @@
+<view>选择产品:</view>
+<view wx:for="{{item1}}" wx:key="name" value="{{item.name}}">{{item.value}}</view>
+<radio >
+</radio>
+
+
+
+
+
+
+
+
+<navigator url="">
+  <button>下一步</button>
+</navigator>

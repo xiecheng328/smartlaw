@@ -1,0 +1,18 @@
+<!--pages/lawyer_assessment/lawyer_search/first_search/first_search.wxml-->
+<view class='search-wrapper'>
+  <view class='search-wrapper2'>
+    <view class='triangle'></view>
+    <view class='word'>{{province}}</view>
+    <view class='input'><input placeholder='请输入律师名字' placeholder-class='placeholder'></input></view>
+    <navigator class='button' url='../lawyer_search'>查询</navigator>
+  </view>
+  <view class='search-wrapper3'>
+    <view class='hot-search'>热门搜索：</view>
+    <view class='case'>
+      <view>{{hotsearch.first}}</view>
+      <view>{{hotsearch.second}}</view>
+      <view>{{hotsearch.third}}</view>
+      <view>{{hotsearch.forth}}</view>
+    </view>
+  </view>
+</view>

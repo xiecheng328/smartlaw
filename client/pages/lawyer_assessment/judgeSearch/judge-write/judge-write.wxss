@@ -1,0 +1,40 @@
+.analyse-tit{
+  margin: 60rpx;
+  font-size: 32rpx;
+  color: #999;
+}
+.analyse-content{
+  width:85%;
+  margin: 0 auto;
+  border: 1rpx solid #dddddd;
+  border-radius: 5rpx;
+}
+.belong-to{
+  margin: 30rpx 60rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.picker{
+  position: relative;
+}
+.picker-val{
+  border: 1rpx solid #dddddd;
+  margin-left: 60rpx;
+  padding: 0 30rpx;
+  position: relative;
+  border-radius: 5rpx;
+  font-size:32rpx;
+}
+
+.next-btn{
+  width: 40%;
+  height: 90rpx;
+  margin: 160rpx auto;
+}
+.btn{
+  border-radius: 50rpx;
+  height: 100%;
+  line-height: 90rpx;
+  border: 1rpx solid #dddddd;
+}

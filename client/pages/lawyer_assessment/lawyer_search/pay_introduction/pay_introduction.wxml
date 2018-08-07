@@ -1,0 +1,2 @@
+<view class="introduction">{{introduction}}</view>
+<navigator class='btn' url='../payment/payment'>下一步</navigator>

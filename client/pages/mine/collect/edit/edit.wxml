@@ -1,0 +1,52 @@
+<view class="container">
+  <view class="edit-title">
+    <view bindtap='checkAll'>全选</view>
+    <view>
+      <navigator url="../collect/collect">取消</navigator>
+    </view>
+  </view>
+  <view class="edit-content">
+    <view  class="edit-list" wx:for="{{editList}}" wx:key="{{index}}" data-index="{{index}}">
+      <view class="list-information">
+        <checkbox bindtap='selecte' checked="{{item.checked}}"></checkbox>
+        <view calss="right">
+          <view class="edit-list-top">
+            <view class="edit-list-top-left">
+              <image class="edit-list-img" src="{{item.img}}"></image>
+              <view class="edit-list-name">{{item.name}}</view>
+            </view>
+            <view class="edit-list-date">{{item.date}}</view>
+          </view>
+          <view class="edit-list-bottom">
+            <view class="edit-list-text">{{item.description}}</view>
+          </view>
+        </view>
+      </view>
+
+
+    </view>
+
+
+  </view>
+  <view class="bottom">
+    <view class="addClass" bindtap='showList'>
+      移动到分组
+    </view>
+    <view class="addClass"  bindtap='deleteList' url="../add-address/add-address">
+      删除
+    </view>
+  </view>
+
+
+</view>
+
+<view class="bg" wx:if="{{boolean}}">
+  <view class="box">
+    <view class="list">移动到</view>
+    <view class="list" wx:for="{{groupList}}" wx:key="{{index}}">{{item.name}}
+      <text>({{item.description}})</text>
+    </view>
+    <button bindtap='cancelEdit'>取消</button>
+  </view>
+
+</view>

@@ -1,0 +1,51 @@
+#banner,#banner image{
+    width: 750rpx;
+    height: 300rpx;
+}
+.dialogBox{
+    width:690rpx;
+    margin: 40rpx auto
+}
+.dialog-title{
+    margin: 40rpx auto;
+}
+textarea{
+    width:690rpx;
+    border-radius: 10rpx;
+    background: rgb(160, 166, 180);
+    color: white;
+}
+.textareaStyle{
+    color: white;
+}
+.getCode{
+    display: flex;
+    margin: 40rpx 0;
+    height: 96rpx;
+}
+.getCode input{
+    border: 1px solid gray;
+    text-indent: 12rpx;
+    height: 60rpx;
+    margin-top: 18rpx;
+    font-weight: normal;
+}
+.getCode button{
+    width:240rpx;
+    font-size: 32rpx;
+    line-height:100rpx;
+
+}
+.codeInput{
+    border: 1px solid gray;
+    width:240rpx;
+    text-indent: 12rpx;
+}
+.submit{
+    margin-top: 40rpx;
+    border-radius: 40rpx;
+    top:30rpx;
+    width:280rpx;
+    color: white;
+    background: rgb(89, 176, 226);
+}

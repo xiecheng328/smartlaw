@@ -1,0 +1,37 @@
+<!--pages/Counsel/Counsel.wxml-->
+<!-- <text>pages/Counsel/Counsel.wxml</text> -->
+<view class='header'>律师推荐</view>
+<view class='wraper'>
+<view class='content'>
+<view class='menu'>
+<view class="nav {{currentTapIndex==0?'selected': ''}}" bindtap="tapHandler" data-tapindex="0">胜率最高推荐</view>
+<view class="nav {{currentTapIndex==1?'selected': ''}}" bindtap="tapHandler" data-tapindex="1">性价比最高推荐</view>
+<!-- <view class="nav {{currentTapIndex==2?'selected': ''}}" bindtap="tapHandler" data-tapindex="2">案件委托服务</view> -->
+</view>
+ <swiper class='itemsBox' current='{{currentTapIndex}}'>
+  <swiper-item>
+      <view class='list-item' wx:for="{{firstList}}" >
+      <view class='list-name'>{{item.name}}</view>
+       <view class='list-year'>{{item.year}}</view>
+       <view class='list-house'>{{item.house}}</view>
+       <view class='list-star'>{{item.star}}</view>
+       <image  class="phone"   src='../image/1859.png'></image>
+      </view> 
+  </swiper-item>
+  <swiper-item>
+    <view class='list-item' wx:for="{{firstList}}" >
+      <view class='list-name'>{{item.name}}</view>
+       <view class='list-year'>{{item.year}}</view>
+       <view class='list-house'>{{item.house}}</view>
+       <view class='list-star'>{{item.star}}</view>
+       <image  class="phone"   src='../image/1859.png'></image>
+      </view> 
+  
+  </swiper-item>
+  <swiper-item>
+  <view class='list-item'>#
+  <navigator class='item-right'>></navigator></view>
+  </swiper-item>
+</swiper>
+</view>
+</view>

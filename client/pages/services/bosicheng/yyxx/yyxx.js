@@ -181,7 +181,11 @@ Page({
     // console.log("aa")
     setTimeout(function(){
       wx.navigateTo({
+<<<<<<< HEAD
         url: '../dflsh/dflsh',
+=======
+        url: '../lslb/lslb',
+>>>>>>> f2d5d3e237042002a2e53f054a5f5bf2d99ab783
       })
     },2001)
   }

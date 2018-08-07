@@ -1,0 +1,17 @@
+<view id='banner'>
+    <image src='../../../../images/banner.jpg'></image>
+</view>
+<view class='dialogBox'>
+    <view class='dialog-title'>咨询窗口</view>
+    <form bindsubmit="formSubmit" >
+        <textarea placeholder="请描述您的问题，以便律师更精确的答复您" auto-focus bindfocus='focusTextarea' placeholder-class="textareaStyle"/>
+        <view class='getCode'>
+            <input type='number' placeholder='输入手机号码' auto-focus focus='true' bindinput="phoneInput"/>
+            <button class='right yanzheng_btn' bindtap="bindButtonTap" disabled='{{disabled}}' style="background-color:{{color}}">{{text}}
+            </button>
+        </view>
+        <input type='number' placeholder='输入验证码' auto-focus focus='true'class="codeInput"/>
+        <button class="submit" formType="submit">立即咨询</button>
+    </form>
+</view>
+

@@ -1,0 +1,6 @@
+<view class="search-box">
+  <input placeholder="请输入指定律所名称" class='judge-search'></input>
+  <navigator url="answer/answer">
+  <view class="img-box"><image src='../images/of5.png'></image></view>
+  </navigator>
+</view>

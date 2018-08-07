@@ -1,0 +1,58 @@
+/* pages/mine/my-data/add-address/add-address.wxss */
+
+input {
+  height: 20rpx;
+  margin: 30rpx 0;
+  font-size: 30rpx;
+}
+
+.style {
+  width: 710rpx;
+  height: 89rpx;
+  border-bottom: 1px solid #ddd;
+  margin: 0 auto;
+}
+
+.phcolor {
+  color: #333;
+}
+
+.more_address {
+  border: none;
+}
+
+.space {
+  background: #eee;
+  height: 20rpx;
+}
+
+.default_address {
+  display: flex;
+  justify-content: space-between;
+  height: 90rpx;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 0 20rpx;
+}
+
+button{
+  width: 710rpx;
+  height: 90rpx;
+  margin: 80rpx 20rpx 0;
+  background: #577EFF;
+  color:#fff;
+}
+.wx-switch-input {
+  width: 80rpx !important;
+  height: 40rpx !important;
+}
+
+.wx-switch-input::before {
+  width: 80rpx !important;
+  height: 40rpx !important;
+}
+
+.wx-switch-input::after {
+  width: 36rpx !important;
+  height: 36rpx !important;
+}

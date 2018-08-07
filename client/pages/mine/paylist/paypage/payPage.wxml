@@ -1,0 +1,15 @@
+<view class='header'>确认您选择的包裹:</view>
+<view class='content1'>
+  <view>律师报告列表
+    <radio class='radio' checked='true'></radio>
+  </view>
+</view>
+<view class='header'>支付方式:</view>
+<radio-group>
+  <view class='content2' wx:for='{{items}}' wx:key="{{index}}">
+    <image src="{{item.img}}"></image>
+    <view class='payname'>{{item.logo}}{{index}}</view>
+    <radio class='radio' checked='{{item.checked}}'></radio>
+  </view>
+</radio-group>
+<button bindtap='app'>支付</button>

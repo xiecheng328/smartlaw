@@ -1,0 +1,15 @@
+<view class='header'>确认您选择的服务:</view>
+<view class='content1'>
+  <view>为您展示更详细的律师信息 {{msg1}}
+    <radio class='radio' checked='true'></radio>
+  </view>
+</view>
+<view class='header'>支付方式:</view>
+<radio-group>
+  <view class='content2' wx:for='{{items}}' wx:key='name'>
+    <image src="{{item.img}}"></image>
+    <view class='payname'>{{item.logo}}</view>
+    <radio class='radio' checked='{{item.checked}}'></radio>
+  </view>
+</radio-group>
+<button bindtap='app'>支付</button>

@@ -1,0 +1,34 @@
+<!--pages/mine/legal_services/change_info/change_info.wxml-->
+<form>
+<view class='wrapper1'>
+  <view class='message'>填写预约信息</view>
+  <view class='name'>
+    <view>委托人姓名：</view>
+    <input></input>
+  </view>
+  <view class='call'>
+    <view>委托人电话号码：</view>
+    <input></input>
+  </view>
+  <view class='sadd'>
+    <view>收件人地址：</view>
+    <input></input>
+  </view>
+  <view class='dadd'>
+    <view>详细地址：</view>
+    <input></input>
+  </view>
+</view>
+
+<view class='foo'></view>
+
+<view class='wrapper2'>
+  <view class='detail'>案情描述：</view>
+  <textarea></textarea>
+  </view>
+
+
+<button class="change_btn" form-type='submit' bindtap='next'>下一步</button>
+</form>
+
+

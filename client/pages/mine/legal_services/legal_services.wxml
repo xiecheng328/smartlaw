@@ -1,0 +1,39 @@
+<!--pages/mine/legal_services/legal_services.wxml-->
+<view class="menu">
+  <view class="nav {{currentTapIndex==0?'selected': ''}}" bindtap='tapHandler' data-tapindex="0">代付款</view>
+  <view class="nav {{currentTapIndex==1?'selected': ''}}" bindtap='tapHandler' data-tapindex="1">进行中</view>
+  <view class="nav {{currentTapIndex==2?'selected': ''}}" bindtap='tapHandler' data-tapindex="2">已完成</view>
+</view>
+
+<swiper class='content' current='{{currentTapIndex}}' >
+  <swiper-item>
+    <view class="legal-container">
+      <view class="legal-header legal-margin">
+        <view class="legal-info">标准法律服务：代发律师函</view>
+        <view class="legal-info">资料填写完成</view>
+        <view class="legal-info legal-spcl">订单状态：未付款</view>
+      </view>
+      <view class="legal-event">
+        <navigator url='change_info/change_info' class="legal-change">修改资料</navigator>
+        <navigator url='change_info/go_pay/go_pay' class="legal-pay">去付款</navigator>
+      </view>
+    </view>
+  </swiper-item>
+
+
+  <swiper-item wx:for="{{lservicesList}}" wx:key="{{index}}">
+    <view class="legal-container">
+      <view class="legal-header legal-pad">
+        <view class="legal-info">标准法律服务：{{item.title}}</view>
+        <view class="legal-info">服务律师：{{item.lawyer}}</view>
+        <view class="legal-info">订单状态：{{item.status}}</view>
+        <view class="legal-info">律师专业指数：{{item.level}}</view>
+        <view class="legal-info">付款时间：{{item.paytime}}</view>
+      </view>
+      <view class="legal-event">
+       <navigator url='check_details/check_details'  class="legal-pay">查看详情</navigator>
+       </view>
+    </view>
+  </swiper-item>
+</swiper>
+<view bindtap='call' class="legal-footer">联系客服：400-000-1234</view>

@@ -1,0 +1,21 @@
+<view wx:for="{{list}}" wx:key="{{index}}">
+      <view class="upper">
+        <image src="{{item.lawImg}}" class="img"></image>
+        <view class="content">
+          <view class="name">{{item.name}}</view>
+          <view class="score">
+            
+          </view>
+          <view class="agentName">{{item.agent}}</view>
+          <view class="idName">{{item.id}}</view>
+        </view>
+      </view>
+      <view class="lower">
+        <label class="expert">专业领域：</label>
+        <view class="expertAt">婚姻继承</view>
+        <view class="expertAt">劳动纠纷</view>
+        <view class="expertAt">交通事故</view>
+      </view>
+      <view class="bar"></view>
+</view>
+

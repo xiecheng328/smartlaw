@@ -1,0 +1,61 @@
+/* pages/mine/mine.wxss */
+page{
+  background: #eee;
+}
+.header{
+  display: block;
+  height: 300rpx;
+  background: #577eff;
+}
+
+.head-portrait{
+  width: 148rpx;
+  height: 148rpx;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-repeat:round; 
+  overflow: hidden;
+}
+.mine-photo{
+  width: 100%;
+  height: 100%;
+}
+.username{
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+  margin: 30rpx auto;
+}
+.content{
+  border-radius: 10rpx;
+  background: #fff;
+  margin: 20rpx;
+}
+.mine-list{
+  display: flex;
+  margin: 0 30rpx;
+  height: 89rpx;
+  line-height: 89rpx;
+  border-bottom: 1px solid #dddddd;
+}
+.mine-text{
+  flex-grow: 1;
+  color: #333333;
+  font-size: 28rpx;
+}
+.mine-img{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 21rpx;
+  margin-right: 30rpx;
+}
+.arrow{
+  color: #a9a9a9;
+}
+.clear-border{
+  border: 0;
+}
+.navigator-hover {
+    background-color: rgba(0, 0, 0, 0);
+}

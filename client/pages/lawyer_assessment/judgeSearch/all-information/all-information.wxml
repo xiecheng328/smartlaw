@@ -1,0 +1,4 @@
+李XX个人简介及职能分析 .....
+<view bindtap='goto'>
+  <button>返回首页</button>
+</view>

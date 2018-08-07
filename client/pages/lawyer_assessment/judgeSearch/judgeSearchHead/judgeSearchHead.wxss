@@ -1,0 +1,21 @@
+/* pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.wxss */
+.judge-search{
+  width: 500rpx;
+  border: 1px solid lightblue;
+  border-radius: 5rpx;
+}
+.search-box{
+  width: 600rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 60rpx auto;
+  height: 60rpx;
+}
+image{
+  height: 53rpx;
+  width: 55rpx;
+  display: block;
+  border: 2rpx solid lightblue;
+  border-radius: 5rpx;
+}
+
