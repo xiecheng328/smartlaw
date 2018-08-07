@@ -10,14 +10,14 @@ Page({
     bookList: [{
         start: '2018-10-09 14:30',
         end: '2018-10-09 14:30',
-        lawyer: '王1律师',
+        lawyer: '王律师',
         lawtype: '合同买卖',
         bookremind: '预约提醒',        
       },
       {
         start: '2018-10-09 14:30',
         end: '2018-10-09 14:30',
-        lawyer: '王2律师',
+        lawyer: '王律师',
         lawtype: '合同买卖',
         bookremind: '预约提醒',
         
@@ -27,12 +27,12 @@ Page({
       {
         start: '2018-10-09 14:30',
         end: '2018-10-09 14:30',
-        lawyer: '张1律师',
+        lawyer: '张律师',
         lawtype: '合同买卖'},
       {
         start: '2018-10-09 14:30',
         end: '2018-10-09 14:30',
-        lawyer: '张2律师',
+        lawyer: '张律师',
         lawtype: '合同买卖'}
     ]
   },
@@ -61,22 +61,22 @@ Page({
   },
   bookDelete:function(e){
     var that =this;
+    var bookIndex = e.currentTarget.dataset.index;
+    console.log(bookIndex)
     wx.showModal({
       title: '提示',
-      content: '确认删除 我们会尽快将预约金额尽快退回到您的账户',
+      content: '确认删除 我们会将预约金额尽快退回到您的账户',
       confirmColor: '#577eff',      
       success: res=> {
         if (res.confirm) {
-          var bookIndex = e.currentTarget.dataset.index;
-          console.log(e.currentTarget.dataset.index);
-          var bookArr = that.data.bookList;
-          bookArr=bookArr.pop(bookArr[bookIndex]);
+          console.log(bookIndex);
+          var bookArr = that.data.bookList;          
+          bookArr.splice(bookIndex,1);
           that.setData({
-            bookList:[bookArr]
+            bookList:bookArr
           })
-          console.log(bookArr);
         } else if (res.cancel) {
-          console.log('用户点击取消')
+          console.log('用户点击取消');
         }
       }
     })
@@ -91,7 +91,8 @@ Page({
         if (res.confirm) {
           var bookIndex = e.currentTarget.dataset.index;
           var bookArr = this.data.outdateList;
-          bookArr.pop(bookArr[bookIndex]);
+          console.log(bookArr);
+          bookArr.splice(bookIndex,1);
           this.setData({
             outdateList: bookArr
           });

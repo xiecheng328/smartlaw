@@ -1,0 +1,11 @@
+<!--pages/mine/setting/feedBack/feedBack.wxml-->
+<view>
+  <form>
+    <view class='textarea-container'>
+      <textarea placeholder='请留下您的宝贵意见' placeholder-class='holder-style' maxlength="500"></textarea></view>
+    <input placeholder='请留下您的电话号码' placeholder-class='holder-style'></input>
+  </form>
+</view>
+<view>
+  <button bindtap='show'>提交</button>
+</view>

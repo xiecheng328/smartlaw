@@ -1,0 +1,32 @@
+/* pages/mine/setting/feedBack/feedBack.wxss */
+.holder-style{
+  color: #999999;
+  font-size: 28rpx;
+  text-indent: 21rpx;
+}
+button{
+  background-color: #577EFF;
+  color: #fff;
+  width: 710rpx;
+  height: 90rpx;
+  margin-top: 60rpx;
+}
+.textarea-container{
+  margin: 20rpx;
+  width: 708rpx;
+  height: 368rpx;
+  border: 1rpx solid #DDDDDD;
+}
+textarea{
+  padding: 30rpx 0 0 21rpx;
+  width: 664rpx;
+  height: 300rpx;
+  font-size: 28rpx;
+}
+input{
+  border: 1rpx solid #DDDDDD;
+  width: 708rpx;
+  height: 88rpx;
+
+  margin-left: 20rpx;
+}

@@ -1,0 +1,59 @@
+/* pages/mine/history/history.wxss */
+.detail{
+  font-size: 30rpx;
+  padding: 0 20rpx;
+}
+
+checkbox {
+  color: #999999;
+}
+checkbox .wx-checkbox-input{
+   border-radius: 50%;
+   width: 30rpx; 
+   height: 30rpx;    
+}
+.box{
+  height: 89rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+}
+.case-container{
+  height: 129rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+}
+.statement{
+  width: 558rpx;
+  font-size: 28rpx;
+}
+.case-name{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 40rpx;
+}
+.case-price{
+  margin-bottom: 11rpx;
+  color: #333333;
+}
+.footer{
+  height: 91rpx;
+  display: flex;
+  font-size: 30rpx;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 91rpx;
+  width: 640rpx;
+}
+.footer text{
+  width: 120rpx;
+  height: 40rpx;
+}
+.dele-btn{
+  margin-right: -100rpx;
+}

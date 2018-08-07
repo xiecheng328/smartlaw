@@ -5,41 +5,34 @@
       <navigator url="../collect/collect">取消</navigator>
     </view>
   </view>
-  <view class="edit-content">
-    <view  class="edit-list" wx:for="{{editList}}" wx:key="{{index}}" data-index="{{index}}">
-      <view class="list-information">
-        <checkbox bindtap='selecte' checked="{{item.checked}}"></checkbox>
-        <view calss="right">
-          <view class="edit-list-top">
-            <view class="edit-list-top-left">
-              <image class="edit-list-img" src="{{item.img}}"></image>
-              <view class="edit-list-name">{{item.name}}</view>
+  <view>
+    <view bindtap="toggleSel" wx:for="{{list}}" wx:key="{{index}}" data-id='{{item.id}}'>
+      <view class="list-information" data-id='{{item.id}}'>
+        <icon type="success" size="20" color="{{item.selStatu?'#577EFF':'#eeeeee'}}" data-id='{{item.id}}' />
+        <view data-id='{{item.id}}' calss="right">
+          <view data-id='{{item.id}}' class="edit-list-top">
+            <view data-id='{{item.id}}' class="edit-list-top-left">
+              <image data-id='{{item.id}}' class="edit-list-img" src="{{item.img}}"></image>
+              <view data-id='{{item.id}}' class="edit-list-name">{{item.name}}</view>
             </view>
-            <view class="edit-list-date">{{item.date}}</view>
+            <view data-id='{{item.id}}' class="edit-list-date">{{item.date}}</view>
           </view>
-          <view class="edit-list-bottom">
-            <view class="edit-list-text">{{item.description}}</view>
+          <view data-id='{{item.id}}' class="edit-list-bottom">
+            <view data-id='{{item.id}}' class="edit-list-text">{{item.description}}</view>
           </view>
         </view>
       </view>
-
-
     </view>
-
-
   </view>
   <view class="bottom">
     <view class="addClass" bindtap='showList'>
       移动到分组
     </view>
-    <view class="addClass"  bindtap='deleteList' url="../add-address/add-address">
+    <view class="addClass" bindtap='delItem' url="../add-address/add-address">
       删除
     </view>
   </view>
-
-
 </view>
-
 <view class="bg" wx:if="{{boolean}}">
   <view class="box">
     <view class="list">移动到</view>
@@ -48,5 +41,4 @@
     </view>
     <button bindtap='cancelEdit'>取消</button>
   </view>
-
 </view>

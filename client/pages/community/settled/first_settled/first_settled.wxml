@@ -1,4 +1,7 @@
 <!--pages/community/settled/first_settled/first_settled.wxml-->
+
+<text>pages/community/settled/first_settled/first_settled.wxml</text>
+
 <view>
   <image src='../../../images/banner.jpg' class='obanner'></image>
   <view class='title'>请填写基本信息</view>
@@ -54,3 +57,4 @@
     <!-- </navigator> -->
   </form>
 </view>
+>>>>>>> f2d5d3e237042002a2e53f054a5f5bf2d99ab783

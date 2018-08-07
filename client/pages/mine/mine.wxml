@@ -14,7 +14,7 @@
       <view class="arrow">{{gt}}</view>
     </navigator>
 
-   <navigator class="mine-list clear-border" url=''>
+   <navigator class="mine-list clear-border" url='vip/vip'>
       <image src="images/vip.png" class="mine-img"></image>
       <view class="mine-text">获取VIP权限</view>
       <view class="arrow">{{gt}}</view>

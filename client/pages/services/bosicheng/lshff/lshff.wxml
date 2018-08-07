@@ -36,6 +36,18 @@
               size="18"  class="icon"></icon>  
           <view wx-if="{{!checkYL}}" class="emptyCir" ></view>
   </view> 
+
+
+</view>
+
+
+
+<view wx-if="{{checkYL}}" class="bankBox">
+  <view class="bankButton">农业银行</view>
+  <view class="bankButton">中国工商银行</view>
+  <view class="bankButton">中国建设银行</view>
+  <view class="bankButton">中国邮政储蓄银行</view>
+
 </view>
 
 

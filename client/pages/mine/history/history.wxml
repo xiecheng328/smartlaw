@@ -1,0 +1,35 @@
+<!--pages/mine/history/history.wxml-->
+<view class='detail'>
+
+
+
+  <view  wx:for="{{historyList}}" wx:key="{{index}}">
+
+
+    <view class='{{item.isSelect}}' >
+    
+    <view class='box' data-tapindex="{{index}}">
+      <checkbox-group>
+        <checkbox value='{{index}}' checked='{{item.check}}' data-tapIndex="{{index}}" bindtap='change'>
+        {{item.date}}
+      </checkbox>
+      </checkbox-group>
+    </view>
+    <view class='case-container' wx:for="{{item.caseDetail}}" wx:key="{{index}}">
+      <text class='statement'>{{item.detail}}</text>
+      <view class='case-name'><text class='case-price'>￥5.00</text><text>婚姻</text></view>
+    </view>
+    </view>
+
+    
+  </view>
+  
+
+
+
+</view>
+<view class='footer'>
+  <text bindtap='allselected' wx:if="{{msg}}">全选</text>
+  <text bindtap='allselected' wx:else>取消全选</text>
+  <text bindtap='alldeleted' class='dele-btn'>删除</text>
+</view>

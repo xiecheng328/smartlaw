@@ -1,0 +1,30 @@
+<!--pages/mine/interlocution/interlocutionDetails/interlocutionDetails.wxml-->
+<view class='container'>
+  <view class='user' >
+    <view wx:key="{{index}}" class='user-title'>
+      <image src="{{interlocutionDetailsList[0].img}}"></image>
+      <view class='username'><text>{{interlocutionDetailsList[0].name}}</text></view>
+    </view>
+    <form>
+      <textarea placeholder='提问内容...' placeholder-class="holder-style"></textarea>
+    </form>
+    <view class='date'>
+      <text>{{interlocutionDetailsList[0].date}}</text>
+    </view>
+  </view>
+  <view class='lawyer'>
+    <view class='lawyer-title'>
+      <image src="{{interlocutionDetailsList[1].img}}"></image>
+      <view class='lawyername'>
+        <text>{{interlocutionDetailsList[1].name}}</text>
+        <text class='lawyer-id'>{{interlocutionDetailsList[1].id}}</text>
+      </view>
+    </view>
+      <form>
+        <textarea placeholder='答复内容...' placeholder-class="holder-style"></textarea>
+      </form>
+      <view class='date'>
+        <text>{{interlocutionDetailsList[1].date}}</text>
+      </view>
+  </view>
+</view>

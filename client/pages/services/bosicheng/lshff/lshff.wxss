@@ -80,6 +80,20 @@ line-height:29rpx;
   justify-content: space-around;
   align-content: space-around;
   height:250rpx;
+
+  margin-top: 20rpx;
+}
+.bankButton{
+  width: 335rpx;
+  height: 80rpx;
+  border:1rpx solid #DDDDDD;
+  border-radius:5rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size:26rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+
 }
 .bankButton{
   width: 280rpx;
@@ -88,6 +102,7 @@ line-height:29rpx;
   border-radius:10rpx;
   line-height: 80rpx;
   text-align: center;
+
 } 
 
 
@@ -113,7 +128,7 @@ line-height:29rpx;
   height:90rpx;
   background:rgba(87,126,255,1);
   border-radius:5rpx;
-  margin-top: 100rpx;
+  margin-top: 50rpx;
   font-size:30rpx;
   font-family:PingFangSC-Regular;
   color:rgba(255,255,255,1);

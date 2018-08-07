@@ -28,11 +28,13 @@ Page({
         },
         {
           img: "images/answer.png",
-          title: "案件问答"
+          title: "案件问答",
+          url:'interlocution/interlocution'
         },
         {
           img: "images/history.png",
-          title: "历史浏览"
+          title: "历史浏览",
+          url:'history/history'
         },
         {
           img: "images/favorite.png",
@@ -50,7 +52,8 @@ Page({
         },
         {
           img: "images/setting.png",
-          title: "我的设置"
+          title: "我的设置",
+          url:'setting/setting'
         },
       ],
       gt:'>'
