@@ -19,18 +19,13 @@ page {
   margin-bottom: 20rpx;
 }
 
-.edit-title>view {
-  margin: 0 20rpx;
-}
-
-.edit-list {
-  background: #ff0;
-}
-
 .list-information {
   height: 250rpx;
   background: #fff;
   margin: 0 auto 20rpx;
+}
+.edit-title>view {
+  margin: 0 20rpx;
 }
 
 image {
@@ -44,10 +39,6 @@ image {
   display: flex;
 }
 
-checkbox {
-  margin: 110rpx 18rpx 110rpx 20rpx;
-  transform: scale(0.7);
-}
 
 .edit-list-top {
   margin: 0 auto;
@@ -92,7 +83,6 @@ checkbox {
   height: 90rpx;
   border-bottom: 1px solid #ddd;
   text-align: center;
-  /* width: 710rpx; */
   margin: 0 20rpx;
   line-height: 90rpx;
 }
@@ -106,11 +96,10 @@ checkbox {
 }
 
 checkbox .wx-checkbox-input {
-  border-radius: 50%; /* 圆角 */
-  width: 40rpx; /* 背景的宽 */
-  height: 40rpx; /* 背景的高 */
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
 }
-
 
 .bottom {
   display: flex;
@@ -122,4 +111,10 @@ checkbox .wx-checkbox-input {
   padding: 0 20rpx;
   align-items: center;
   justify-content: space-between;
+}
+
+icon {
+  margin: 110rpx 18rpx 110rpx 20rpx;
+  /* transform: scale(0.7);  */
+  /* border:1px solid #ddd; */
 }
