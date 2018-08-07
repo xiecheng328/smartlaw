@@ -9,7 +9,7 @@
     </view>
   </view>
 
-<<<<<<< HEAD
+
   <view class='receiver'>
   <view id='receiver-content'>
     <view id="rname">收件人姓名：
@@ -42,11 +42,11 @@
 
 
   <view id='case-description'>案件描述
-=======
+
   
 
   <view id='case-description'>合同简要描述：
->>>>>>> f2d5d3e237042002a2e53f054a5f5bf2d99ab783
+
     <input class='input' id='detail-case'></input>
   </view>
   

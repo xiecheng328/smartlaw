@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/services/bosicheng/lshff/lshff",
     "pages/lawyer_assessment/lawyer_assessment",
     "pages/lawyer_assessment/lawyer_search/first_search/first_search",
     "pages/lawyer_assessment/court_search/personal/personal",
@@ -36,34 +37,20 @@
     "pages/commission/commission",
     "pages/lawyer_assessment/ofsearch/information/information",
     "pages/lawyer_assessment/ofsearch/skill/skill",
-    "pages/services/bosicheng/dflsh/dflsh",
-    "pages/services/bosicheng/htsc/htsc",
-    "pages/services/bosicheng/yyxx/yyxx",
+
+
+
     "pages/services/bosicheng/lslb/lslb",
-    "pages/services/bosicheng/lshff/lshff",
     "pages/services/one-to-one/one-to-one1/one-to-one1",
     "pages/services/one-to-one/one-to-one2/one-to-one2",
     "pages/index/index",
     "pages/community/community_index/community_index",
-<<<<<<< HEAD
-    "pages/services/bosicheng/lshff/lshff",
-    
+
     "pages/services/bosicheng/yyxx/yyxx",
     "pages/services/bosicheng/dflsh/dflsh",
-    
-    
-    
     "pages/services/bosicheng/zhtx/zhtx",
-    
-    
     "pages/services/bosicheng/htsc/htsc",
     "pages/addCgi/addCgi",
-    
-    "pages/community/settled/first_settled/first_settled",
-    "pages/community/settled/second_settled/second_settled",
-    "pages/services/first/first"
-    
-=======
     "pages/community/community_consult/community_consult",
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
@@ -131,7 +118,6 @@
     "pages/mine/my-data/designation/designation",
     "pages/community/appointment/appointment",
     "pages/community/details/details"
->>>>>>> f2d5d3e237042002a2e53f054a5f5bf2d99ab783
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

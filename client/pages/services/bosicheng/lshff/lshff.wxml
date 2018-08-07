@@ -36,7 +36,7 @@
               size="18"  class="icon"></icon>  
           <view wx-if="{{!checkYL}}" class="emptyCir" ></view>
   </view> 
-<<<<<<< HEAD
+
 
 </view>
 
@@ -47,8 +47,7 @@
   <view class="bankButton">中国工商银行</view>
   <view class="bankButton">中国建设银行</view>
   <view class="bankButton">中国邮政储蓄银行</view>
-=======
->>>>>>> f2d5d3e237042002a2e53f054a5f5bf2d99ab783
+
 </view>
 
 

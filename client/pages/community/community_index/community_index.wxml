@@ -1,7 +1,7 @@
 <!--pages/community/community_index/community_index.wxml-->
-<<<<<<< HEAD
+
 <text>pages/community/community_index/community_index.wxml</text>
-=======
+
 <view>
   <navigator url="../community_consult/community_consult" hover-class="navigator-hover" class='term'>
       <view class='logo logo1'>
@@ -35,4 +35,4 @@
   </navigator>
 </view>
 
->>>>>>> f2d5d3e237042002a2e53f054a5f5bf2d99ab783
+

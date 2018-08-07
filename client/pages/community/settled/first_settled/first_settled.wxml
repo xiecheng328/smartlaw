@@ -1,7 +1,7 @@
 <!--pages/community/settled/first_settled/first_settled.wxml-->
-<<<<<<< HEAD
+
 <text>pages/community/settled/first_settled/first_settled.wxml</text>
-=======
+
 <view>
   <image src='../../../images/banner.jpg' class='obanner'></image>
   <view class='title'>请填写基本信息</view>

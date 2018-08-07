@@ -1,7 +1,7 @@
 <!--pages/community/settled/second_settled/second_settled.wxml-->
-<<<<<<< HEAD
+
 <text>pages/community/settled/second_settled/second_settled.wxml</text>
-=======
+
 <view>
  <form  bindsubmit="formSubmit" bindreset="formReset">
   <view class='subword'>请提交中华人民共和国律师执业资格证书</view>
