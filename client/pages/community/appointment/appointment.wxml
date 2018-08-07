@@ -48,7 +48,11 @@
 </view>
 <view class='zx-list'>
   <view class='zx-text'>选择类型：</view>
-  <input class='zx-input' type="text"/>
+  <picker bindchange="bindPickerChange" value="{{indexLocal}}" range="{{array}}" class='zx-input'>
+    <view class="picker">
+      当前选择：{{array[indexLocal]}}
+    </view>
+  </picker>
 </view>
 <view class='zx-list'>
   <view class='zx-text'>事发地：</view>
