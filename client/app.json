@@ -1,11 +1,20 @@
 {
   "pages": [
+    
+    "pages/services/bosicheng/yyxx/yyxx",
+    "pages/services/bosicheng/dflsh/dflsh",
+    
+    "pages/services/bosicheng/lshff/lshff",
+    "pages/services/bosicheng/zhtx/zhtx",
     "pages/index/index",
+    
+    "pages/services/bosicheng/htsc/htsc",
     "pages/addCgi/addCgi",
     "pages/community/community_index/community_index",
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
     "pages/services/first/first"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
