@@ -1,0 +1,120 @@
+page {
+  height: 100%;
+}
+
+.container {
+  font-family: PingFangSC-Regular;
+  height: 100%;
+  background: rgba(238, 238, 238, 1);
+  color: #333;
+  font-size: 30rpx;
+}
+
+.edit-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.list-information {
+  height: 250rpx;
+  background: #fff;
+  margin: 0 auto 20rpx;
+}
+.edit-title>view {
+  margin: 0 20rpx;
+}
+
+image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-right: 19rpx;
+}
+
+.edit-list-top, .edit-list-top-left, .list-information {
+  display: flex;
+}
+
+
+.edit-list-top {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 140rpx;
+  margin-right: 20rpx;
+}
+
+.edit-list-top-left {
+  align-items: center;
+}
+
+.edit-list-date {
+  color: #666;
+}
+
+.edit-list-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.edit-list-bottom {
+  margin-right: 24rpx;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 30rpx;
+  background: #fff;
+}
+
+.list {
+  height: 90rpx;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  margin: 0 20rpx;
+  line-height: 90rpx;
+}
+
+.box {
+  background: #fff;
+}
+
+.list text {
+  color: #666;
+}
+
+checkbox .wx-checkbox-input {
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.bottom {
+  display: flex;
+  width: 710rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  height: 90rpx;
+  padding: 0 20rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+
+icon {
+  margin: 110rpx 18rpx 110rpx 20rpx;
+  /* transform: scale(0.7);  */
+  /* border:1px solid #ddd; */
+}

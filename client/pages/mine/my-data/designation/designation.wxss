@@ -1,0 +1,22 @@
+/* pages/mine/my-data/designation/designation.wxss */
+
+input {
+  width: 710rpx;
+  height: 90rpx;
+  border: 1px solid #ddd;
+  margin: 20rpx;
+  font-size: 30rpx;
+}
+
+.phcolor {
+  color: #333;
+  margin-left: 20rpx;
+}
+button{
+  
+  width: 710rpx;
+  height: 90rpx;
+  margin: 20rpx;
+  background: #577EFF;
+  color:#fff;
+}

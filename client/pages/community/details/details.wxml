@@ -1,0 +1,32 @@
+<!--pages/community/details/details.wxml-->
+<view class='header'>
+  <image class='img-header' src='../../images/header-icon.png'></image>
+  <text class='user'>用户</text>
+  <text class='price'>￥5.00</text>
+  <view class='header-content'>
+    案件陈述案件陈述案件陈述案件陈述案件陈述案件陈述案
+    件陈述案件陈述案件陈述案  
+  </view>
+  <view class='type'>
+    婚姻家庭
+  </view>
+</view>
+<view class='number'>
+  <text>3条回答</text>
+</view>
+
+<view class='content-box' wx:for="{{array}}">
+  <view class='content'>
+    <text class='content-label' style='white-space:pre'>{{item.header}}</text>
+    <text class='content-label-R'>{{item.accept}}</text>
+    <view class='img-box'>
+      <image class='content-img' src='{{item.src}}'></image>
+      <button class='content-button'>
+      <image class='content-icon' src='{{item.iconImg}}'></image>
+      <text>{{item.listenIn}}</text>
+      </button>
+      <text class='img-text'>{{item.number}}</text>
+    </view>
+  </view>
+  <view class='line'></view>
+</view>

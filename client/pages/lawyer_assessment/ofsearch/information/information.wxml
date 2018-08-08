@@ -1,0 +1,58 @@
+<!--pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxml-->
+<view class='header'>
+<image src='{{list.img}}'></image>
+<view>{{list.msg}}</view>
+</view>
+<view class='content'>
+  <view class='title'>{{messages1.resume}}</view>
+  <view class='message'>   
+    <view>胜率{{messages1.win}}</view>
+    <view>{{messages1.num}}</view>    
+  </view>
+  <view class='title'>{{messages2.resume}}</view>
+  <view class='message'>
+  <view>整体胜率:{{messages2.win}}</view>
+  <view>{{messages2.num}}</view>
+  </view>
+</view>
+<view class='wrapper'>
+  {{wrapper}}
+</view>
+
+<view class='lawyer-key-msg'>{{lawyerKey.msg}}</view>
+<view class='lawyer-key-key'>{{lawyerKey.key}}</view>
+<canvas canvas-id="canvas3" class='canvas'></canvas>
+
+<view class='area-msg'>{{area.msg}}</view>
+<view class='area-key'>{{area.key}}</view>
+<canvas canvas-id="canvas7" class='canvas'></canvas>
+
+<view class='trial-court-msg'>{{trialCourt.msg}}</view>
+<view class='trial-court-key'>{{trialCourt.key}}</view>
+<canvas canvas-id="canvas8" class='canvas'></canvas>
+
+<view class='program-msg'>{{program.msg}}</view>
+<view class='program-key'>{{program.key}}</view>
+<canvas canvas-id="canvas1" class='canvas'></canvas>
+
+<view class='doc-msg'>{{doc.msg}}</view>
+<view class='doc-key'>{{doc.key}}</view>
+<canvas canvas-id="canvas2" class='canvas'></canvas>
+
+<view class='case-type-msg'>{{caseType.msg}}</view>
+<view class='case-type-key'>{{caseType.key}}</view>
+<canvas canvas-id="canvas4" class='canvas'></canvas>
+
+<view class='case-msg'>{{case.msg}}</view>
+<view class='case-key'>{{case.key}}</view>
+<canvas canvas-id="canvas6" class='canvas'></canvas>
+
+<view class='court-msg'>{{court.msg}}</view>
+<view class='court-key'>{{court.key}}</view>
+<canvas canvas-id="canvas5" class='canvas'></canvas>
+
+<canvas canvas-id="canvas9" class='canvas'></canvas>
+
+<navigator bindtap='goto'>
+<button>返回首页</button>
+</navigator>

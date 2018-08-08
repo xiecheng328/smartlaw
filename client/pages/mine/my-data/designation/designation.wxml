@@ -1,0 +1,9 @@
+<!--pages/mine/my-data/designation/designation.wxml-->
+
+
+
+<form action='../my-data/my-data.js' >
+  <input placeholder-class="phcolor" placeholder='用户'></input>
+</form>
+<button bindtap='submitName'>确认</button>
+

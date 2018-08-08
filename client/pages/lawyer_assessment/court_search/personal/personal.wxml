@@ -1,0 +1,61 @@
+<!--pages/lawyer_assessment/court_search/personal/personal.wxml-->
+<view class='input1'>
+  <view>姓名:</view>
+  <input></input>
+</view>
+<view class='input1'>
+  <view>电话:</view>
+  <input></input>
+</view>
+<view class='input1'>
+  <view>电子邮箱:</view>
+  <input></input>
+</view>
+<view class='empty'></view>
+<view class='title'>收件地址:</view>
+<view class='content'>
+
+  <view class="section">
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <view class="picker">
+        <view class='list0'>{{region[0]}}
+          <image src='../../images/of4.png'></image>
+        </view>
+        <view class='list0'>{{region[1]}}
+          <image src='../../images/of4.png'></image>
+        </view>
+        <view class='list0'>{{region[2]}}
+          <image src='../../images/of4.png'></image>
+        </view>
+      </view>
+    </picker>
+  </view>
+</view>
+<input placeholder='详细地址' class='address' placeholder-style='font-size:24rpx'></input>
+<view class='foot'>
+  <view class='title'>预约时间:</view>
+  <view class="section">
+    <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+
+      <view class="picker">
+        <view class='list1'>
+          {{date}}
+          <image src='../../images/of4.png'></image>
+        </view>
+      </view>
+
+    </picker>
+  </view>
+  <view class="section">
+    <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+      <view class="picker">
+        <view class='list2'>
+          {{time}}
+          <image src='../../images/of4.png'></image>
+        </view>
+      </view>
+    </picker>
+  </view>
+</view>
+<button class='btn1' bindtap='app'>提交</button>
+

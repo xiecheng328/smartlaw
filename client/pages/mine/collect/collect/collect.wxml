@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="collect-title">
+    <view class="group">
+      <view class="tap" bindtap="list">
+        <view class="my-group">我的分组</view>
+        <image class="top-arrow" src="{{imgSrc}}"></image>
+      </view>
+      <view class="collect-title-text">全部</view>
+    </view>
+    <navigator class="collect-edit" url="../edit/edit">编辑</navigator>
+  </view>
+  <view class="collect-content">
+    <view class="content-list" wx:for="{{contentList}}" wx:key="{{index}}">
+      <view class="content-list-top">
+        <view class="content-list-top-left">
+          <image class="content-list-img" src="{{item.img}}"></image>
+          <view class="content-list-name">{{item.name}}</view>
+        </view>
+        <view class="content-list-date">{{item.date}}</view>
+      </view>
+      <view class="content-list-bottom">
+        <view class="content-list-text">{{item.description}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="bg" bindtap='cancle' wx:if="{{boolean}}" wx:key="{{index}}">
+  <view class="box">
+    <view class="list" wx:for="{{groupList}}" wx:key="{{index}}">{{item.name}}
+      <text>({{item.description}})</text>
+    </view>
+
+    <view class="list" bindtap='manageList'>管理分组</view>
+  </view>
+
+</view>

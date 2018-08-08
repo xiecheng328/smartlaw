@@ -1,0 +1,129 @@
+/* pages/lshff/contract.wxss */
+.header{
+	width:710rpx;
+  height:90rpx;
+  line-height: 90rpx;
+  text-align: center;
+}
+#title{
+margin-top:30rpx;
+margin-left:20rpx;
+width:249rpx;
+height:29rpx;
+font-size:30rpx;
+font-family:PingFangSC-Medium;
+color:rgba(51,51,51,1);
+line-height:29rpx;
+}
+.button{
+  width:710rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  border-radius:5rpx;
+  line-height: 90rpx;
+  /* text-align: center; */
+  border:1rpx solid #DDDDDD;
+  margin:31rpx auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-content: space-between; */
+  /* background: green; */
+}
+
+#law-rep{
+  /* width:232rpx; */
+  height:26rpx;
+  font-size:26rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+  line-height:25rpx;
+  /* margin:32rpx 459rpx 33rpx 19rpx; */
+  /* background: black; */
+  word-break:keep-all;
+  /* text-align: center; */
+  margin-left:19rpx;
+  margin-top: 32rpx;
+}
+.icon-box{
+  /* background: #000; */
+  width:40rpx;
+  height:100%;
+  display:flex;
+  /* margin:auto; */
+  align-items: center;
+  margin-right: 29rpx;
+}
+
+.icon{
+  margin-top: 1rem;
+}
+
+.emptyCir{
+  width: 32rpx;
+  height:32rpx;
+  /* background: #0000fe; */
+  border:1rpx solid #0000fe;
+  border-radius: 32rpx;
+  margin:auto;
+  
+}
+#waytoPay{
+  width:129rpx;
+  height:29rpx;
+  font-size:26rpx;
+  font-weight: bold;
+  font-family:PingFangSC-Medium;
+  color:rgba(51,51,51,1);
+  line-height:0rpx;
+  margin-left: 19rpx;
+  margin-top: 30rpx;
+}
+
+.bankBox{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  height:250rpx;
+}
+.bankButton{
+  width: 280rpx;
+  height: 80rpx;
+  border:2rpx solid grey;
+  border-radius:10rpx;
+  line-height: 80rpx;
+  text-align: center;
+} 
+
+
+.img-wx{
+  width:50rpx;
+  height:44rpx;
+  margin-top:23rpx;
+  margin-left:20rpx;
+}
+#wx-rep{
+  text-align: center;
+  font-size:26rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(51,51,51,1);
+  display:flex;
+}
+#wxPay{
+  margin-left: 20rpx;
+  
+}
+.finalPay{
+  width:710rpx;
+  height:90rpx;
+  background:rgba(87,126,255,1);
+  border-radius:5rpx;
+  margin-top: 100rpx;
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  color:rgba(255,255,255,1);
+  text-align: center;
+  line-height: 90rpx;
+  margin-left: 20rpx;
+
+}

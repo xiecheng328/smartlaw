@@ -9,6 +9,10 @@
     </view>
   </view>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a46cefb83e5af566732a75f4840efa9d4caaf54b
   <view class='receiver'>
   <view id='receiver-content'>
     <view id="rname">收件人姓名：
@@ -41,6 +45,14 @@
 
 
   <view id='case-description'>案件描述
+<<<<<<< HEAD
+=======
+
+  
+
+  <view id='case-description'>合同简要描述：
+
+>>>>>>> a46cefb83e5af566732a75f4840efa9d4caaf54b
     <input class='input' id='detail-case'></input>
   </view>
   

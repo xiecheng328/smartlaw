@@ -1,0 +1,81 @@
+/* pages/mine/vip/vip.wxss */
+page{
+  height: 100%;
+}
+.container{
+  background: #eee;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+image{
+  width: 710rpx;
+  height: 260rpx;
+  margin: 20rpx;
+}
+.open-price{
+  height: 80rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.open-price view{
+  margin-left: 20rpx;
+  width: 278rpx;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.price{
+  color: #ff6666;
+}
+.detail{
+  display: flex;
+  flex-direction: column;
+  height: 238rpx;
+  padding: 0 20rpx;
+  background: #fff;
+}
+.detail text{
+  flex-grow: 1;
+  line-height: 80rpx;
+}
+.detail-center{
+  border-bottom: 1rpx solid #DDDDDD;
+  border-top: 1rpx solid #DDDDDD;
+}
+.number{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  height: 80rpx;
+}
+.number image{
+  width: 23rpx;
+  height: 32rpx;
+}
+.btn{
+  flex-grow: 1;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  
+}
+.btn button{
+  width: 710rpx;
+  height: 90rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+.btn-open{
+  margin-bottom: 20rpx;
+  margin-top: 80rpx;
+  background: #577EFF;
+}
+.btn-server{
+  background: #FF5757;
+}

@@ -1,0 +1,135 @@
+/* pages/commission/commmission.wxss */
+.container view{
+  background: white;
+}
+
+#container{
+  background: #f2f2f2;
+  font-weight: 700;
+}
+.title{
+  height: 128rpx;
+  text-align: center;
+  line-height:118rpx;
+  margin-bottom:90rpx;
+  background: white;
+}
+.container{
+  font-size:32rpx;
+  background:#f2f2f2 
+}
+.common{
+  height: 90rpx;
+  line-height: 90rpx;
+  padding:0 62rpx;
+  margin-bottom: 10rpx;
+  position: relative;
+}
+
+.radio-group{
+display: flex;
+float: right;
+margin-right: 62rpx;
+}
+.radio{
+  position:relative;
+  width: 150rpx;
+}
+.radio radio{
+float: left;
+transform:scale(.8);
+}
+
+#meet-time{
+display: flex;
+}
+
+.picker{
+  position: absolute;
+  right: 180rpx;
+  top:0; 
+}
+
+input{
+  position: absolute;
+  right: 170rpx;
+  top: 16rpx;
+  border: 1rpx solid rgba(204, 204, 204, 1);
+  font-weight: normal;
+  font-size: 30rpx;
+}
+
+#detail{
+  padding: 30rpx;
+  height: 200rpx;
+  /* text-align: left; */
+}
+.bottom{
+  height: 200rpx;
+  padding-bottom: 20rpx;
+}
+#commit{
+    width: 280rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    background-color: rgba(22, 155, 213, 1);
+    border: none;
+    border-radius: 10rpx;
+    color: white;
+    font-size: 32rpx;
+    margin-top: 20rpx;
+}
+
+/*下拉框*/
+.select_box{
+  background: #fff;
+  width: 30%;
+  position: absolute;
+  right: 170rpx;
+  top: 11rpx;
+  z-index: 999;
+  display: inline;
+  height: 50rpx;
+}
+.select{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70rpx;
+  border:1px solid #efefef;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.select_text{
+  font-size: 30rpx;
+  flex: 1;
+}
+.select_img{
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  transition:transform 0.3s;
+}
+.select_img_rotate{
+  transform:rotate(180deg); 
+}
+.option_box{
+  position: absolute;
+  top: 70rpx;
+  width: 100%;
+  border:1px solid #efefef;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+}
+.option{
+  display: block;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+}

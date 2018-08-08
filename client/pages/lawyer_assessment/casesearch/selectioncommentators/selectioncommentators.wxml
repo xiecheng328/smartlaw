@@ -1,0 +1,86 @@
+<view class='container'>
+  <view class='one'>
+    可选择查看以下一位对此律师的评价
+  </view>
+  <view>
+    <view class='wrapper1'>
+    <view class='word1'>法官</view>
+    <view class="section1">
+      <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
+        <view class="picker">
+          {{array1[index1]}}
+        </view>
+      </picker>
+    </view>
+    <view class='image1'></view>
+  </view>
+
+  <view class='wrapper2'>
+    <view class='word2'>检察官</view>
+    <view class="section2">
+      <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array2}}">
+        <view class="picker">
+          {{array2[index2]}}
+        </view>
+      </picker>
+    </view>
+    <view class='image2'></view>
+  </view>
+
+  <view class='wrapper3'>
+    <view class='word3'>知名律师</view>
+    <view class="section3">
+      <picker bindchange="bindPickerChange3" value="{{index3}}" range="{{array3}}">
+        <view class="picker">
+          {{array3[index3]}}
+        </view>
+      </picker>
+    </view>
+    <view class='image3'></view>
+  </view>
+  </view>
+  
+
+
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" wx:key="index">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+
+<view class='word4'>
+  简要介绍
+</view>
+<view class='detail'>
+  <view class='judge' style='display:{{selected1}}' bindchange="radioChange">
+  {{word1[index1]}}
+  </view>
+
+<view class='lnquisitor' style='display:{{selected2}}' bindchange="radioChange">
+  {{word2[index2]}}
+</view>
+
+<view class='lawyer' style='display:{{selected3}}' bindchange="radioChange">
+  {{word3[index3]}}
+</view>
+</view>
+
+<view class='money'>
+  <view class='judge' style='display:{{selected1}}' bindchange="radioChange">
+     价格:{{pay1[index1]}}元
+  </view>
+
+<view class='lnquisitor' style='display:{{selected2}}' bindchange="radioChange">
+    价格：{{pay2[index2]}}元
+</view>
+
+<view class='lawyer' style='display:{{selected3}}' bindchange="radioChange">
+    价格：{{pay3[index3]}}元
+</view>
+</view>
+
+<navigator url='../payment2/payment2'>
+  下一步
+</navigator>
+
+</view>

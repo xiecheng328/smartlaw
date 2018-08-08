@@ -1,0 +1,31 @@
+<view class='banner'>
+  <image src='../../../images/banner2.jpg'></image>
+  <view class='bannerword'>电话咨询</view>
+</view>
+<view class='title'>线下一对一律师推荐（一次200元）</view>
+<view class='title2'>支付方式</view>
+<view class='Payment_Method'>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}" wx:key="index">
+      <view class='oradio'>
+        <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </view>
+    </label>
+  </radio-group>
+</view>
+<view class='UnionPaybox' wx:if="{{UnionPaybox}}">
+  <navigator url="../one-to-one1/one-to-one1" class='oUnionPay'>农业银行</navigator>
+  <navigator url="../one-to-one1/one-to-one1" class='oUnionPay'>中国工商银行</navigator>
+  <navigator url="../one-to-one1/one-to-one1" class='oUnionPay'>中国建设银行</navigator>
+  <navigator url="../one-to-one1/one-to-one1" class='oUnionPay'>中国邮政储蓄银行</navigator>
+</view>
+<view class='onext'>
+  <navigator url="../one-to-one1/one-to-one1" class='Previous'>上一页</navigator>
+  <view class='nextpage' bindtap='paynextpage'>下一页</view>
+</view>
+<!-- 弹出层 -->
+<view class='shade' wx-if="{{paynext}}"></view>
+<view class='prompt' wx-if="{{paynext}}">
+  <view class='protitle'>支付成功</view>
+  <navigator url="../one-to-one3/one-to-one3" class='close' bindtap='closeprompt'>下一步</navigator>
+</view>

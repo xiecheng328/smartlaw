@@ -1,0 +1,34 @@
+<!--pages/mine/legal_services/check_details/check_details.wxml-->
+<view class="container">
+  <view class="header">
+    <view wx:for="{{consignorList}}" wx:key="{{index}}">
+      <view class="legal_type legal_common">法律服务类型:{{item.title}}</view>
+      <view class="legal_common">委托人：{{item.person}}</view>
+      <view class="legal_common">委托人电话：{{item.phone}}</view>
+    </view>
+    <view wx:for="{{recipient}}" wx:key="{{item}}">
+      <view class="legal_common">收函人：{{item.person}}</view>
+      <view class="legal_common">收函人电话：{{item.phone}}</view>
+      <view class="legal_common">收函人地址：
+        <view>{{item.address}}</view>
+      </view>
+    </view>
+  </view>
+
+
+
+
+  <view wx:for="{{lawyerList}}" wx:key="{{index}}" class="lawyer_content">
+    <view class="legal_common">服务律师：{{item.name}}</view>
+    <view class="legal_common">事务所名称：{{item.companyname}}</view>
+    <view class="legal_common">律师指数：{{item.level}}</view>
+  </view>
+
+  <view class="order_status">
+    <view>
+      订单状态：
+      <text wx:for="{{statusList}}" wx:key='{{index}}' class="strong">{{item.status}}</text>
+    </view>
+  </view>
+  <view class="footer">如有疑问请联系客服：400-000-1234</view>
+</view>

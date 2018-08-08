@@ -1,0 +1,29 @@
+<!--pages/mine/my-data/bind-phonNum/bind-phone.wxml-->
+<view class="bind_phone">绑定手机号：15200000000</view>
+<button bindtap='changePhone'>修改绑定手机号</button>
+<view class="bg" wx:if="{{boolean}}">
+  <view class='rule-content'>
+    <view class="cover_title">请输入验证码</view>
+    <view class="cover_num">
+      <input class="cover_input"></input>
+      <view class="cover_text">验证码已发送</view>
+    </view>
+    <button bindtap='nextStep' class="btn">确定</button>
+  </view>
+</view>
+
+<form bindsubmit="formSubmit">
+  <view class="bg" wx:if="{{boolean1}}">
+    <view class='rule-content'>
+      <view class="cover_num new_num">
+        <input name="realphone" class="cover_input" placeholder='新号码'></input>
+        <view class="cover_text" bindtap='getNum'>获取验证码</view>
+      </view>
+      <view class="cover_num new_num">
+        <input class="cover_input"></input>
+        <view class="cover_text">验证码</view>
+      </view>
+      <button  bindtap='alert_success' class="btn">确定</button>
+    </view>
+  </view>
+</form>

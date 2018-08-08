@@ -1,0 +1,16 @@
+<view class='title'>
+  {{msg}}
+</view>
+<view class='content-wrapper2' wx:for='{{lawyer}}'>
+    <text>{{index+1}}</text>
+  <view>
+    <!-- <text>{{index}}</text> -->
+    <image src="{{item.img}}"></image>
+  </view>
+  <view>{{item.time}}</view>
+  <view>{{item.add}}</view>
+  <view>{{item.work}}</view>
+  <view>{{item.rate}}</view>
+  <navigator url="../judgeDetail/judgeDetail" hover-class="navigator-hover" class='details'>查看详情>
+  </navigator>
+</view>

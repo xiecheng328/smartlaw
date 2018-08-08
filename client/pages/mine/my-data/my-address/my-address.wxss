@@ -1,0 +1,56 @@
+/* pages/mine/my-data/my-address/my-address.wxss */
+
+page {
+  color: #333;
+}
+
+.address_name {
+  font-size: 30rpx;
+  margin: 30rpx 34rpx 19rpx 0rpx;
+}
+
+.address_phone {
+  font-size: 24rpx;
+  color: #999;
+  margin: 37rpx 0 21rpx 0;
+}
+
+.address_address {
+  font-size: 26rpx;
+  height: 81rpx;
+  /* background: #ff0; */
+  margin-bottom: 32rpx;
+  margin-top: 10rpx;
+  line-height: 45rpx;
+
+}
+
+text {
+  /* display: block; */
+  text-align: center;
+  padding: 5rpx 25rpx;
+  margin-right: 15rpx;
+  width: 80rpx;
+  height: 40rpx;
+  background: #ced8fc;
+  border-radius: 5px;
+  color: #577EFF;
+}
+
+.address {
+  width: 710rpx;
+  height: 189rpx;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.address_top {
+  display: flex;
+  height: 77rpx;
+}
+
+button {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

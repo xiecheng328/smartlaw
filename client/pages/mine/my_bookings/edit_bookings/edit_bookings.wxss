@@ -1,0 +1,172 @@
+/* pages/mine/my_bookings/edit_bookings/edit_bookings.wxss */
+.wrapper1{
+  width: 750rpx;
+  height: 410rpx;
+  position: relative;
+}
+.message{
+  width: 180rpx;
+  height: 29rpx;
+  /* background: red; */
+  color: #333;
+  font-weight: bold;
+  font-size: 30rpx;
+  line-height: 29rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 20rpx;
+}
+.name{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 108rpx;
+}
+.call{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 188rpx;
+}
+.sadd{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 268rpx;
+}
+.dadd{
+  font-size: 24rpx;
+  color: #333;
+  height: 23rpx;
+  /* background: red; */
+  line-height: 23rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 349rpx;
+  /* display: flex; */
+}
+.wrapper1 input{
+  width: 520rpx;
+  height: 60rpx;
+  /* background: red; */
+  margin-top: -42rpx;
+  margin-left: 190rpx;
+  position: absolute;
+  border: 1rpx solid #ddd; 
+}
+.foo{
+  width: 750rpx;
+  height: 20rpx;
+  background: #eee;
+}
+.wrapper2{
+  /* background: red; */
+  width: 750rpx;
+  height: 815rpx;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper2 .detail{
+  height: 23rpx;
+  color: #333;
+  line-height: 23rpx;
+  font-size: 24rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 23rpx;
+}
+.wrapper2 textarea{
+  width: 710rpx;
+  height: 310rpx;
+  border: 1rpx solid #ddd;
+  /* position: absolute; */
+  margin: 70rpx auto 0;
+}
+.wrapper2 .time{
+  height: 23rpx;
+  color: #333;
+  line-height: 23rpx;
+  font-size: 24rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 395rpx;
+}
+.wrapper2 .yname{
+  height: 23rpx;
+  color: #333;
+  line-height: 23rpx;
+  font-size: 24rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 543rpx;
+}
+.wrapper2 .gname{
+  height: 23rpx;
+  color: #333;
+  line-height: 23rpx;
+  font-size: 24rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 623rpx;
+}
+.wrapper2 .input1{
+   width: 520rpx;
+  height: 60rpx;
+  /* background: red; */
+  position: absolute;
+  left: 140rpx;
+  top: 525rpx;
+  border: 1rpx solid #ddd; 
+}
+.wrapper2 .input2{
+   width: 520rpx;
+  height: 60rpx;
+  /* background: red; */
+  position: absolute;
+  left: 140rpx;
+  top: 605rpx;
+  border: 1rpx solid #ddd; 
+}
+.wrapper2 .book_btn{
+  width: 200rpx;
+  height: 90rpx;
+  background: #577eff;
+  position: absolute;
+  top: 695rpx;
+  left: 275rpx;
+  border-radius: 5rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+}
+.box{
+  width: 600rpx;
+  height: 60rpx;
+  margin: 70rpx auto 0;
+  /* background: red; */
+}
+.box view{
+  float: left;
+}
+.box .shijian{
+  float: right;
+  color: #333;
+  font-size: 30rpx;
+}
+.box .riqi{
+  color: #333;
+  font-size: 30rpx;
+}

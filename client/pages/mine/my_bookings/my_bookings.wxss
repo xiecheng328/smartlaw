@@ -1,0 +1,54 @@
+/* pages/mine/my_bookings/my_bookings.wxss */
+.book_header{
+  height: 90rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.header_container{
+  margin: 15rpx auto;
+  width: 400rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  border:1rpx solid #577eff;  
+  border-radius: 10rpx;
+}
+.book{
+  width: 200rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #577eff
+}
+
+
+/* 预约详情 */
+.selected{
+  background: #577eff;
+  color: #fff;
+}
+  
+.book_details{
+  margin: 0 19rpx  28rpx 19rpx;
+  height: 309rpx;
+  border-bottom: 1rpx solid #ddd;
+  
+}
+.book_common{
+  color: #333;
+  font-size: 26rpx;
+}
+.book_spcl{
+  padding:31rpx 0;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.book_event{
+  float: left;
+  margin: 28rpx 20rpx 30rpx 0;
+  width: 140rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  border: 1px solid #ddd;  
+}

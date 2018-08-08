@@ -1,0 +1,9 @@
+<view class="search-box">
+  <input placeholder="请输入法官名搜索" class='judge-search'></input>
+  <navigator url="../../../lawyer_assessment/judgeSearch/judge-search-result/judge-search-result">
+  <view class="img-box"><image src='../../images/of5.png'></image></view>
+  </navigator>
+  
+</view>
+
+

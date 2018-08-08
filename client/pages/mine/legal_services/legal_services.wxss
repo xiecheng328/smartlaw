@@ -1,0 +1,81 @@
+/* pages/mine/legal_services/legal_services.wxss */
+
+page {
+  background: #eee;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  height: 90rpx;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 90rpx;
+  background: #fff;
+  color: #333;
+}
+.nav {
+  flex-grow: 1;
+}
+
+/*选项卡部分*/
+
+.content {
+  margin: 20rpx 0;
+  background: #fff;
+  height: 40%;
+}
+
+
+.selected{
+  color: #577eff;
+  border-bottom: 2rpx solid #577eff; 
+}
+
+/* 信息框 */
+
+.legal-container {
+  margin: 30rpx 20rpx;
+}
+.legal-header{
+  border-bottom: 1rpx solid #ddd;
+}
+.legal-margin{
+  padding-bottom: 180rpx;
+}
+.legal-pad{
+  padding-bottom: 55rpx;
+}
+.legal-info{
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.legal-header .legal-spcl{
+  color: #eee;
+}
+.legal-event{
+  font-size: 30rpx;
+  color: #ff5757;
+  margin-top: 30rpx;
+  
+}
+.legal-change{
+  float: left;
+}
+.legal-pay{
+  float: right;
+}
+.navigator-hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.legal-footer{
+  padding-left: 20rpx;
+  height: 92rpx;
+  background: #fff;
+  line-height: 92rpx;
+  font-size: 30rpx;
+  color: #333;
+}

@@ -1,0 +1,63 @@
+/* pages/community/community_consult/community_consult.wxss */
+#banner,#banner image{
+    width: 750rpx;
+    height: 300rpx;
+}
+.classify-title{
+    width: 750rpx;
+    line-height: 90rpx;
+    text-indent: 19rpx;
+    font-size: 30rpx;
+    border-bottom: 1px solid #DDDDDD;
+}
+.classifyList{
+    width:710rpx;
+    height: 300rpx;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0 auto;
+}
+.classify-case{
+    width: 710rpx;
+    line-height: 90rpx;
+    font-size: 30rpx;
+    font-weight: Medium;
+}
+.classify-detail{
+    width:710rpx;
+    line-height: 28.5rpx;
+    font-size: 26rpx;
+    color: #666666;
+}
+.classify-lawyers{
+    width:710rpx;
+    height: 100rpx;
+    background: #EEEEEE;
+    margin: 33rpx auto;
+    display: flex;
+    position: relative;
+}
+.classify-more{
+    width: 14rpx;
+    height: 24rpx;
+    position: absolute;
+    right: 20rpx;
+    top: 40rpx;
+}
+.classify-lawyers-logos{
+    margin-left: 20rpx;
+    width: 384rpx;
+}
+.classify-lawyers-logo{
+    width: 60rpx;
+    height: 60rpx;
+    margin-right: 4rpx;
+    margin-top: 20rpx;
+}
+.classify-lawyers-num{
+    font-size: 30rpx;
+    color: #666666;
+    line-height: 100rpx;
+    position: absolute;
+    right: 49rpx;
+    
+}

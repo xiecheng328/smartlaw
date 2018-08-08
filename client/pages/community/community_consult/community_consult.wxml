@@ -1,0 +1,25 @@
+<!--pages/community/community_consult/community_consult.wxml-->
+<navigator id='banner'>
+    <image src='{{img}}'></image>
+</navigator>
+<view id='classify'>
+    <view class='classify-title'>
+        案由分类
+    </view>
+    <navigator wx:for="{{classifyList}}" wx:key="{{index}}" class='classifyList'>
+        <view class='classify-case'>{{item.case}}</view>
+        <view class='classify-detail'>{{item.caseDetail}}</view>
+        <view class='classify-lawyers'>
+            <view class='classify-lawyers-logos'>
+                <image  src='../../images/lawer.png' class='classify-lawyers-logo'></image>
+                <image  src='../../images/lawer.png' class='classify-lawyers-logo'></image>
+                <image  src='../../images/lawer.png' class='classify-lawyers-logo'></image>
+                <image  src='../../images/lawer.png' class='classify-lawyers-logo'></image>
+                <image  src='../../images/lawer.png' class='classify-lawyers-logo'></image>
+                <image  src='../../images/lawer.png' class='classify-lawyers-logo'></image>
+            </view>
+            <view class='classify-lawyers-num'>{{item.num}}</view>
+            <image class='classify-more' src='../../images/gt.png'></image>
+        </view>
+    </navigator>
+</view>

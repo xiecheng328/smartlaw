@@ -1,0 +1,29 @@
+<view class='name'>
+  <view>{{name}}</view>
+  <input class='name-input'></input>
+</view>
+<view class='phone'>
+  <view>{{phone}}</view>
+  <input class='phone-input'></input>
+</view>
+<view class='text'></view>
+<view class='name1'>
+  <view>{{name1}}</view>
+  <input class='name1-input'></input>
+</view>
+<view class='phone1'>
+  <view>{{phone1}}</view>
+  <input class='phone1-input'></input>
+</view>
+<view class='address'>
+  <view>{{address}}</view>
+  <input class='address-input'></input>
+</view>
+<view class='address1'>
+  <view>{{address1}}</view>
+  <input class='address1-input'></input>
+</view>
+<view class='text'></view>
+<view class='casedes'>{{casedes}}</view>
+<view class='textdes'></view>
+<view class='btn' bindtap='showtip'>下一步</view>

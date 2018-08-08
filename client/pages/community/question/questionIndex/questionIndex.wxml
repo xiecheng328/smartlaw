@@ -1,0 +1,53 @@
+<!--pages/community/question/questionIndex/questionIndex.wxml-->
+<!-- 顶部固定菜单列表 -->
+<view class="menu-list">
+  <view class="menu">
+    <view class="cases {{lawyerIndex==-1?'selected': ''}}" bindtap="tapHandler" data-tapindex="-1">全部</view>
+    <view class="cases {{lawyerIndex==index?'selected': ''}}" bindtap="tapHandler" data-tapindex="{{index}}" wx:for="{{selectData}}" wx:key="{{index}}">{{item}}</view>
+  </view>
+  <view class="boundary-line"></view>
+</view>
+<!-- 提问悬浮按钮 -->
+<view class="round-click">
+   <navigator url="../questionAsk/questionAsk" >发布问题</navigator >
+</view>
+<!-- 问答列表 -->
+<view class='list'>
+  <navigator url="../questionDetails/questionDetails" hover-class="navigator-hover">
+    <view class="case-list {{lawyerIndex!=-1?'all': ''}}" wx:for="{{asklist}}" wx:key="{{index}}">
+          <view class='text'>{{item.caseText}}</view>
+          <view class='reward-money'>￥{{item.money}}.00</view>
+          <view class='lawyer'>{{item.lawyerName}}</view>
+          <view class='firm'>{{item.lawFirm}}</view>
+          <view class='logo'>
+            <image src='{{item.img}}'></image>
+          </view>
+          <view class='listen'>
+            <image src='../../../images/listen.png'></image>
+          </view>
+          <view class='people-number'>{{item.peoples}}人收听</view>
+          <view class='bottom-line'></view>
+        </view>
+  </navigator>
+  <swiper class='content' duration='0' style="height: {{asklist.length*320+'rpx'}};" current='{{lawyerIndex}}'>
+    <swiper-item wx:for="{{selectData}}" wx:key="{{index}}">
+      <navigator url="../questionDetails/questionDetails" hover-class="navigator-hover">
+        <view class='case-list' wx:for="{{asklist}}" wx:key="{{index}}">
+          <view class='text'>{{item.caseText}}</view>
+          <view class='reward-money'>￥{{item.money}}.00</view>
+          <view class='lawyer'>{{item.lawyerName}}</view>
+          <view class='firm'>{{item.lawFirm}}</view>
+          <view class='logo'>
+            <image src='{{item.img}}'></image>
+          </view>
+          <view class='listen'>
+            <image src='../../../images/listen.png'></image>
+          </view>
+          <view class='people-number'>{{item.peoples}}人收听</view>
+          <view class='bottom-line'></view>
+        </view>
+      </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+

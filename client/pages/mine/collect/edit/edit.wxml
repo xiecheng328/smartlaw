@@ -1,0 +1,44 @@
+<view class="container">
+  <view class="edit-title">
+    <view bindtap='checkAll'>全选</view>
+    <view>
+      <navigator url="../collect/collect">取消</navigator>
+    </view>
+  </view>
+  <view>
+    <view bindtap="toggleSel" wx:for="{{list}}" wx:key="{{index}}" data-id='{{item.id}}'>
+      <view class="list-information" data-id='{{item.id}}'>
+        <icon type="success" size="20" color="{{item.selStatu?'#577EFF':'#eeeeee'}}" data-id='{{item.id}}' />
+        <view data-id='{{item.id}}' calss="right">
+          <view data-id='{{item.id}}' class="edit-list-top">
+            <view data-id='{{item.id}}' class="edit-list-top-left">
+              <image data-id='{{item.id}}' class="edit-list-img" src="{{item.img}}"></image>
+              <view data-id='{{item.id}}' class="edit-list-name">{{item.name}}</view>
+            </view>
+            <view data-id='{{item.id}}' class="edit-list-date">{{item.date}}</view>
+          </view>
+          <view data-id='{{item.id}}' class="edit-list-bottom">
+            <view data-id='{{item.id}}' class="edit-list-text">{{item.description}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="addClass" bindtap='showList'>
+      移动到分组
+    </view>
+    <view class="addClass" bindtap='delItem' url="../add-address/add-address">
+      删除
+    </view>
+  </view>
+</view>
+<view class="bg" wx:if="{{boolean}}">
+  <view class="box">
+    <view class="list">移动到</view>
+    <view class="list" wx:for="{{groupList}}" wx:key="{{index}}">{{item.name}}
+      <text>({{item.description}})</text>
+    </view>
+    <button bindtap='cancelEdit'>取消</button>
+  </view>
+</view>
