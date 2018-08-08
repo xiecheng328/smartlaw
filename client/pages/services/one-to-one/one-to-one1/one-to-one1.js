@@ -51,29 +51,29 @@ Page({
     that.setData({
       bind: true
     })
-    // for (let key in e.detail.value) {
-    //   if (!e.detail.value[key]) {
-    //     that.setData({
-    //       bind: false
-    //     })
-    //     for (let sign in that.data.inform) {
-    //       if (that.data.inform[sign] === key) {
-    //         wx.showModal({
-    //           title: '提示',
-    //           showCancel: false,
-    //           content: sign + '不能为空',
-    //         })
-    //       } 
-    //     }
-    //   }
-    // }
+    for (let key in e.detail.value) {
+      if (!e.detail.value[key]) {
+        that.setData({
+          bind: false
+        })
+        for (let sign in that.data.inform) {
+          if (that.data.inform[sign] === key) {
+            wx.showModal({
+              title: '提示',
+              showCancel: false,
+              content: sign + '不能为空',
+            })
+          } 
+        }
+      }
+    }
     if (this.data.bind) {
-    //   wx.setStorageSync('clientName', e.detail.value.clientName);
-    //   wx.setStorageSync('clientTelNumber', e.detail.value.clientTelNumber);
-    //   wx.setStorageSync('AddressDetails', e.detail.value.AddressDetails);
-    //   wx.setStorageSync('counsellingContent', e.detail.value.counsellingContent);
-    //   wx.setStorageSync('firstPerson', that.data.firstPerson);
-    //   wx.setStorageSync('region', that.data.region);
+      wx.setStorageSync('clientName', e.detail.value.clientName);
+      wx.setStorageSync('clientTelNumber', e.detail.value.clientTelNumber);
+      wx.setStorageSync('AddressDetails', e.detail.value.AddressDetails);
+      wx.setStorageSync('counsellingContent', e.detail.value.counsellingContent);
+      wx.setStorageSync('firstPerson', that.data.firstPerson);
+      wx.setStorageSync('region', that.data.region);
       wx.navigateTo({
         url: '../one-to-one2/one-to-one2',
       })
