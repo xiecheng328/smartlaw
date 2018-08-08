@@ -1,9 +1,4 @@
 <!--pages/community/settled/first_settled/first_settled.wxml-->
-<<<<<<< HEAD
-<text>pages/community/settled/first_settled/first_settled.wxml</text>
-=======
-
-<text>pages/community/settled/first_settled/first_settled.wxml</text>
 
 <view>
   <image src='../../../images/banner.jpg' class='obanner'></image>
@@ -60,4 +55,3 @@
     <!-- </navigator> -->
   </form>
 </view>
->>>>>>> a46cefb83e5af566732a75f4840efa9d4caaf54b

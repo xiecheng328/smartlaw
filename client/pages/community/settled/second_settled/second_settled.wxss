@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/* pages/community/settled/second_settled/second_settled.wxss */
-=======
 /* pages/community/settled/second_settled/second_settled.wxss */
 .subword{
   width: 100%;
@@ -101,4 +98,3 @@
   margin: auto;
   font-size: 32rpx;
 }
->>>>>>> a46cefb83e5af566732a75f4840efa9d4caaf54b

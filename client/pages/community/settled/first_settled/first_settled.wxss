@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/* pages/community/settled/first_settled/first_settled.wxss */
-=======
 /* pages/community/settled/first_settled/first_settled.wxss */
 body,html{
   width: 100%;
@@ -96,4 +93,3 @@ body,html{
   line-height: 90rpx;
   font-size: 30rpx;
 }
->>>>>>> a46cefb83e5af566732a75f4840efa9d4caaf54b
