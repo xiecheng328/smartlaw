@@ -1,7 +1,5 @@
 <!--pages/community/community_index/community_index.wxml-->
 
-<text>pages/community/community_index/community_index.wxml</text>
-
 <view>
   <navigator url="../community_consult/community_consult" hover-class="navigator-hover" class='term'>
       <view class='logo logo1'>
