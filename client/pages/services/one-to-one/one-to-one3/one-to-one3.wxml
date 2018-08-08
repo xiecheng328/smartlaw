@@ -1,0 +1,20 @@
+  <view class='nav-list'>
+      <view   class='nav-lawyerInfo'  wx:for="{{list1}}" wx:key="{{index}}" >
+                <navigator class='nav-navigator'>
+                    <view class='nav-img'>
+                        <image src="{{item.img}}"></image>
+                     </view>
+                    <view class='nav-message'>
+                        <text>{{item.name}}</text>
+                        <text>{{item.position}}</text>
+                        <text>从业时间：{{item.worktime}}</text>
+                        <text>推荐指数：{{item.star}}</text>
+                    </view>
+                </navigator>
+                <view class='nav-contact'>
+                     <view>
+                        <image src='../../../images/phone.png' bindtap='call'></image>    
+                    </view>
+                </view>
+    </view>
+</view>

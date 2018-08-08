@@ -27,5 +27,5 @@
 <view class='shade' wx-if="{{paynext}}"></view>
 <view class='prompt' wx-if="{{paynext}}">
   <view class='protitle'>支付成功</view>
-  <navigator url="../one-to-one1/one-to-one1" class='close' bindtap='closeprompt'>下一步</navigator>
+  <navigator url="../one-to-one3/one-to-one3" class='close' bindtap='closeprompt'>下一步</navigator>
 </view>

@@ -44,6 +44,8 @@
         "pages/services/bosicheng/lshff/lshff",
         "pages/services/one-to-one/one-to-one1/one-to-one1",
         "pages/services/one-to-one/one-to-one2/one-to-one2",
+        "pages/services/one-to-one/one-to-one3/one-to-one3",
+        
         "pages/index/index",
         "pages/addCgi/addCgi",
         "pages/community/community_index/community_index",
