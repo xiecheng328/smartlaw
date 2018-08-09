@@ -1,13 +1,23 @@
-// pages/commission/commission.js
+// pages/commission/advancePayment/advancePayment.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    sorts: [
+      { name: '微信', value: '微信', id: '2', checked: 'true' },
+      { name: '银联', value: '银联', id: '1' }
+    ]
   },
-
+  radioChange: function (e) {
+    console.log('radio发生change事件，携带value值为：', e.detail.value)
+  },
+   onPaymentTap: function (event) {
+    wx.navigateTo({
+      url: '../../yes_not_money/yes_not_money',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
