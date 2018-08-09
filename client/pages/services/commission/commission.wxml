@@ -8,7 +8,7 @@
         <view class='select_box'>
           <view class='select' catchtap='selectTap'>
             <text class='select_text'>{{selectData[index]}}</text>
-            <image class='select_img {{show&&"select_img_rotate"}}' src='../images/arrow.png'></image>
+            <image class='select_img {{show&&"select_img_rotate"}}' src='../../images/arrow.png'></image>
           </view>
           <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
             <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='index' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
@@ -47,7 +47,7 @@
         <view class='select_box'>
           <view class='select' catchtap='selectTap1'>
             <text class='select_text'>{{selectData1[idx]}}</text>
-            <image class='select_img {{show1&&"select_img_rotate"}}' src='../images/arrow.png'></image>
+            <image class='select_img {{show1&&"select_img_rotate"}}' src='../../images/arrow.png'></image>
           </view>
           <view class='option_box' style='height:{{show1?(selectData1.length>5?300:selectData1.length*60):0}}rpx;'>
             <text class='option' style='{{idx==selectData1.length-1&&"border:0;"}}' wx:for='{{selectData1}}' wx:key='idx' data-idx='{{idx}}' catchtap='optionTap1'>{{item}}</text>

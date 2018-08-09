@@ -58,6 +58,7 @@
         "pages/community/question/questionDetails/questionDetails",
         "pages/services/first/first",
         "pages/demo/demo",
+        "pages/services/commission/commission",
         "pages/services/commission/advancePayment/advancePayment",
         "pages/services/commission/advancePayment/waitting/waitting",
         "pages/services/commission/advancePayment/waitting/not/not",
