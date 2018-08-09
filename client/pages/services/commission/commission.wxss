@@ -64,6 +64,9 @@ input{
   height: 200rpx;
   /* text-align: left; */
 }
+textarea{
+    text-align: center;
+}
 .bottom{
   height: 200rpx;
   padding-bottom: 20rpx;
