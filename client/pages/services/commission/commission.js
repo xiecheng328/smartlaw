@@ -1,5 +1,5 @@
 // pages/commission/commmission.js
-var util = require('../../utils/util.js');
+var util = require('../../../utils/util.js');
 
 Page({
 

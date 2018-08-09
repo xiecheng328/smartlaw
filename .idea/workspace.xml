@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="">
+    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="法律服务">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/bankpay/bankpay.js" afterPath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/bankpay/bankpay.json" afterPath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/bankpay/bankpay.wxml" afterPath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.wxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/bankpay/bankpay.wxss" afterPath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.wxss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legal instruments/legal .js" afterPath="$PROJECT_DIR$/client/pages/services/snake/legal instruments/legal .js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legal instruments/legal .json" afterPath="$PROJECT_DIR$/client/pages/services/snake/legal instruments/legal .json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legal instruments/legal .wxml" afterPath="$PROJECT_DIR$/client/pages/services/snake/legal instruments/legal .wxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legal instruments/legal .wxss" afterPath="$PROJECT_DIR$/client/pages/services/snake/legal instruments/legal .wxss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legalpay/pay.js" afterPath="$PROJECT_DIR$/client/pages/services/snake/legalpay/pay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legalpay/pay.json" afterPath="$PROJECT_DIR$/client/pages/services/snake/legalpay/pay.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legalpay/pay.wxml" afterPath="$PROJECT_DIR$/client/pages/services/snake/legalpay/pay.wxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/legalpay/pay.wxss" afterPath="$PROJECT_DIR$/client/pages/services/snake/legalpay/pay.wxss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phone/phone.js" afterPath="$PROJECT_DIR$/client/pages/services/snake/phone/phone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phone/phone.json" afterPath="$PROJECT_DIR$/client/pages/services/snake/phone/phone.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phone/phone.wxml" afterPath="$PROJECT_DIR$/client/pages/services/snake/phone/phone.wxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phone/phone.wxss" afterPath="$PROJECT_DIR$/client/pages/services/snake/phone/phone.wxss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phonepay/phonepay.js" afterPath="$PROJECT_DIR$/client/pages/services/snake/phonepay/phonepay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phonepay/phonepay.json" afterPath="$PROJECT_DIR$/client/pages/services/snake/phonepay/phonepay.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phonepay/phonepay.wxml" afterPath="$PROJECT_DIR$/client/pages/services/snake/phonepay/phonepay.wxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/pages/phonepay/phonepay.wxss" afterPath="$PROJECT_DIR$/client/pages/services/snake/phonepay/phonepay.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.json" afterPath="$PROJECT_DIR$/client/app.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,41 +21,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="first.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first.wxss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
+      <file leaf-file-name="commission.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/services/commission/commission.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state relative-caret-position="-720">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
+      <file leaf-file-name="commission.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/services/commission/commission.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commission.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/services/commission/commission.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -112,7 +93,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -129,7 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,7 +159,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="snake" />
+              <option name="myItemId" value="one-to-one" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,7 +231,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,11 +240,6 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\迅雷下载\smartlaw\client\pages\services\snake" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -361,8 +337,7 @@
       <workItem from="1533796500158" duration="15000" />
       <workItem from="1533802123379" duration="692000" />
       <workItem from="1533802902204" duration="146000" />
-      <workItem from="1533819227050" duration="193000" />
-      <workItem from="1533820257421" duration="905000" />
+      <workItem from="1533819227050" duration="2207000" />
     </task>
     <task id="LOCAL-00001" summary="法律服务index">
       <created>1533086980208</created>
@@ -427,17 +402,38 @@
       <option name="project" value="LOCAL" />
       <updated>1533802757355</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="法律服务">
+      <created>1533819431558</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533819431558</updated>
+    </task>
+    <task id="LOCAL-00011" summary="法律服务">
+      <created>1533820823232</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533820823232</updated>
+    </task>
+    <task id="LOCAL-00012" summary="法律服务">
+      <created>1533821127279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533821127279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15527000" />
+    <option name="totallyTimeSpent" value="16636000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32741934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -489,22 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -513,40 +493,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxml" />
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
+    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxml" />
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
@@ -821,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
+        <state relative-caret-position="880">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
@@ -829,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
+        <state relative-caret-position="1320">
           <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding />
         </state>
@@ -837,23 +791,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="480">
           <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/commission.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/commission.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/commission.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/commission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/commission/commission.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/commission/commission.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/commission/commission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.js" />
-    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.json" />
-    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxss" />
-    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxml" />
   </component>
 </project>
