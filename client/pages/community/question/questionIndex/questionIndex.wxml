@@ -13,26 +13,26 @@
 </view>
 <!-- 问答列表 -->
 <view class='list'>
-  <navigator url="../questionDetails/questionDetails" hover-class="navigator-hover">
-    <view class="case-list {{lawyerIndex!=-1?'all': ''}}" wx:for="{{asklist}}" wx:key="{{index}}">
-          <view class='text'>{{item.caseText}}</view>
-          <view class='reward-money'>￥{{item.money}}.00</view>
-          <view class='lawyer'>{{item.lawyerName}}</view>
-          <view class='firm'>{{item.lawFirm}}</view>
-          <view class='logo'>
-            <image src='{{item.img}}'></image>
-          </view>
-          <view class='listen'>
-            <image src='../../../images/listen.png'></image>
-          </view>
-          <view class='people-number'>{{item.peoples}}人收听</view>
-          <view class='bottom-line'></view>
-        </view>
-  </navigator>
+  <view class="case-list {{lawyerIndex!=-1?'all': ''}}" wx:for="{{asklist}}" wx:key="{{index}}">
+    <navigator class='nav-list' url="../questionDetails/questionDetails" hover-class="navigator-hover">
+      <view class='text'>{{item.caseText}}</view>
+      <view class='reward-money'>￥{{item.money}}.00</view>
+      <view class='lawyer'>{{item.lawyerName}}</view>
+      <view class='firm'>{{item.lawFirm}}</view>
+      <view class='logo'>
+        <image src='{{item.img}}'></image>
+      </view>
+      <view class='listen'>
+        <image src='../../../images/listen.png'></image>
+      </view>
+      <view class='people-number'>{{item.peoples}}人收听</view>
+      <view class='bottom-line'></view> 
+    </navigator>
+  </view>
   <swiper class='content' duration='0' style="height: {{asklist.length*320+'rpx'}};" current='{{lawyerIndex}}'>
     <swiper-item wx:for="{{selectData}}" wx:key="{{index}}">
-      <navigator url="../questionDetails/questionDetails" hover-class="navigator-hover">
-        <view class='case-list' wx:for="{{asklist}}" wx:key="{{index}}">
+      <view class='case-list' wx:for="{{asklist}}" wx:key="{{index}}">
+        <navigator class='nav-list' url="../questionDetails/questionDetails" hover-class="navigator-hover">
           <view class='text'>{{item.caseText}}</view>
           <view class='reward-money'>￥{{item.money}}.00</view>
           <view class='lawyer'>{{item.lawyerName}}</view>
@@ -45,8 +45,8 @@
           </view>
           <view class='people-number'>{{item.peoples}}人收听</view>
           <view class='bottom-line'></view>
-        </view>
-      </navigator>
+        </navigator>
+      </view>
     </swiper-item>
   </swiper>
 </view>

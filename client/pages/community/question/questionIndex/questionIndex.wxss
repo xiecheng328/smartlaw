@@ -57,6 +57,9 @@
   position: relative;
   box-sizing: border-box;
 }
+.nav-list{
+  height: 318rpx;
+}
 .text{
   width: 558rpx;
   font-size: 28rpx;
