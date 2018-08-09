@@ -33,7 +33,7 @@
   
   </swiper-item>
   <swiper-item>
-  <view class='list-item'>案件委托服务
+  <view class='list-item' bindtap='onCommissionTap'>案件委托服务
   <navigator class='item-right'>></navigator></view>
   </swiper-item>
 </swiper>

@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="我的">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/change_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/change_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/go_pay/go_pay.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/change_info/go_pay/go_pay.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/check_details/check_details.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/check_details/check_details.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/mine/legal_services/legal_services.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/legal_services/legal_services.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/mine/mine.js" afterDir="false" />
-=======
-    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="">
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
+    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="法律服务">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/advancePayment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/advancePayment.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/advancePayment.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/advancePayment.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/not/not.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/not/not.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/not/not.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/not/not.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/waitting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/waitting.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/waitting.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/waitting.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/pay/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/pay/pay.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/pay/pay.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/pay/pay.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/yes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/yes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/yes.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes/yes.wxss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes_not_money/yes_not_money.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes_not_money/yes_not_money.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes_not_money/yes_not_money.wxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/commission/advancePayment/waitting/yes_not_money/yes_not_money.wxss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.json" afterPath="$PROJECT_DIR$/client/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pages/commission/commission.js" afterPath="$PROJECT_DIR$/client/pages/commission/commission.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pages/commission/commission.wxml" afterPath="$PROJECT_DIR$/client/pages/commission/commission.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pages/commission/commission.wxss" afterPath="$PROJECT_DIR$/client/pages/commission/commission.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pages/services/first/first.js" afterPath="$PROJECT_DIR$/client/pages/services/first/first.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pages/services/first/first.wxml" afterPath="$PROJECT_DIR$/client/pages/services/first/first.wxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.config.json" afterPath="$PROJECT_DIR$/project.config.json" />
->>>>>>> Stashed changes
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,29 +45,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/server/composer.json</pharConfigPath>
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="first.wxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="first.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="407">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-=======
-<<<<<<< Updated upstream
-            <state relative-caret-position="407">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-=======
-            <state relative-caret-position="552">
+            <state relative-caret-position="480">
               <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding />
->>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -60,48 +64,19 @@
       <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app.json">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="2565">
-              <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-=======
-            <state relative-caret-position="23">
-              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="-2218">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding />
->>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="more_details.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.js">
+      <file leaf-file-name="commission.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-line="288" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payment.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="266">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-=======
-            <state relative-caret-position="1518">
-              <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state relative-caret-position="40">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payment.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state>
-              <caret selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -109,14 +84,19 @@
       <file leaf-file-name="first.wxss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-=======
-            <state relative-caret-position="1012">
+            <state relative-caret-position="1320">
+              <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
               <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
->>>>>>> Stashed changes
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
             </state>
           </provider>
         </entry>
@@ -134,8 +114,7 @@
         <option value="$PROJECT_DIR$/client/pages/services/first/first.wxml" />
         <option value="$PROJECT_DIR$/client/pages/services/first/first.js" />
         <option value="$PROJECT_DIR$/client/app.json" />
-        <option value="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.wxml" />
-        <option value="$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/more_details/more_details.js" />
+        <option value="$PROJECT_DIR$/client/pages/commission/commission.wxml" />
       </list>
     </option>
   </component>
@@ -150,75 +129,30 @@
       <path value="$PROJECT_DIR$/client/vendor/wafer2-client-sdk/package.json" />
     </packageJsonPaths>
   </component>
-<<<<<<< Updated upstream
-  <component name="PhpWorkspaceProjectConfiguration">
-    <include_path>
-      <path value="$PROJECT_DIR$/server/vendor/guzzle/guzzle" />
-      <path value="$PROJECT_DIR$/server/vendor/composer" />
-      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/server/vendor/qcloud/weapp-sdk" />
-      <path value="$PROJECT_DIR$/server/vendor/qcloud/cos-sdk-v5" />
-    </include_path>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="704" />
-=======
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1370" />
-    <option name="height" value="755" />
-=======
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="4" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
->>>>>>> Stashed changes
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-<<<<<<< Updated upstream
-          <expand>
-            <path>
-              <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartlaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartlaw" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-<<<<<<< HEAD
-=======
-      <pane id="Scope" />
-=======
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="smartlaw" />
@@ -261,28 +195,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartlaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
->>>>>>> Stashed changes
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.prettier" value="true" />
-    <property name="node.js.path.for.package.prettier" value="project" />
-    <property name="node.js.selected.package.prettier" value="" />
-    <property name="nodejs_interpreter_path" value="node" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -299,28 +266,12 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/client/app.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/first_settled/first_settled.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/second_settled/second_settled.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/second_settled/second_settled.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/settled/second_settled/second_settled.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_assessment.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_assessment.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ofsearch.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ofsearch.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/payList.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/knowledge.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/stock.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/first/first.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/project.config.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/question/questionDetails/questionDetails.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/question/questionDetails/questionDetails.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/question/questionDetails/questionDetails.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/question/questionDetails/questionDetails.wxss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/question/questionIndex/questionIndex.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/question/questionIndex/questionIndex.wxss</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -328,237 +279,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/banner2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/duanxin.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/of6.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/phone.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/images/upload2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_case/court_case.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/court_search.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/go_pay/go_pay.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/person_details/person_details.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/personal/personal.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/court_search/result/result.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/images/of6.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judge-search-result/judge-search-result.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judge-search-result/judge-search-result.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/judgeSearchHead/judgeSearchHead.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearch/personal-information/personal-information.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/judgeSearchHead/judgeSearchHead.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_details/lawyer_details.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/lawyer_search.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/pay_introduction/pay_introduction.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/personal_message/personal_message.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/answer/answer.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/cause/cause.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/complete/complete.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/information/information.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/lawlist/lawlist.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay1/pay1.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/pay2/pay2.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/ranking/ranking.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/self/self.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/lawyer_assessment/ofsearch/skill/skill.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/more_details/more_details.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/img1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/img2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/mine/paylist/paypage/payPage.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/contract.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/dialog/dialog.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/pay/pay.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/contract/recommend/recommend.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/debt.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/dialog/dialog.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/pay/pay.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/debt/recommend/recommend.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/dialog/dialog.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/pay/pay.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/knowledge/recommend/recommend.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/dialog/dialog.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/lawsuit.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/pay/pay.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/lawsuit/recommend/recommend.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/dialog/dialog.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/pay/pay.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/recommend/recommend.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/relation/relation.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/dialog/dialog.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/pay/pay.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/business/stock/recommend/recommend.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one1/one-to-one1.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.wxml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/services/one-to-one/one-to-one2/one-to-one2.wxss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/utils/wxcharts.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -566,6 +286,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/details/details.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/details/details.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/details/details.wxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/client/pages/community/details/details.wxss</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -647,16 +371,6 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Codes\smartlaw\client\pages\lawyer_assessment\casesearch\more_details" />
-      <recent name="D:\Codes\smartlaw\client\pages\lawyer_assessment\casesearch" />
-    </key>
-=======
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> Stashed changes
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -700,6 +414,15 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -720,14 +443,9 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -743,29 +461,11 @@
       <workItem from="1533035599756" duration="5242000" />
       <workItem from="1533086900232" duration="960000" />
       <workItem from="1533100465776" duration="4880000" />
-<<<<<<< Updated upstream
       <workItem from="1533398323746" duration="55000" />
-      <workItem from="1533430512673" duration="880000" />
-<<<<<<< HEAD
-      <workItem from="1533439535740" duration="583000" />
-      <workItem from="1533469715103" duration="176000" />
-      <workItem from="1533473879932" duration="20000" />
-      <workItem from="1533474633167" duration="22000" />
-      <workItem from="1533488954388" duration="318000" />
-=======
-      <workItem from="1533439535740" duration="635000" />
-      <workItem from="1533453711664" duration="21000" />
-      <workItem from="1533515281013" duration="609000" />
-      <workItem from="1533517767874" duration="27000" />
-      <workItem from="1533517950520" duration="915000" />
-      <workItem from="1533519266595" duration="101000" />
-      <workItem from="1533527234707" duration="84000" />
-=======
-      <workItem from="1533392047726" duration="653000" />
-      <workItem from="1533431523115" duration="22000" />
-      <workItem from="1533565788944" duration="12000" />
->>>>>>> Stashed changes
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
+      <workItem from="1533621043726" duration="132000" />
+      <workItem from="1533716969485" duration="83000" />
+      <workItem from="1533796500158" duration="15000" />
+      <workItem from="1533802123379" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="法律服务index">
       <created>1533086980208</created>
@@ -823,119 +523,51 @@
       <option name="project" value="LOCAL" />
       <updated>1533388414752</updated>
     </task>
-    <task id="LOCAL-00009" summary="法律服务">
-      <created>1533439599661</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1533439599661</updated>
-    </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00010" summary="mine">
-      <created>1533469844275</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1533469844275</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15364000" />
+    <option name="totallyTimeSpent" value="14215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1280" height="704" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25258142" />
-=======
-    <task id="LOCAL-00010" summary="法律服务">
-      <created>1533440131532</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1533440131532</updated>
-    </task>
-    <task id="LOCAL-00011" summary="法律服务">
-      <created>1533518832682</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1533518832682</updated>
-    </task>
-    <task id="LOCAL-00012" summary="法律服务">
-      <created>1533519309745</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1533519309745</updated>
-    </task>
-    <task id="LOCAL-00013" summary="法律服务">
-      <created>1533527299488</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1533527299488</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="16633000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="13178000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="4" width="1378" height="780" extended-state="0" />
-    <editor active="false" />
->>>>>>> Stashed changes
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1313673" />
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32741934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -946,89 +578,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="法律服务index" />
     <MESSAGE value="法律服务" />
-    <MESSAGE value="mine" />
-    <option name="LAST_COMMIT_MESSAGE" value="mine" />
+    <option name="LAST_COMMIT_MESSAGE" value="法律服务" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="456">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-=======
-        <state relative-caret-position="552">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="2546">
-          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="33" />
-=======
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="480">
           <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
         </state>
@@ -1044,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
+        <state relative-caret-position="1320">
           <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding />
         </state>
@@ -1052,365 +611,193 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
+        <state relative-caret-position="880">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2546">
-          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2546">
-          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,112 +805,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="950">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-=======
-        <state relative-caret-position="1012">
+        <state relative-caret-position="880">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
->>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxss">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-=======
-        <state relative-caret-position="1518">
+        <state relative-caret-position="1320">
           <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding />
->>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/pages/services/first/first.wxml">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="407">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-=======
-<<<<<<< Updated upstream
-        <state relative-caret-position="407">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-=======
-        <state relative-caret-position="552">
+        <state relative-caret-position="480">
           <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
->>>>>>> Stashed changes
->>>>>>> bbd0123229c4a0f5080cfb5735f9666b24bf7216
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app.json">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="2565">
-          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/payment/payment.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/lawyer_search/more_details/more_details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-line="288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pages/lawyer_assessment/casesearch/payment/payment.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-=======
-        <state relative-caret-position="23">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="-2218">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding />
->>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pages/commission/commission.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
