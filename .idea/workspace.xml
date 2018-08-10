@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="路径修改">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.wxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/pages/services/snake/bankpay/bankpay.wxss" afterPath="" />
+    <list default="true" id="85ccc6af-5ea1-4110-8cf8-dbe624b64a5c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.json" afterPath="$PROJECT_DIR$/client/app.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +24,8 @@
       <file leaf-file-name="app.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="23">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -338,7 +335,7 @@
       <workItem from="1533819227050" duration="2207000" />
       <workItem from="1533821635395" duration="1628000" />
       <workItem from="1533863047009" duration="710000" />
-      <workItem from="1533864264948" duration="1454000" />
+      <workItem from="1533864264948" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="法律服务index">
       <created>1533086980208</created>
@@ -445,17 +442,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533865085278</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="路径修改1">
+      <created>1533866687582</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533866687582</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20428000" />
+    <option name="totallyTimeSpent" value="21109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -501,7 +505,8 @@
     <MESSAGE value="法律服务index" />
     <MESSAGE value="法律服务" />
     <MESSAGE value="路径修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="路径修改" />
+    <MESSAGE value="路径修改1" />
+    <option name="LAST_COMMIT_MESSAGE" value="路径修改1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -838,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="23">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
