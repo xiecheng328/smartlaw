@@ -23,7 +23,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 22,
+			"current": 23,
 			"list": [
 				{
 					"id": -1,
@@ -160,7 +160,13 @@
 				{
 					"id": -1,
 					"name": "000",
-					"pathName": "pages/services/commission/commission"
+					"pathName": "pages/services/commission/commission",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "电话咨询",
+					"pathName": "pages/services/snake/phonepay/phonepay"
 				}
 			]
 		}

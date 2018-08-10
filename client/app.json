@@ -1,6 +1,6 @@
 {
     "pages": [
-      
+        
         "pages/lawyer_assessment/lawyer_assessment",
         "pages/lawyer_assessment/lawyer_search/first_search/first_search",
         "pages/lawyer_assessment/court_search/personal/personal",
@@ -124,7 +124,14 @@
         "pages/mine/collect/collect/collect",
         "pages/mine/collect/edit/edit",
         "pages/mine/my-data/my-address/my-address",
-        "pages/mine/my-data/designation/designation"
+        "pages/mine/my-data/designation/designation",
+        "pages/services/snake/bankpay/bankpay",
+        "pages/services/snake/legal instruments/legal",
+        "pages/services/snake/legalpay/pay",
+        "pages/services/snake/phone/phone",
+        "pages/services/snake/Counsel/Counsel",
+        "pages/services/snake/phonepay/phonepay"
+        
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
