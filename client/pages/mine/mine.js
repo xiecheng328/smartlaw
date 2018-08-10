@@ -43,7 +43,8 @@ Page({
         },
         {
           img: "images/enter.png",
-          title: "律师入驻"
+          title: "律师入驻",
+          url:'../community/settled/first_settled/first_settled'
         },
         {
           img: "images/information.png",
