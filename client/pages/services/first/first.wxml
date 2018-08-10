@@ -19,22 +19,27 @@
  <swiper class='itemsBox' current='{{currentTapIndex}}'>
   <swiper-item>
     <view wx:for="{{firstList}}" wx:key="{{index}}">
-      <view class='list-item'>{{item.name}}
-      <navigator class='item-right'>></navigator></view> 
+    <navigator url='{{item.url}}'>
+          <view class='list-item'>{{item.name}}
+          <navigator class='item-right'>></navigator></view> 
+    </navigator>
     </view>
   </swiper-item>
   <swiper-item>
     <view wx:for="{{secondList}}" wx:key="{{index}}">
+     <navigator url='{{item.url}}'>
       <view class='list-item'>{{item.name}}
        <navigator class='item-right' url='{{item.url}}' >></navigator>
       </view>
-      
+      </navigator>
     </view>
   
   </swiper-item>
   <swiper-item>
+ <navigator url="../commission/commission">
   <view class='list-item' bindtap='onCommissionTap'>案件委托服务
   <navigator class='item-right'>></navigator></view>
+  </navigator>
   </swiper-item>
 </swiper>
 </view>

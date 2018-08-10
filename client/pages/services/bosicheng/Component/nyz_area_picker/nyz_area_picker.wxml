@@ -8,13 +8,13 @@
   </view>
   <picker-view class="nyz_area_pick_view" indicator-style="height: 35px;" bindchange="handleNYZAreaChange" value="{{value}}">
     <picker-view-column>
-      <view class="nyz_area_colum_view" wx:for="{{provinces}}">{{item}}</view>
+      <view class="nyz_area_colum_view" wx:for="{{provinces}}" wx:key="{{index}}">{{item}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view class="nyz_area_colum_view" wx:for="{{citys}}">{{item}}</view>
+      <view class="nyz_area_colum_view" wx:for="{{citys}}" wx:key="{{index}}">{{item}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view class="nyz_area_colum_view" wx:for="{{areas}}">{{item}}</view>
+      <view class="nyz_area_colum_view" wx:for="{{areas}}" wx:key="{{index}}">{{item}}</view>
     </picker-view-column>
   </picker-view>
 </view>
