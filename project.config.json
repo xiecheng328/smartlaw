@@ -23,7 +23,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 26,
+			"current": 28,
 			"list": [
 				{
 					"id": -1,
@@ -184,7 +184,19 @@
 				{
 					"id": -1,
 					"name": "appointment",
-					"pathName": "pages/community/appointment/appointment"
+					"pathName": "pages/community/appointment/appointment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "appointment_content",
+					"pathName": "pages/community/appointment_content/appointment_content",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "lawer_Info",
+					"pathName": "pages/community/lawer_Info/lawer_Info"
 				}
 			]
 		}

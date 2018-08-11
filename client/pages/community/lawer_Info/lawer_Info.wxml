@@ -27,6 +27,12 @@
       <view>成功案例</view>
       <view><text>案例一：.....</text></view>
   </view>
+
+  <navigator url='../appointment_content/appointment_content'>
   <button class='button button1' bindtap='link1'>咨询</button>
+  </navigator>
+
+  <navigator url='../appointment/appointment'>
   <button class='button button2' bindtap='link2'>预约咨询</button>
+  </navigator>
 </view>

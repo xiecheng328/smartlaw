@@ -1,0 +1,41 @@
+<!--pages/community/appointment_content/appointment_content.wxml-->
+<view class='zx-list'>
+  <view class='zx-text'>联系电话：</view>
+   <input class='zx-input' />
+</view>
+
+<view class='zx-list'>
+  <view class='zx-text'>咨询人：</view>
+  <input class='zx-input' type="text"/>
+</view>
+
+<view class='zx-list'>
+  <view class='zx-text'>选择类型：</view>
+  <picker bindchange="bindPickerChange" value="{{indexLocal}}" range="{{array}}" class='zx-input'>
+    <view class="picker">
+      当前选择：{{array[indexLocal]}}
+    </view>
+  </picker>
+</view>
+
+<view class='zx-list'>
+  <view class='zx-text'>事发地：</view>
+  <picker class='zx-input' mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+  </picker>
+</view>
+
+<view class='zx-list'>
+  <view class='zx-text'>法律诉求：</view>
+</view>
+
+<textarea class='zx-textarea' placeholder='请尽可能详细描述您的法律需求' placeholder-class='place-holder'>
+</textarea>
+
+<navigator url='pay/pay'>
+  <button class='zx-button'>
+  提交并支付￥480
+  </button>
+</navigator>
+
+
