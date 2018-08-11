@@ -6,7 +6,7 @@
     <view class='classify-title'>
         案由分类
     </view>
-    <navigator wx:for="{{classifyList}}" wx:key="{{index}}" class='classifyList'>
+    <navigator url="../lawyerlist/lawyerlist" wx:for="{{classifyList}}" wx:key="{{index}}" class='classifyList'>
         <view class='classify-case'>{{item.case}}</view>
         <view class='classify-detail'>{{item.caseDetail}}</view>
         <view class='classify-lawyers'>
