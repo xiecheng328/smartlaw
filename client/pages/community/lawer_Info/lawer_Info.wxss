@@ -1,0 +1,130 @@
+#up{
+  width: 750rpx;
+  height: 340rpx;
+  padding-top: 60rpx;
+  position: relative;
+}
+.base_info{
+  width: 199rpx;
+  height: 89rpx;
+  position: absolute;
+  bottom: 10rpx;
+  left: 10rpx;
+  z-index: 1;
+}
+.name{
+  height: 29rpx;
+  line-height: 29rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+.score{
+  position: relative;
+  flex-direction: row;
+  margin-top: 10rpx;  
+  width: 183rpx;
+  height: 20rpx;
+}
+.img{
+  position: absolute;
+  top: 0;
+  width: 20rpx;
+  height: 20rpx;
+}
+.img1{
+  height: 20rpx;
+  width: 34rpx;
+  position: absolute;
+  top: 0;
+  left: 150rpx;
+}
+.a{
+  left: 0;
+}
+.b{
+  left: 30rpx;
+}
+.c{
+  left: 60rpx;
+}
+.d{
+  left: 90rpx;
+}
+.e{
+  left: 120rpx;
+}
+.belong{
+  margin-top: 10rpx;
+  width: 206rpx;
+  height: 20rpx;
+  color: #333;
+  line-height: 20rpx;
+  font-size:20rpx;
+}
+.pic{
+  width: 340rpx;
+  height:340rpx;
+  margin-left: 205rpx;
+}
+#mid{
+  width: 750rpx;
+  height: 20rpx;
+  background-color: #eee;
+}
+#down{
+  width: 750rpx;
+  height: 1630rpx;  
+  position: relative;
+}
+.title{
+  width: 160rpx;
+  height: 29rpx;
+  color: #333;
+  font-size: 30rpx;
+  line-height: 29rpx;
+  position: absolute;
+  top:20rpx;
+  left: 19rpx;
+}
+.content{
+  width: 699rpx;
+  height: 1319rpx;  
+  font-size: 24rpx;
+  color: #333;
+  margin-left:19rpx;
+  position: absolute;
+  top: 69rpx;
+}
+.row1{
+  width: 699rpx;
+  height: 32rpx;
+  position: relative;
+}
+.type{
+  display: inline-block;
+  width: 340rpx;
+}
+.year{
+  display: inline-block;
+  position: absolute;
+  left: 360rpx;
+  width: 330rpx;
+}
+.button{
+  color: white;
+  background-color: blue;
+  font-size: 30rpx;
+  width: 710rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.button1{
+  position: absolute;
+  bottom:130rpx;
+  left: 20rpx;
+}
+.button2{
+  position: absolute;
+  bottom:20rpx;
+  left:20rpx;
+}

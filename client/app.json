@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/community/lawer_Info/lawer_Info",
+    "pages/community/community_consult/community_consult",
     "pages/lawyer_assessment/lawyer_assessment",
     "pages/lawyer_assessment/lawyer_search/first_search/first_search",
     "pages/lawyer_assessment/court_search/personal/personal",
@@ -46,7 +48,7 @@
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/community/community_index/community_index",
-    "pages/community/community_consult/community_consult",
+    
     "pages/community/settled/first_settled/first_settled",
     "pages/community/settled/second_settled/second_settled",
     "pages/community/appointment/appointment",
@@ -130,6 +132,7 @@
     "pages/community/dialog-box/dialog-box",
     "pages/community/counsel-pay/counsel-pay",
     "pages/community/lawyerlist/lawyerlist"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

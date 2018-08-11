@@ -1,0 +1,36 @@
+<view id='up'>
+  <view class='base_info'>
+    <view class='name'>钱悦</view>
+    <view class='score'> 
+      <image src='../../images/星星.jpg' class='img a'></image>
+      <image src='../../images/星星.jpg' class='img b'></image>
+      <image src='../../images/星星.jpg' class='img c'></image>
+      <image src='../../images/星星.jpg' class='img d'></image>
+      <image src='../../images/星星.jpg' class='img e'></image>
+      <image src='../../images/5.0.jpg' class='img1'></image>
+    </view> 
+    <view class='belong'>黑龙江泽顺律师事务所</view>
+  </view>
+  <image src='../../images/img.jpg' class='pic'></image>
+</view>
+<view id='mid'></view>
+<view id='down'>
+  <view class='title'>律师资料：</view>
+  <view class='content'>
+      <view>律师资质：</view>
+      <view class='row1'>
+        <view class='type'>律师类型：<text>专职律师</text></view>
+        <view class='year'>执业年数：<text>2年</text></view>
+      </view>
+      <view>办公地址：</view>
+      <view><text>潍坊市福寿街与蓉花路交叉口创业中心大厦三楼304</text></view>
+      <view>专业方向：</view>
+      <view><text>刑事法律，商事，民事，保险，公司法与投资并购</text></view>
+      <view>个人描述：</view>
+      <view><text>康桥律师事务所是一家为国际和国内客户提供全方位法律服务的综合性大所。总部设在山东济南，目前已在北京、青岛、烟台、淄博、临沂、济宁。潍坊设有分支机构......</text></view>
+      <view>成功案例</view>
+      <view><text>案例一：.....</text></view>
+  </view>
+  <button class='button button1' bindtap='link1'>咨询</button>
+  <button class='button button2' bindtap='link2'>预约咨询</button>
+</view>
