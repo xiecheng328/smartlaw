@@ -23,7 +23,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 23,
+			"current": 26,
 			"list": [
 				{
 					"id": -1,
@@ -166,7 +166,25 @@
 				{
 					"id": -1,
 					"name": "电话咨询",
-					"pathName": "pages/services/snake/phonepay/phonepay"
+					"pathName": "pages/services/snake/phonepay/phonepay",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "dialog-box",
+					"pathName": "pages/community/dialog-box/dialog-box",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "counsel-pay",
+					"pathName": "pages/community/counsel-pay/counsel-pay",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "appointment",
+					"pathName": "pages/community/appointment/appointment"
 				}
 			]
 		}

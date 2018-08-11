@@ -126,7 +126,9 @@
     "pages/services/snake/phone/phone",
     "pages/services/snake/Counsel/Counsel",
     "pages/services/snake/phonepay/phonepay",
-    "pages/services/snake/legalinstruments/legal"
+    "pages/services/snake/legalinstruments/legal",
+    "pages/community/dialog-box/dialog-box",
+    "pages/community/counsel-pay/counsel-pay"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

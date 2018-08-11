@@ -1,0 +1,5 @@
+<!--pages/community/dialog-box/dialog-box.wxml-->
+<view class='dialog-box'>
+  <image src='../../images/dialog-box.jpg' class='dialog-img' >
+  </image>
+</view>

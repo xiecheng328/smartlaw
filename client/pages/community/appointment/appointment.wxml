@@ -68,6 +68,8 @@
 <textarea class='zx-textarea' placeholder='请尽可能详细描述您的法律需求' placeholder-class='place-holder'>
 </textarea>
 
-<button class='zx-button'>
-提交并支付￥480
-</button>
+<navigator url='../counsel-pay/counsel-pay'>
+  <button class='zx-button'>
+  提交并支付￥480
+  </button>
+</navigator>
