@@ -1,0 +1,27 @@
+<!--pages/community/lawyerlist/lawyerlist.wxml-->
+<view class='lawyerlist' wx:for='{{starnum-0}}' wx:key='index'><!--wx:for='{{sentence}}' wx:key='index' -->
+<navigator url="" hover-class="navigator-hover" class='term'><!--链接律师信息 -->
+  <view class='listtop'>
+    <image src='{{headsrc}}' class='headimg'></image>
+    <view class='listright'>
+      <view class='lname'>{{lname}}</view>
+      <view class='starbox'>
+        <image src='../../images/star.png' wx:for='{{starnum-0}}' wx:key='index' class='ostar'></image>
+        <view class='fraction'>{{starnum}}.0</view>
+      </view>
+      <view class='office'>{{lawyeroffice}}</view>
+      <view class='licensenum'>执业证{{licensenum}}</view>
+    </view>
+  </view>
+  <view class='listbottom'>
+    <view class='worde'>专业领域:</view>
+    <view class='fields' wx:for='{{fields}}' wx:key='index'>{{fields[index]}}</view>
+  </view>
+</navigator>
+</view>
+
+
+
+
+
+
