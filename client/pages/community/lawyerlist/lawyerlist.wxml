@@ -1,6 +1,6 @@
 <!--pages/community/lawyerlist/lawyerlist.wxml-->
 <view class='lawyerlist' wx:for='{{starnum-0}}' wx:key='index'><!--wx:for='{{sentence}}' wx:key='index' -->
-<navigator url="" hover-class="navigator-hover" class='term'><!--链接律师信息 -->
+<navigator url="../lawer_Info/lawer_Info" hover-class="navigator-hover" class='term'><!--链接律师信息 -->
   <view class='listtop'>
     <image src='{{headsrc}}' class='headimg'></image>
     <view class='listright'>

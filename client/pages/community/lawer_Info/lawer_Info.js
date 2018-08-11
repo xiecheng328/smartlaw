@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    lname: '钱悦',
+    starnum: 5,
+    lawyeroffice: '黑龙江泽顺律师事务所',
   },
 
   /**

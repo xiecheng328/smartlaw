@@ -128,3 +128,17 @@
   bottom:20rpx;
   left:20rpx;
 }
+.fraction{
+  font-size: 20rpx;
+  color: #FFB400;
+  line-height: 20rpx;
+}
+.ostar{
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 10rpx;
+}
+.score{
+  display: flex;
+  flex-direction: row;
+}

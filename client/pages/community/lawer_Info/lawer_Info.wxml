@@ -1,15 +1,11 @@
 <view id='up'>
   <view class='base_info'>
-    <view class='name'>钱悦</view>
+    <view class='name'>{{lname}}</view>
     <view class='score'> 
-      <image src='../../images/星星.jpg' class='img a'></image>
-      <image src='../../images/星星.jpg' class='img b'></image>
-      <image src='../../images/星星.jpg' class='img c'></image>
-      <image src='../../images/星星.jpg' class='img d'></image>
-      <image src='../../images/星星.jpg' class='img e'></image>
-      <image src='../../images/5.0.jpg' class='img1'></image>
+      <image src='../../images/星星.jpg' wx:for='{{starnum-0}}' wx:key='index' class='ostar'></image>
+      <view class='fraction'>{{starnum}}.0</view>
     </view> 
-    <view class='belong'>黑龙江泽顺律师事务所</view>
+    <view class='belong'>{{lawyeroffice}}</view>
   </view>
   <image src='../../images/img.jpg' class='pic'></image>
 </view>

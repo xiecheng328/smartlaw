@@ -1,7 +1,5 @@
 {
   "pages": [
-    "pages/community/lawer_Info/lawer_Info",
-    "pages/community/community_consult/community_consult",
     "pages/lawyer_assessment/lawyer_assessment",
     "pages/lawyer_assessment/lawyer_search/first_search/first_search",
     "pages/lawyer_assessment/court_search/personal/personal",
@@ -55,6 +53,7 @@
     "pages/community/question/questionIndex/questionIndex",
     "pages/community/question/questionAsk/questionAsk",
     "pages/community/question/questionDetails/questionDetails",
+    "pages/community/community_consult/community_consult",
     "pages/services/first/first",
     "pages/services/commission/commission",
     "pages/services/commission/advancePayment/advancePayment",
@@ -131,7 +130,8 @@
     "pages/services/snake/legalinstruments/legal",
     "pages/community/dialog-box/dialog-box",
     "pages/community/counsel-pay/counsel-pay",
-    "pages/community/lawyerlist/lawyerlist"
+    "pages/community/lawyerlist/lawyerlist",
+    "pages/community/lawer_Info/lawer_Info"
     
   ],
   "window": {
